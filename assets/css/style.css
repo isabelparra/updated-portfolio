@@ -122,6 +122,29 @@ body { font-family: sans-serif; }
 /* .grid-item-content {
     height: 100px;
 } */
+/* .fa {
+    padding: 20px; */
+  /* font-size: 30px;
+  width: 30px; */
+  /* text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+} */
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin-in {
+    /* background: #007bb5; */
+    color: black;
+  }
+
+  .fa-github {
+    /* background: #007bb5; */
+    color: black;
+  }
 
 .lightbox {
     
