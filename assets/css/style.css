@@ -138,7 +138,7 @@ body { font-family: sans-serif; }
 
 .fa-linkedin-in {
     /* background: #007bb5; */
-    color: black;
+    color: black !important;
   }
 
   .fa-github {
