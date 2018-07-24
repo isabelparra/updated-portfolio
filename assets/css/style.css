@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+/* general */
+
+#nav-bar {
+    background-color: white; 
+}
+
+nav a {
+    color: black;
+}
+
+#header-logo {
+    color: black;
+}
+
+.nav-wrapper {
+    margin: 0 20px;
+}
+
+.nav-link {
+    color: black;
+}
+
+.parallax-container {
+    min-height: 400px;
+    height: auto;
+    width: 100%;
+}
+
+
+/* portfolio */ 
+
+/* img {
+    width: 330px;
+    float: left;
+} */
+/* 
+.grid-item { 
+    width: 330px;
+    float: left;
+height: 60px;
+ } */
+
+/* .grid-item--width2 { width: 400px; } */
+
+
+
+/* force scrollbar */
+html { overflow-y: scroll; }
+
+body { font-family: sans-serif; }
+
+/* ---- grid ---- */
+
+.grid {
+  background: white;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+  width: 33.333%;
+}
+
+.grid-item {
+  float: left;
+  margin-bottom: 10px;
+ 
+}
+
+.gutter-sizer {
+    /* width: 1px; */
+    /* width: 2%;
+    height: 120px; */
+}
+
+.grid-item img {
+  display: block;
+  max-width: 100%;
+  /* padding: 7px 0; */
+  
+}
+
+#container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+/* .grid-item-content {
+    height: 100px;
+} */
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background: lightgray;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+/* @media (max-width: 500px) {
+    .grid img {
+        column-count: 1;
+    }
+} */
