@@ -1,6 +1,29 @@
 
   $('.sidenav').sidenav();
   $('.parallax').parallax();
+//   $('.category').hide();
+
+//   ('#category').hover(function(){}
+//     $(this).fadeIn(100);
+//     $(this).fadeOut(500);
+//       });
+
+
+   
+    //   $(".category").hover(  
+    //       function(){  
+    //       $(this).hide();
+        $(".category").hover(
+            function(){
+            $('.category').css("visibility", "hidden");
+            });
+            // $(".img").hover(
+            //     function(){
+            //     $('.category').css("visibility", "hidden");
+            //     });
+            
+      
+
 
 
 
