@@ -270,8 +270,8 @@
 
 
 
-  $('.sidenav').sidenav();
-  $('.parallax').parallax();
+//   $('.sidenav').sidenav();
+//   $('.parallax').parallax();
 //   $('.category').hide();
 
 //   ('#category').hover(function(){}
@@ -284,10 +284,10 @@
     //   $(".category").hover(  
     //       function(){  
     //       $(this).hide();
-        $(".category").hover(
-            function(){
-            $('.category').css("visibility", "hidden");
-            });
+        // $(".category").hover(
+        //     function(){
+        //     $('.category').css("visibility", "hidden");
+        //     });
             // $(".img").hover(
             //     function(){
             //     $('.category').css("visibility", "hidden");
