@@ -5,7 +5,7 @@
   <title>Portfolio | Isabel Parra</title>
   <!--CSS-->
   <link rel="stylesheet" href="assets/css/reset.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Monserrat" rel="stylesheet">
   <!-- Materialize -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
@@ -82,32 +82,82 @@
 
 
   <!-- Header -->
+
   <nav>
-    <div class="navbar fixed">
-      <!-- <a href="index.html" class="brand-logo" id='header-logo'>PARRA</a> -->
-      <!-- <a href="#" data-target="mobile-demo" class="sidenav-trigger">
-        <i class="material-icons">menu</i></a> -->
-        <div class="nav-wrapper container brand-logo center">
-        <ul>
+      <div class="navbar fixed">
+        <!-- <a href="index.html" class="brand-logo" id='header-logo'>PARRA</a> -->
+        <!-- <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+          <i class="material-icons">menu</i></a> -->
+          <div class="nav-wrapper container brand-logo center">
+          <ul>
+   
+            <li>   
+               <!-- <div id="about"> -->
+                <a href="" onclick="openToggle()" title id="aboutBtn">
+                ABOUT</a>
+                <span id="vertLine">|</span>
+              <!-- </div> -->
+            </li>
+            <li><a href="" class='nav-link'>ALL</a></li>
+            <li><a href="" class='nav-link'>DIGITAL</a></li>
+            <li><a href="" class='nav-link'>ILLUSTRATION</a></li>
+            <li><a href="" class='nav-link'>PRINT</a></li>
+            <!-- <li><a href="index.html" class='nav-link'>PORTFOLIO</a></li> -->
+            <!-- <li><a href="code.html" class='nav-link'>Web Development</a></li> -->
+            <!-- <li><a href="https://www.linkedin.com/in/isabel-parra/"><i class='fab fa-linkedin-in nav-link'></i></a> </li>
+            <li><a href='https://github.com/isabelparra'><i class='fab fa-github'></i></a></li> -->
+          </ul>
+          <!-- <ul class="right hide-on-med-and-down">
+              <li><a href="index.html" class='nav-link'>PORTFOLIO</a></li>
+              <li><a href="index.html" class='nav-link'>CONTACT</a></li>
+              <li><a href="index.html" class='nav-link'>BLOG</a></li>
+          </ul> -->
+      </div>
+      </div>
+    </nav>
+
+    
  
-          <li><a href="contact.html" class='nav-link'>ABOUT</a></li>
-          <li><a href="resume.html" class='nav-link'>ALL</a></li>
-          <li><a href="about.html" class='nav-link'>DIGITAL</a></li>
-          <li><a href="about.html" class='nav-link'>ILLUSTRATION</a></li>
-          <li><a href="about.html" class='nav-link'>PRINT</a></li>
+<!-- 
+      <a href="index.html" id="nav-logo"style='display: none;'><span></span></a>
+
+        <div class="nav-content container brand-logo center">
+          <div id="about">
+            <a onclick="openToggle()" title id="aboutBtn">
+            ABOUT</a>
+            <span id="vertLine">|</span>
+          </div>
+        <ul id="portfolio-filter">
+ 
+          <li data-filter="all">
+            <a href="#all" title class='current nav-link'>ALL</a></li>
+          <li data-filter="web">
+            <a href="#web" title class>DIGITAL</a></li>
+          <li data-filter="illustration">
+            <a href="#illustration" title class='nav-link'>ILLUSTRATION</a></li>
+          <li data-filter="print">
+            <a href="#print" title>PRINT</a></li> -->
           <!-- <li><a href="index.html" class='nav-link'>PORTFOLIO</a></li> -->
           <!-- <li><a href="code.html" class='nav-link'>Web Development</a></li> -->
           <!-- <li><a href="https://www.linkedin.com/in/isabel-parra/"><i class='fab fa-linkedin-in nav-link'></i></a> </li>
           <li><a href='https://github.com/isabelparra'><i class='fab fa-github'></i></a></li> -->
-        </ul>
+        <!-- </ul> -->
         <!-- <ul class="right hide-on-med-and-down">
             <li><a href="index.html" class='nav-link'>PORTFOLIO</a></li>
             <li><a href="index.html" class='nav-link'>CONTACT</a></li>
             <li><a href="index.html" class='nav-link'>BLOG</a></li>
         </ul> -->
+    <!-- </div>
     </div>
+  </nav> -->
+
+  <!-- <div id="jason" style="display: block;">
+    <div id="jasonInside">
+      "Hi! My name is Isabel Parra. Graduate of "<a href="ufl.edu" target="_blank">
+        UF
+      </a>" in Marketing. I am currently.. as a ux/ui designer. i love solving complex problems by visualizing holistic approaches-drive team/client collaboraton. establish design princiles and understand user needs for beetter experinces
     </div>
-  </nav>
+  </div> -->
       <!-- <ul class="sidenav" id="mobile-demo"> -->
         <!-- <li><a href="https://www.linkedin.com/in/isabel-parra/"><i class='fab fa-linkedin-in'></i></a></li>
         <li> <a href='https://github.com/isabelparra'><i class='fab fa-github'></i></a></li> -->
@@ -166,7 +216,7 @@
 
 </div> -->
 
-<div class='main-container'>
+<div class='main-container projects'>
   <div class="grid">
     <div class="grid-sizer"></div>
     <!-- <div class="grid-item">
@@ -184,43 +234,43 @@
     <!-- </div> -->
     <!-- <div class="gutter-sizer"></div> -->
     
-      <div class="grid-item "> 
-          <a href="assets/images/poster.jpg" data-toggle="lightbox" data-dismiss="modal">
-        <!-- <h3 class='category'>Print</h3> -->
-      <img src="assets/images/poster.jpg" class="img-fluid">
-      </a>
-          <!-- <div class="grid-item-content"></div> -->
-      <span class='overlay' href='#'></span>
-    </div>
-
-    <div class="grid-item ">
-        <a href="assets/images/in-a-pinch.png" data-toggle="lightbox" data-type="image">
-        <!-- <h3 class='category'>Infographics</h3> -->
-      <img src="assets/images/in-a-pinch.png" /> 
-      
-      </a>
-      <span class='overlay' href='#'></span>
-          <!-- <div class="grid-item-content"></div> -->
-    </div>
-
-    <div class="grid-item " >
-        <a href="assets/images/postcard.png" data-toggle="lightbox" data-dismiss="modal">
-        <!-- <div class="grid-item-content"> -->
-    <img src="assets/images/postcard.png" />
-      <!-- </div> -->
-  </div>
-
-  <div class="grid-item">
-      <a href="assets/images/buddha.jpg" data-toggle="lightbox" data-type="image">
-    <!-- <div class="grid-item-content"> -->
-<img src="assets/images/buddha.jpg" />
-</a>
+<div class="grid-item project illustration web" > 
+  <a href="assets/images/poster-SM.png" data-toggle="lightbox" data-gallery="example-gallery" data-dismiss="modal">
+    <img src="assets/images/poster.jpg" class="img-fluid">
+  </a>
+  <span class='overlay' href='#'></span>
 </div>
 
-      <div class="grid-item ">
-          <!-- <h3 class='category'>Typography</h3> -->
-          <img src="assets/images/flayvor.png" />
-        </div>
+
+<div class="grid-item project web illustration">
+  <a href="assets/images/in-a-pinch.png" data-toggle="lightbox" data-gallery="example-gallery" data-type="image">
+    <img src="assets/images/in-a-pinch.png" /> 
+  </a>
+  <span class='overlay' href='#'></span>
+      <!-- <div class="grid-item-content"></div> -->
+</div>
+
+<div class="grid-item project digital" >
+  <a href="assets/images/postcard.png" data-toggle="lightbox" data-dismiss="modal">
+    <img src="assets/images/postcard.png" />
+  </a>
+  <span class='overlay' href='#'></span>
+</div>
+
+<div class="grid-item project illustration">
+  <a href="assets/images/buddha.jpg" data-toggle="lightbox" data-gallery="example-gallery" data-type="image">
+    <img src="assets/images/buddha.jpg" />
+  </a>
+  <span class='overlay' href='#'></span>
+</div>
+
+<div class="grid-item ">
+  <a href="assets/images/flayvor.png" data-toggle="lightbox"  data-dismiss="modal"></a>
+  <!-- <h3 class='category'>Typography</h3> -->
+  <img src="assets/images/flayvor.png" />
+</a>
+<span class='overlay' href='#'></span>
+</div>
    
     
   <!-- <div class="grid-item ">
@@ -231,16 +281,20 @@
     <!-- </div> -->
 
     <div class="grid-item">
+        <a href="assets/images/wave.png" data-toggle="lightbox" data-gallery="example-gallery" data-dismiss="modal">
         <!-- <div class="grid-item-content"> -->
     <img src="assets/images/wave.png" />
-
+   
+</a>
+<span class='overlay' href='#'></span>
   </div>
 
     <div class="grid-item ">
-        <a href="assets/images/bikePal-mockup.png" data-toggle="lightbox" data-dismiss="modal">
+        <a href="assets/images/bikePal-mockup.png" data-toggle="lightbox" data-gallery="example-gallery" data-dismiss="modal">
         <img src="assets/images/bikePal-mockup.png" /> 
+        </a>
         <span class='overlay' href='#'></span>
-            <!-- <div class="grid-item-content"></div> -->
+            
       </div>
 
 
@@ -248,6 +302,7 @@
     <div class="grid-item ">
         <a href="assets/images/boat-portfolio-01.png" data-toggle="lightbox" data-dismiss="modal">
         <img src="assets/images/boat-portfolio-01.png" /> 
+        </a>
         <span class='overlay' href='#'></span>
          
       </div>
@@ -257,6 +312,7 @@
       <div class="grid-item ">
           <a href="assets/images/boatOuter-01.png" data-toggle="lightbox" data-dismiss="modal">
           <img src="assets/images/boatOuter-01.png" /> 
+          </a>
           <span class='overlay' href='#'></span>
               <!-- <div class="grid-item-content"></div> -->
         </div>
@@ -272,13 +328,20 @@
     
 
     <div class="grid-item ">
+        <a href="assets/images/typography.jpg" data-toggle="lightbox" data-gallery="example-gallery" data-type="image">
         <!-- <h3 class='category'>Typography</h3> -->
+ 
         <img src="assets/images/typography.jpg" />
+      </a>
+      <span class='overlay' href='#'></span>
       </div>
 
       <div class="grid-item ">
+        <a href="assets/images/battized-01.png" data-toggle="lightbox" data-gallery="example-gallery" data-type="image">
           <!-- <h3 class='category'>Typography</h3> -->
           <img src="assets/images/battized-01.png" />
+        </a>
+        <span class='overlay' href='#'></span>
         </div>
 
       
@@ -287,31 +350,47 @@
 
       
     <div class="grid-item ">
+        <a href="assets/images/paper-bags.jpg" data-toggle="lightbox" data-gallery="example-gallery" data-type="image"></a>
         <!-- <h3 class='category'>Perceptual Drawing</h3> -->
         <img src="assets/images/paper-bags.jpg" />
+      </a>
+      <span class='overlay' href='#'></span>
       </div>
 
       <div class="grid-item"> 
           <a href="assets/images/happiness-final.png" data-toggle="lightbox" data-dismiss="modal">
           <!-- <h3 class='category'>Painting</h3> -->
         <img src="assets/images/happiness-final.png">
+      </a>
+      <span class='overlay' href='#'></span>
           <!-- <div class="grid-item-content"></div> -->
       </div>
             
   
 
       <div class="grid-item ">
+          <a href="assets/images/3x3-card.png" data-toggle="lightbox" data-dismiss="modal">
             <!-- <div class="grid-item-content"> -->
         <img src="assets/images/3x3-card.png" alt="Prana Yoga Card" />
-      </div>
+      
+      </a>
+      <span class='overlay' href='#'></span>
+    </div>
+
 
       <div class="grid-item ">
+          <a href="assets/images/project-gif-SMALL.gif" data-toggle="lightbox" data-dismiss="modal">
           <img src="assets/images/project-gif-SMALL.gif" />
+        </a>
+        <span class='overlay' href='#'></span>
         </div>
 
         <div class="grid-item">
+            <a href="assets/images/infinite-01.png" data-toggle="lightbox" data-dismiss="modal">
          
             <img src="assets/images/infinite-01.png" />
+          </a>
+          <span class='overlay' href='#'></span>
           </div>
      
       <!-- <div class="grid-item ">
@@ -320,15 +399,26 @@
 
       
       <div class="grid-item ">
+          <a href="assets/images/cups_mockup.pngg" data-toggle="lightbox" data-dismiss="modal">
+         
         <img src="assets/images/cups_mockup.png" />
+      </a>
+      <span class='overlay' href='#'></span>
       </div>
 
       <div class="grid-item ">
+          <a href="assets/images/express-lanes.png" data-toggle="lightbox" data-dismiss="modal">
+         
           <img src="assets/images/express-lanes.png" />
+        </a>
+        <span class='overlay' href='#'></span>
         </div>
 
       <div class="grid-item ">
+          <a href="assets/images/bagels-menu.png" data-toggle="lightbox" data-dismiss="modal">
           <img src="assets/images/bagels-menu.png" />
+        </a>
+        <span class='overlay' href='#'></span>
         </div>
         <!-- <div class="grid-item">
          
@@ -336,16 +426,25 @@
           </div> -->
       
         <div class="grid-item ">
+            <a href="assets/images/Stanley-booth.png" data-toggle="lightbox" data-dismiss="modal">
             <img src="assets/images/Stanley-booth.png" />
+          </a>
+          <span class='overlay' href='#'></span>
           </div>
 
           
           <div class="grid-item ">
+              <a href="assets/images/BiscayneTimes_Ad.jpg" data-toggle="lightbox" data-dismiss="modal"></a>
               <img src="assets/images/BiscayneTimes_Ad.jpg" />
+            </a>
+            <span class='overlay' href='#'></span>
             </div>
 
             <div class="grid-item ">
+                <a href="assets/images/sbd_invite.png" data-toggle="lightbox" data-dismiss="modal"></a>
               <img src="assets/images/sbd_invite.png" />
+            </a>
+            <span class='overlay' href='#'></span>
             </div>
 
           </div>

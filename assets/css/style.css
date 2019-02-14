@@ -51,7 +51,13 @@ nav {
   text-align: center;
   /* margin: 0px; */
 }
+nav a { 
+  color: black;
+}
 
+.nav-content {
+  color: black;
+}
 nav ul { 
   text-align: center;
   margin: 0 auto;
@@ -158,13 +164,44 @@ nav.nav-center ul li a {
   padding-right: 300px;
 }
 
-.modal {
+.ekko-lightbox {
+  padding: 0px;
+}
+
+#lightbox-container-image img { 
+  width:auto; height: auto }
+
+.modal, .modal-content, .modal-body, .modal-dialog {
+  padding-right: 0px;
+  padding-left: 0px;
+  
+
+}
+.modal .modal-content {
+  padding: 0px;
+}
+/* .modal-header {
+  padding: 0px;
+} */
+
+.modal-body {
+  padding: 0px;
+
+}
+.modal-body {
+  padding-right: 0px;
+}
+
+.modal-dialog {
+  margin: 0px;
+}
+/* .modal {
   
  max-height: 100%;
 }
 .modal-content {
   padding: 0px;
-}
+} */
 
 /* .header {
   background-color: grey;
@@ -358,15 +395,16 @@ height: 60px;
 }
 
 
-/* #bigLogo a,#typed-strings p,#typed-strings span{
+ #bigLogo a,#typed-strings p,#typed-strings span{
   font-family: 'Montserrat', sans-serif;
+   /* 'Montserrat', sans-serif; */
   font-weight:900;
   color:#000;
   font-size:46px;text-shadow:2px 2px 0 #C6C6C6;letter-spacing:-1px;transition:all .2s ease-in-out}
 
 #rightBrace{margin-left:-10px}
 #leftBrace{margin-right:-8px}
- */
+ 
 
 
 #bigLogo a, #typed-strings p, #typed-strings span{
