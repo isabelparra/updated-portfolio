@@ -1,13 +1,14 @@
 
 
 $(function() {
-   $("#typed").typed({
+  //  $("#typed").typed({
 
-    // var typed = new Typed("#typed", {
+var typed = new Typed("#typed", {
   // stringsElement: "#typed-strings",
   strings: ["HELLO I'M ISABEL"],
     typeSpeed: 0, 
     showCursor: false,
+    
     // startDelay: 0,
     //  backSpeed: 0,
     //  backDelay: 0,
@@ -21,7 +22,7 @@ $(function() {
          },
   
           });
-
+          showThis();
           function showThis(){
             // $("#typed-second").typed({
               var typed = new Typed("#typed-second", {
