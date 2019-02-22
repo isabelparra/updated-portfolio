@@ -28,6 +28,7 @@ var typed = new Typed("#typed", {
               var typed = new Typed("#typed-second", {
                 strings: ["I'M A GRAPHIC DESIGNER", "I'M AN ILLUSTRATOR", "I'M A UX/UI DESIGNER", "I'M A YOGA TEACHER", ""],
                 typeSpeed: 30,
+                startDelay: 1000,
                 backSpeed: 30, 
 
               backDelay: 1500,
