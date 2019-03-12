@@ -627,14 +627,22 @@ ul#portfolio-filter li,ul#portfolio-list li{
 @media screen and (min-width:50px){
   #aboutMe, ul#portfolio-filter{
     float:none;
-    border-bottom:1px solid #243828
+    /* border-bottom:1px solid #243828 */
   }
     .grid-item {
     width: 100%;
     padding: 10px;
   }
   .projects {
-    padding: 45px 15px 0px 15px;}
+    padding: 45px 5px 0px 5px;
+  }
+
+  ul#portfolio-filter li, ul#portfolio-list li {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+
   }
 
 @media screen and (min-width: 320px) {
@@ -656,6 +664,10 @@ ul#portfolio-filter li,ul#portfolio-list li{
   header {
     padding-top: 55px;
   }
+  .projects {
+    padding: 45px 15px 0px 15px;
+  }
+  
   /* #bigLogo a, #typed-strings p, #typed-strings span, span#typed, span#typed-second {
     font-size: 14px;
   } */
@@ -707,6 +719,10 @@ ul#portfolio-filter li,ul#portfolio-list li{
     width: 33.333%;
     padding: 5px 5px 5px 5px;
   }
+  ul#portfolio-filter li, ul#portfolio-list li {
+    padding-right: 15px;
+    padding-left: 15px;
+}
   
   /* #bigLogo{margin-bottom:85px} */
   /* .projects{width:96%;margin:0 auto} */
@@ -771,7 +787,9 @@ span#typed{
       .firstredDash{display:block}
   #blueArrow{margin-left:-360px}
   #jason{margin-top:0}
-  
+  .projects {
+    padding: 45px 450px 0px 450px;
+  }
   #navContent {
     width: 781px;
   }
