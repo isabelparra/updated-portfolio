@@ -1,131 +1,291 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head>
-  <meta charset="UTF-8" name='viewport' content='width=device-width, initial-scale=1.0'>
-  <title>Portfolio | Isabel Parra</title>
-  <!--CSS-->
-  <link rel="stylesheet" href="assets/css/reset.css">
-  <link href="https://fonts.googleapis.com/css?family=Monserrat" rel="stylesheet">
-  <!-- Materialize -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <!-- Lightbox -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" rel="stylesheet">
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">   
-</head>
-
+  <head>
+    <meta charset="UTF-8" name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>BikePal | Isabel Parra</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.typekit.net/qrb6jmu.css">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Ramaraja" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  </head>
 <body>
-    
-    <div class="wrapper" id="contentWrapper">
-            <div class="boundingBox" id="content"> 
-              <span id="home"></span>
-              <header>
-                  <div id="bigLogo">
-                      <a name="topPage"></a>
-                      <a href="#">
-                        <span class="logoBraces" id="leftBrace">&lt;</span>
-                        <div id="typed-strings" style="display: none"> 
-            
-                              <p>Hi, I'm<span class="logoUnderscore">_</span>Isabel</p>
-                              <p>I'm a Graphic<span class="logoUnderscore">_</span>Designer</p>
-                                <p>An Illustrator</p>
-                                <p>UX/UI<span class="logoUnderscore">_</span>Designer</p>
-                                <p>and yoga<span class="logoUnderscore">_</span>teacher</p>
-                                <h1>Isabel<span class="logoUnderscore">_</span>Parra</h1> 
-                        </div>
-                        <span id="typed" style="white-space:pre;"></span> 
-                        <!-- <span class="second"></span> -->
-                       <span class="logoBraces" id="rightBrace">/&gt;</span>
-                          </a>
-                        </div>
-                        <!-- <img class="col-12" src="assets/images/plants2.png"> -->
-                </header> 
-
-            </div>
-        </div>
+<div class="main-container">
+  <div class="row">
+  <div class="col" id="main-nav">
+    <nav class="navbar navbar-expand-lg"  style="padding: 20px 20px;">
+      <a class="navbar-brand" href="index.html" id="brand-logo">
+        <img id="nav-logo" src="assets/images/logo.png">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">
+          <i class="material-icons">menu</i>
+        </span>
+      </button>
+      <div class="collapse navbar-collapse nav-pad" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0" >
+        <!-- <li class="nav-item"> -->
+        <!-- <a class="nav-link" href="contact.html">CONTACT</a> -->
+        <!-- <span class="sr-only">(current)</span> -->
+        <!-- </li> -->
+        <li class="">
+        <a id="nav-item nav-link" href="about.html" >ABOUT</a>
+        </li>
+        <li class="">
+        <a id="nav-item nav-link" href="contact.html" >CONTACT</a>
+        </li>
+        <li class="">
+        <a id="nav-item nav-link" href="portfolio.html" >PORTFOLIO</a>
+        </li>
+        <li class="">
+        <a id="nav-link nav-item " href="services.html">SERVICES</a>
+        </li>
+        <li class="">
+        <a id="nav-item nav-link" href="yoga.html">YOGA</a>
+        </li>
+        </ul>
+      </div>         
+    </nav>
+  </div>
+  </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <div class="bike-top">
+          <img src="assets/images/bikepal-logo.png" style="display: block; margin: 0 auto; width: 75%">
+    </div> 
+      </div>
+    </div>
+<div class="container">
+  <div class="row" style="margin: 30px 0px 0px 0px;">
+    <div class="details-div">
+      <div class="col-12 col-md-4" style="padding: 0px; float: left;">
+        <h3 class="new-heading" style="text-align: left; margin: 25px 0px;">BIKEPAL</h3>
+        <div class="prod-details" >
+        <div class="serv-dash" ></div>
         
+        <p style="margin-top: 25px; ">MySQL Data Management .
+          User Authentication .
+        Web Design</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-8" style="text-align: left; float: left; padding: 0px; margin: 25px 0px 0px 0px;"> 
+        <p class="prod-details">
+            BikePal is a MVC application built using MySQL to store class schedules and client information, Sequelize ORM to manipulate data models, and handlebars to render the front-end view.
+            MDBootstrap CSS Framework
+            Authentication interface using Passport.js
+            <br> <br>
+            Click <strong><a class="ext-link" href="https://arcane-fortress-74909.herokuapp.com/">here</a></strong> to visit site.
+          </p>
+      </div>
+      </div>
+    </div>
+ 
 
-  <nav>
-        <div class="navbar fixed">
-          <!-- <a href="index.html" class="brand-logo" id='header-logo'>PARRA</a> -->
-          <!-- <a href="#" data-target="mobile-demo" class="sidenav-trigger">
-            <i class="material-icons">menu</i></a> -->
-            <div class="nav-wrapper container brand-logo center">
-            <ul>
-     
-              <li>   
-                 <!-- <div id="about"> -->
-                  <a href="" onclick="openToggle()" title id="aboutBtn">
-                  ABOUT</a>
-                  <span id="vertLine">|</span>
-                <!-- </div> -->
-              </li>
-              <li><a href="" class='nav-link'>ALL</a></li>
-              <li><a href="" class='nav-link'>DIGITAL</a></li>
-              <li><a href="" class='nav-link'>EVENTS</a></li>
-              <li><a href="" class='nav-link'>ILLUSTRATION</a></li>
-              <li><a href="" class='nav-link'>PRINT</a></li>
-           
-              <!-- <li><a href="index.html" class='nav-link'>PORTFOLIO</a></li> -->
-              <!-- <li><a href="code.html" class='nav-link'>Web Development</a></li> -->
-              <!-- <li><a href="https://www.linkedin.com/in/isabel-parra/"><i class='fab fa-linkedin-in nav-link'></i></a> </li>
-              <li><a href='https://github.com/isabelparra'><i class='fab fa-github'></i></a></li> -->
-            </ul>
-            <!-- <ul class="right hide-on-med-and-down">
-                <li><a href="index.html" class='nav-link'>PORTFOLIO</a></li>
-                <li><a href="index.html" class='nav-link'>CONTACT</a></li>
-                <li><a href="index.html" class='nav-link'>BLOG</a></li>
-            </ul> -->
-        </div>
-        </div>
-      </nav>
+
+
+      <div class="row "  >
+          <div class="col-12" style=" padding: 0px; ">
+              <img id="bikeDesk" src="assets/images/bikePal-mockup-11.png">
+      </div>
+    </div>
   
 
-  <footer>
-        <div id="footer">
-            &copy;
-        </div>
-    </footer> 
+
+</div>
+
+
+  
+
+            <div class="container">
+              <div class="row" style="margin:0px;">
+                
+                    <div class="col-12 col-md-8" style="padding:0px;" >
+                      <div class="bike-text-box">
+                          <h3 class="roboto-head">GET</h3>
+                          <h3 class="roboto-strong"><strong>ROUTE</strong></h3>
+                      </div>
+                        
+                     <img src="assets/images/bike-get.png" class='bikeAbout'>
+                    </div>
+                    <div class="col-12 col-md-4" style="padding: 0px; background-color: #131416; color: white;">
+                        <p class="bike-text">GET Route used to retrieve information from the schedules table and render the data on the index page.</p>
+                  </div> 
+                </div>
+                <div class="row" >
+                    <div class="col-12">
+                      <img style="width: 100%;" src="assets/images/bike-webmock.png">
+                    </div>
+                  </div>
+                
+      <div class="row" style="margin:0px;">
+          <div class="col-12 col-md-6" style="padding: 0px; ">
+              <img src="assets/images/bike2.png" style="width: 100%; float: left;"> 
+            </div>
+          <div class="col-12 col-md-6" style="padding: 0px; height: auto;  background-color: #131416; float: left;">
+            <div class="bike-box">
+                <h3 class="roboto-head">CLIENT</h3>
+                <h3 class="roboto-strong"><strong>PROFILE</strong></h3>
+            </div>
+        
+            </div>
+      </div>
+ 
+
+          <div class="row " >
+              <div class="col-6">
+                <img style="width: 100%;" src="assets/images/bike2.png" > 
+              </div>
+          </div>
+          
+
+                
+            </div>
+            <!-- <div class="bike-div"> -->
+              <!-- <div class="row">
+       <div class="col-12" style="padding: 0px;">
+                     <img src="assets/images/post2.png" style="width: 50%;">
+                    </div> -->
+    <!-- </div> -->
+          <!-- </div> -->
+          <!-- <div class="row justify-content-center">
+              <div class="col-6">
+                <p><img src="assets/images/bikePal-2.png" id='bikeAbout' style="width: 50%;"> </p>
+              </div>
+              <div class="col-6">
+                  <p class="bike">
+                    
+                  </p>
+            </div>
+
+            </div> -->
+            <!-- <div class="row justify-content-center">
+                <div class="col-6">
+                  <p><img src="assets/images/bikePal-5.png" style="width: 50%;" id='bikeAbout'> </p>
+                </div>
+                <div class="col-6">
+                    <p class="bike">
+                      
+                    </p>
+              </div>
+  
+              </div> -->
+       
+          <div class="row">
+            <div class="col">
+              <button class="returnBtn"><a href="portfolio.html" style="color: white;">BACK TO PORTFOLIO</a></button>
+            </div>
+          </div>
+          
+
+          
+                
+                    <!-- <div class="row justify-content-center">
+                        <div class="col-6">
+                          <img src="assets/images/bikePal-12.png" style="width: 50%;" id='bikeAbout'> 
+                        </div>
+                        <div class="col-6">
+                            <p class="bike">
+                              
+                            </p>
+                      </div>
+          
+                      </div> -->
+          
+     
+
+
+
+      <div class="pages-footer">
+              <div class="row" id="footer">
+                <div class="col-12" id="sign-up">
+                  <h3 class="heading2" >
+                    SIGN UP TO THE ARTNPRACTICE NEWSLETTER
+                  </h3>
+                    <p class="texts-tips">Tips, resources and stories dedicated to business, balance and brand building?</p>
+                </div>
+              </div>
+          
+                    <form  class="row" id="home-form">
+                        <div class="col-12 col-lg-4 " style="padding:5px;" >
+                            <div class="form-group">
+                          <input type="name" class="form-control" id="exInputName" aria-describedby="nameHelp" placeholder="Name">
+                        </div>
+                      </div>
+                     
+                        <div class="col-12 col-lg-4"  style="padding:5px;">
+                            <div class="form-group">
+                            <input type="email" class="form-control" id="exInputEmail" aria-describedby="emailHelp" placeholder="E-mail">
+                          </div> 
+                      </div>
+                      
+                          <div class="col-12 col-lg-4"  style="padding:5px;">
+                              <div class="form-group">
+                            <button type="submit" class="submitBtn">SUBSCRIBE</button>
+                          </div>
+                          </div>
+                         </form>
+          
+             
+              
+          
+              <div class="row links">
+                <div class="col-12 col-md-6" style="padding:0px;">
+                  <p class= "texts">
+                    <a class="foot-link" href="mailto: info@isabel-parra.com" target="_top">
+                      info@isabel-parra.com
+                    </a>
+                   <br>
+                    <a class="foot-link" href="https://www.instagram.com/artnpractice/" target="blank">
+                    Instagram </a>
+                    • 
+                    <a class="foot-link" href="https://www.facebook.com/artnpractice/" target="blank">Facebook</a>
+                    • 
+                    <a class="foot-link" href="https://www.pinterest.com/artnpractice" target="blank">Pinterest</a>
+                  </p>
+                </div>
+                <div class="col-12 col-md-6" style="padding:0px;">
+                  <p class="copyright texts">ArtnPractice © 2018</p>
+                </div>
+              </div>
+              </div>
+     
+              <div>
+                  <a href="#" class="to-top" >
+                      <i class="fas fa-chevron-up"></i></a>
+              </div>
+                     
   
     <!-- jQuery script -->
     <script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  
-  
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
-    <!--Javascript-->
-    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-  
-    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script> 
-    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-  
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
-  
-  
-  
-  
-    <script language="javascript" type="text/javascript">
-  
-    </script>
-  
-   <script src="/path/to/masonry.pkgd.min.js"></script> 
-    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
-  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!--Javascript-->
    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
-    <script type="text/javascript" src="assets/javascript/app.js"></script>
+    <!--Javascript-->
+ <script type="text/javascript" src="assets/javascript/app.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
   
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
   
   
     
   </body>
   </html>
   
-  
+ 
       

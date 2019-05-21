@@ -1,22 +1,40 @@
 
+      //  $(window).scroll(function() {
+      //    $(".time-logo").css("opacity", 1 - $(window).scrollTop() / 250);
+      //  });
 
-// $('.grid').masonry({ 
-//   itemSelector: '.grid-item',
-//   columnWidth: '.grid-sizer',
-//    percentPosition: true
-//   });
-  var $grid = $('.grid').masonry({
-    itemSelector: '.grid-item',
-    // columnWidth: '.grid-sizer',
-     isFitWidth: true,
-     columnWidth: 1
-    // options...
-    });
+    
+       window.onscroll = function() {
+          scrollFx();
+       
+        };
 
-$grid.imagesLoaded().progress( function() {
-  $grid.masonry('layout');
-  });
+        
+      // window.onscroll = function() {scrollFx()};
+      // var header = document.getElementById("myNav");
+      // var sticky = header.offsetTop;
+
+      function scrollFx() {
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+          document.getElementById("main-nav").className = "sticky";
+          // document.getElementById("faded-img").className = "slideUp"
   
+        } else {
+          document.getElementById("main-nav").className = "";
+    
+        }
+      }
+
+//   window.onscroll = function() { fadeIn() };
+  
+// function fadeIn() {
+//   if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+
+//   document.getElementById("faded-img").className = "slideUp";  
+//   } 
+//   }
+
+
 
 // setTimeout(
 //   function() { 
@@ -125,50 +143,14 @@ $grid.imagesLoaded().progress( function() {
 //   percentPosition: true
 //   // isFitWidth: true
 // });
-$(function() {
-  //  $("#typed").typed({
-  var typed = new Typed("#typed", {
-  // stringsElement: "#typed-strings",
-  strings: ["HELLO I'M ISABEL"],
-    typeSpeed: 0, 
-    showCursor: false,
-    
-    // startDelay: 0,
-    //  backSpeed: 0,
-    //  backDelay: 0,
-    //  loop: false,
-    //      contentType: 'html',
-    //      loopCount: true,
-         // cursorChar: "",
-         callback: function() {
-         showThis();
-      
-         },
-  
-          });
-          showThis();
-          function showThis(){
-            // $("#typed-second").typed({
-              var typed = new Typed("#typed-second", {
-                strings: ["I'M A GRAPHIC DESIGNER", "I'M AN ILLUSTRATOR", "I'M A UX/UI DESIGNER", "AND A YOGA TEACHER"],
-                typeSpeed: 30,
-                startDelay: 1000,
-                backSpeed: 30, 
-                showCursor: false,
-              backDelay: 1500,
-              
-                smartBackspace: true,
-                loop: true,
-                loopCount: 3,
-                // cursorChar: '_',
-                showCursor: false,
-                  onReset: function(self) { prettyLog('onReset ' + self) },
-                 reset() {}
-              });
-            }
-          
-              
-          });
+
+
+
+
+
+
+
+
  
               // callback: function() {
               //   $("#typed-third").typed({
@@ -610,4 +592,29 @@ $(document).on('click', '[data-toggle="lightbox"]', function(event) {
 
 
 
- 
+    // var slideIndex = 1;
+    // showDivs(slideIndex);
+    
+    // function plusDivs(n) {
+    //   showDivs(slideIndex += n);
+    // }
+    
+    // function currentDiv(n) {
+    //   showDivs(slideIndex = n);
+    // }
+    
+    // function showDivs(n) {
+    //   var i;
+    //   var x = document.getElementsByClassName("mySlides");
+    //   var dots = document.getElementsByClassName("demo");
+    //   if (n > x.length) {slideIndex = 1}
+    //   if (n < 1) {slideIndex = x.length}
+    //   for (i = 0; i < x.length; i++) {
+    //     x[i].style.display = "none";  
+    //   }
+    //   for (i = 0; i < dots.length; i++) {
+    //     dots[i].className = dots[i].className.replace(" w3-white", "");
+    //   }
+    //   x[slideIndex-1].style.display = "block";  
+    //   dots[slideIndex-1].className += " w3-white";
+    // }
