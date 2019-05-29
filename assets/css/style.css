@@ -39,21 +39,32 @@ font-weight: 400;
 line-height: 1.5;
  
 }
-.prana-details2 {
+.prana-list {
+  float: left;
   position: relative;
-  bottom: 80px;
+  bottom: 85px;
 padding:5px;
 /* font-size: 15px; */
 font-family: 'Inconsolata', monospace;
 font-size: 12px;
 font-weight: 400;
 line-height: 1.5;
- 
+}
+.prana-col {
+  width: 10%;
+  float: left;
 }
 .prana-work {
   position: relative;
   bottom: 80px;
   margin: 20px;
+}
+.prana-web  {
+width: 80%;
+display: block;
+margin: 0 auto;
+background-color: #e3e6e7; 
+height: 450px;
 }
 .prana-cols {
   position: relative;
@@ -2228,6 +2239,20 @@ margin: 10px auto;
     .bikepal-logo {
       width: 70%;
     }
+    .prana-headline {
+      position: relative;
+      bottom: 0px; 
+    }
+    .prana-details {
+      position: relative;
+      bottom: 0px;
+    padding:5px;
+  }
+  .prana-list {
+    float: left;
+    position: relative;
+bottom: 0px;
+  }
     .bats {
       padding: 0px !important;
     }
