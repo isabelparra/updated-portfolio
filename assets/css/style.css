@@ -1984,37 +1984,8 @@ color: black;
 }
 
 
-  /* @media screen and (min-width:600px){
-    ul#portfolio-list{padding-top:0px}
-    #jason{margin-top:10px}
-    #bigLogo{margin-bottom:85px}
-  }
-@media screen and (min-width: 720px) {
 
-  span#typed-second, span#typed-third {
-    font-size: 34px;
-  }
-span#typed{
-  
-    font-size: 50px;
-  }
 
-  #bigLogo {
-    margin: 0 auto;
-    width: 100%;
- 
-  }
-
-  .parallax, .boundingBox {
-    height: 250px;
-  }
-  header {
-    padding-top: 55px;
-  }
-  .projects {
-    padding: 50px 150px 0px 150px;}
-  
-} */
   
 /* @media screen and (min-width:800px){
   #aboutMe,ul#portfolio-filter{
