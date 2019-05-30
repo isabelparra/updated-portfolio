@@ -318,7 +318,16 @@ h2#boat {
 #sign-up {
     padding: 0px;
 }
-
+.title-serv {
+  display: block;
+  color: black;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  letter-spacing: 2px;
+  line-height: 26.6px;
+  margin: 20px 0px 20px 0px;
+}
 .heading2 {
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
@@ -326,6 +335,21 @@ h2#boat {
   letter-spacing: 2px;
   line-height: 21px;
   margin: 20px 0px 20px 0px;
+}
+.request-text {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  font-size: 19px;
+  letter-spacing: 1px;
+  line-height: 30.4px;
+  text-align: left;
+}
+.serv-separator {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  display: block;
+  margin: 15px auto;
 }
 .brand-detail {
   font-family: 'Oswald', sans-serif;
@@ -489,7 +513,7 @@ height: auto;
  width: 100%;
 }
 .about-img {
-  width: 50%;
+  width: 75%;
   display: block;
   margin: 25px auto;
   
@@ -619,7 +643,9 @@ background-size: cover;
   margin-top: 70px;
 
 }
-
+.yoga-img {
+  width: 100%;
+}
 /* span#typed-second {
   position: relative;
   bottom: 50px;
@@ -642,6 +668,84 @@ background-size: cover;
     z-index: 10;
   
  
+  }
+  .storyboard {
+    width: 15%;
+   
+  }
+  .story-imgs {
+    display: inline-block;
+    width: 100%;
+   
+  }
+ .story-div {
+
+   background-color: #e3e6e7; 
+   text-align: center; 
+   padding: 20px; 
+  }
+  .month {
+    padding: 70px 25px;
+    width: 100%;
+    background: grey;
+    text-align: center;
+  }
+  
+  .month ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  
+  .month .prev {
+    float: left;
+    padding-top: 10px;
+  }
+  
+  .month .next {
+    float: right;
+    padding-top: 10px;
+  }
+  
+  .weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+  }
+  
+  .weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+  }
+  
+  .days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+  }
+  
+  .days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #777;
+  }
+  
+  .days li .active {
+    padding: 5px;
+    background: #1abc9c;
+    color: white !important
   }
 /* 
   span#typed, span#typed-second {
@@ -862,6 +966,16 @@ z-index: 100;
 
   z-index: -2;
 }
+.flayvor-top {
+  padding-top: 300px;
+  padding-bottom: 300px;
+  background-image: url("../images/flayvor-top.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin: 75px 10px 0px 10px;
+  z-index: -1;
+}
 
 .bat-top {
   padding-top: 300px;
@@ -873,8 +987,21 @@ z-index: 100;
   /* border-right-width: 0px;
   border-bottom-width: 1px;
   border-left-width: 0px; */
- margin: 75px 10px 0px 10px;
+  margin: 75px 10px 0px 10px;
  z-index: -1;
+}
+.prod-top {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: url("../images/cups_mockupSM.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin: 75px 10px 0px 10px;
+ z-index: -1;
+}
+.typography-top {
+  margin: 75px 10px 0px 10px;
 }
 .batImgs {
   width: 100%;
@@ -908,7 +1035,7 @@ margin: 30px auto;
   /* border-right-width: 0px;
   border-bottom-width: 1px;
   border-left-width: 0px; */
- margin: 0px 10px 0px 10px;
+  margin: 75px 10px 0px 10px;
  z-index: -1;
 }
 .yoga-top {
@@ -933,8 +1060,8 @@ margin: 30px auto;
   background-size: cover;
 }
 .isc-top {
-  padding-top: 300px;
-  padding-bottom: 300px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-image: url("../images/isc.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -968,6 +1095,13 @@ a.foot-link {
  margin: 0 auto; 
  width: 75%;
 }
+.artnpractice-logo {
+  display: block; 
+ margin: 0 auto; 
+ width: 300px;
+ height: auto;
+ 
+}
 .new-heading {
  color: black;
   font-family: 'Oswald', sans-serif;
@@ -975,6 +1109,29 @@ a.foot-link {
   font-size: 20px;
   letter-spacing: 2px;
   line-height: 31px;
+}
+.serv-heading2 {
+  color: black;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  font-size: 27px;
+  letter-spacing: 1.2px;
+  line-height: 37.8px;
+  text-align: left;
+}
+.serv-pgs {
+  margin: 20px 0px;  
+  text-align: left;
+  font-family: 'Inconsolata', monospace;
+  display: block;
+
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22.5px;
+
+}
+.serv-img {
+  width: 100%;
 }
 
 .serv-dash {
@@ -1104,6 +1261,20 @@ font-weight: 100; }
   color: black;
   
 }
+.serv-title {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21px;
+  letter-spacing: 2px;
+  color: black;
+ margin-bottom: 10px;
+  
+}
+.serv-title-dash {
+  border-bottom: solid 1px black;
+  padding-bottom: 5px;
+}
 .dash-bottom {
   border-bottom: #333333 0.5px solid;
   width:190px;
@@ -1117,6 +1288,14 @@ font-weight: 100; }
   font-weight: 400;
   line-height: 1.5;
   color: #000000;
+}
+.serv-text {
+  font-family: "Inconsolata", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22.5px;
+  color: #000000;
+  text-align: left;
 }
 .bat-div {
   padding: 50px 150px;
@@ -2305,6 +2484,9 @@ bottom: 0px;
   }
   .site-logo {
 width: 620px;
+  }
+  .artnpractice-logo {
+    width: 620px;
   }
   .time-logo {
    position: relative;
