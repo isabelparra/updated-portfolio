@@ -23,48 +23,39 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
   </head>
 <body>
-<div class="main-container">
-  <div class="row">
-  <div class="col" id="main-nav">
-    <nav class="navbar navbar-expand-lg"  style="padding: 20px 20px;">
-      <a class="navbar-brand" href="index.html" id="brand-logo">
-        <img id="nav-logo" src="assets/images/logo.png">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon">
-          <i class="material-icons">menu</i>
-        </span>
-      </button>
-      <div class="collapse navbar-collapse nav-pad" id="navbarTogglerDemo02">
-        <ul class="navbar-nav ml-auto mt-2 mt-lg-0" >
-        <!-- <li class="nav-item"> -->
-        <!-- <a class="nav-link" href="contact.html">CONTACT</a> -->
-        <!-- <span class="sr-only">(current)</span> -->
-        <!-- </li> -->
-        <li class="">
-        <a id="nav-item nav-link" href="about.html" >ABOUT</a>
-        </li>
-        <li class="">
-        <a id="nav-item nav-link" href="contact.html" >CONTACT</a>
-        </li>
-        <li class="">
-        <a id="nav-item nav-link" href="portfolio.html" >PORTFOLIO</a>
-        </li>
-        <li class="">
-        <a id="nav-link nav-item " href="services.html">SERVICES</a>
-        </li>
-        <li class="">
-        <a id="nav-item nav-link" href="yoga.html">YOGA</a>
-        </li>
-        </ul>
-      </div>         
-    </nav>
-  </div>
-  </div>
-</div>
+    <nav id="final-nav" class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html"> 
+          <img class="nav-logo" src="assets/images/logo.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon" id="menuBtn"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">ABOUT <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="services.html">SERVICES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="yoga.html">YOGA</a>
+                  </li>
+          </ul>
+        </div>
+      </nav>
 <div class="row">
   <div class="col-12">
-    <div class="flayvor-top"></div>
+    <div class="flayvor-top">
+        <img src="assets/images/flayvor-logo.png" class="flayvor-logo">
+    </div>
   </div>
 </div>
 
@@ -99,39 +90,83 @@
     </div>
   </div>
 </div> -->
-<div class="row text-center flayvor-steps">
-  <div class="col-3">
-    <h3>Select Category</h3>
-    <p>Choose between food or drink recipes.</p>
-  </div>
-  <div class="col-3">
-      <h3>Add Ingredients</h3>
-      <p>Add items that you already have on hand.</p>
-    </div>
-    <div class="col-3">
-        <h3>Flavorize</h3>
-      </div>
-      <div class="col-3">
-          <h3>Save Recipes</h3>
+<div class="row" style="margin: 30px 0px;">
+    <div class="details-div">
+      <div class="col-12 col-md-4" style="padding: 0px; float: left;">
+        <h3 class="new-heading" style="text-align: left; margin: 25px 0px;">FLAYVOR</h3>
+        <div class="prod-details" >
+        <div class="serv-dash"></div>
+        
+        <p style="margin-top: 25px;">
+  
+          <p>Web Design .
+          Heroku Deployment .
+          Web Design</p>
         </div>
+
+      </div>
+      <div class="col-12 col-md-8" style="text-align: left; float: left; padding: 0px;"> 
+        <p class="prod-details">
+        Flayvor Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis soluta voluptate quos cupiditate ipsum enim. Adipisci consequuntur accusamus natus illum unde fuga eius voluptatibus maiores odio rerum. Repellendus, ratione cumque.
+        </p>
+      </div>
+      </div>
+    </div>
+
+<div class="row text-center flayvor-steps">
+  <div class="col-12 col-md-3">
+      <span class="step">1</span>
+    <h3 class="heading3 flayvor-ins">Select Category</h3>
+    <p class="prod-details">Choose between food or drink recipes.</p>
+  </div>
+  <div class="col-12 col-md-3">
+      <span class="step">2</span>
+      <h3 class="main-headline flayvor-ins">Add Ingredients</h3>
+      <p class="prod-details">Add items that you already have on hand.</p>
+    </div>
+    <div class="col-12 col-md-3">
+        <span class="step">3</span>
+        <h3 class="main-headline flayvor-ins">Flayvorize</h3>
+        <p class="prod-details">Flayvorize to mix items and view your best matches.</p>
+      </div>
+      <div class="col-12 col-md-3">
+          <span class="step">4</span>
+          <h3 class="main-headline flayvor-ins">Save Recipes</h3>
+          <p class="prod-details">Create profile and save your favorite recipes.</p>
+        </div>
+</div>
+<div class="row">
+  <div class="col-12">
+<img class="flayvor-wood" src="assets/images/flayvor-wood.png">
+  </div>
+  <div class="col-12">
+      <button class="flayvorBtn"><a href="https://flayvor.co">Visit Site</a></button>
+    
+      <img class="flayvor-bowl" src="assets/images/flayvor-bowl.png">
+      
+  </div>
 </div>
 <div class="flayvor-web">
 <div class="row">
-    <div class="col-5" >
-        <img class="" style="max-height: 350px;" src="assets/images/flayvor.png">
-  </div>
-  <div class="col-5 ">
-      <h1 style="font-family: 'Prata', serif; font-size: 55px;" >Live Site</h1>
-      <br><br>
+    <div class="col-12 col-md-6">
+     
+   
+    </div>
+    <!-- <div class="col-12 col-md-6" >
+        <img class="" style="width: 70%;" src="assets/images/flavyor-mock.png">
+  </div> -->
+ 
+</div>
+</div>
+<!-- <div class="flayvor-final">
+    <h1 style="font-family: 'Prata', serif; font-size: 55px;" >Live Site</h1>
+       
     <div class="dash"> </div>
-    <br><br>
+
         <button><a href="https://flayvor.co">Visit Site</a></button>
     
- 
-  </div>
 </div>
-</div>
-           
+            -->
            
 <div class="row">
     <div class="col">

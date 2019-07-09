@@ -1,29 +1,101 @@
 
+
+$(document).ready(function(){
+  $(window).scroll(function(){
+      if($(window).scrollTop() > 50){
+          $("#final-nav").css({"background-color":"white"});   
+          $(".navbar-nav").css({"background-color":"white"}); 
+        
+      }
+  })
+})
+
+        
+    // window.onscroll = function() {
+    //   scrollFx();
+   
+    // };
+
+    
+  // window.onscroll = function() {scrollFx()};
+  // var header = document.getElementById("myNav");
+  // var sticky = header.offsetTop;
+
+  // function scrollFx() {
+  //   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+  //     document.getElementById("final-nav").className = "sticky";
+  
+  //   } else {
+  //     document.getElementById("final-nav").className = "";
+
+  //   }
+  // }
       //  $(window).scroll(function() {
       //    $(".time-logo").css("opacity", 1 - $(window).scrollTop() / 250);
       //  });
+      // function myFunction() {
+      //   var x = document.getElementById("myTopnav");
+      //   if (x.className === "topnav") {
+      //     x.className += "responsive";
+      //   } else {
+      //     x.className = "topnav";
+      //   }
+      // }
+
+// window.onscroll = function() {
+// scroll();
+
+// };
+
+// var navbar = document.getElementById("final-nav");
+// var sticky = navbar.offsetTop;
+
+// function scroll() {
+// if (window.pageYOffset >= sticky) {
+// navbar.classList.add("sticky");
+
+
+// } else {
+// navbar.classList.remove("sticky");
+// }
+// }
+
+// var navbar = document.getElementById("navbar");
+// var sticky = navbar.offsetTop;
+
+// function myFunction() {
+//   if (window.pageYOffset >= sticky) {
+//     navbar.classList.add("sticky");
+
+//   } else {
+//     navbar.classList.remove("sticky");
+//   }
+// }
+
+
+
 
     
-       window.onscroll = function() {
-          scrollFx();
+      //  window.onscroll = function() {
+      //     scrollFx();
        
-        };
+      //   };
 
         
       // window.onscroll = function() {scrollFx()};
       // var header = document.getElementById("myNav");
       // var sticky = header.offsetTop;
 
-      function scrollFx() {
-        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-          document.getElementById("main-nav").className = "sticky";
-          // document.getElementById("faded-img").className = "slideUp"
+      // function scrollFx() {
+      //   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+      //     document.getElementById("stickynav").className = "sticky";
+       
   
-        } else {
-          document.getElementById("main-nav").className = "";
+      //   } else {
+      //     document.getElementById("stickynav").className = "";
     
-        }
-      }
+      //   }
+      // }
 
 //   window.onscroll = function() { fadeIn() };
   
