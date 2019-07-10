@@ -320,11 +320,11 @@ h2#boat {
   text-align: center;
 } 
 span.step {
-  background: #cccccc;
+  background: white;
   border-radius: 0.8em;
   -moz-border-radius: 0.8em;
   -webkit-border-radius: 0.8em;
-  color: #ffffff;
+  color: black;
   display: inline-block;
   /* font-weight: bold; */
   line-height: 1.6em;
@@ -431,6 +431,7 @@ padding-top: 90px;
   line-height: 1.5;
 }
 .bike-text {
+  margin: auto;
   width: 100%;
   color: white;
   padding: 20px;
@@ -719,18 +720,24 @@ background-size: cover;
   }
   .storyboard {
     width: 15%;
-   
+   margin: 20px;
+   float: left;
   }
   .story-imgs {
     display: inline-block;
-    width: 100%;
+    width: 100%; 
+
    
   }
  .story-div {
-
+   display: block;
+margin: 45px auto;
    background-color: #e3e6e7; 
    text-align: center; 
    padding: 20px; 
+  }
+  .sketchbook-dev {
+    margin: 50px auto;
   }
   .month {
     padding: 70px 25px;
@@ -902,23 +909,8 @@ ul#portfolio-filter li, ul#portfolio-list li {
 
 
 .navFolded{-webkit-backdrop-filter:blur(20px);background:rgba(230,230,230,.9);-moz-transition:background-color .3s;-moz-transition:all .5s ease-in-out;-webkit-transition:all .5s ease-in-out;transition:all .5s ease-in-out}
-.prana-img {
-width:100%; 
-padding: 25px 7.5px 25px 7.5px; 
-z-index: 100; 
 
-}
-.prana-web-img {
-  width: 100%;
-  display: block;
 
-  margin: 20px auto;
-  padding: 20px;
-  /* height: 400px;  */
-  /* position: relative; 
-  left: 100px;  */
-  z-index: 100;
-}
 .prana-top {
   padding-top: 200px;
   padding-bottom: 200px;
@@ -935,7 +927,7 @@ z-index: 100;
 .paint-top {
   padding-top: 250px;
   padding-bottom: 250px;
-  background-image: url("../images/paint.jpeg");
+  background-image: url("../images/paint.png");
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: cover;
@@ -991,7 +983,15 @@ z-index: 100;
   position: absolute;
   right: 100px;
   top: 100px;
-  padding: 10px;
+
+  padding: 15px;
+  background-color: black;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 2px;
+  border-radius: 5px;
 }
 .flayvor-top {
   padding-top: 200px;
@@ -1003,9 +1003,7 @@ z-index: 100;
   margin: 75px 10px 0px 10px;
   z-index: -1;
 }
-.flayvor-wood {
-  width: 100%;
-}
+
 .flayvor-bowl {
   width: 100%;
   z-index: 0;
@@ -1125,16 +1123,7 @@ margin: 30px auto;
  z-index: -1;
 }
 /* .square{width:4px;height:4px;background-color:#243828;margin:1.5px;float:left} */
-.prana-container {
-  /* height: 600px; */
-  /* margin : 0px; */
-/* background-color: #e3e6e7;  */
-background-color: white; 
-padding: 20px;
-margin: 25px;
-/* width: 100%; */
-text-align: center;
-}
+
 a.foot-link {
   color: black;
 }
@@ -1201,14 +1190,7 @@ a.foot-link {
   width: 100%;
 }
 
-.prana-pink-sq {
-  display: inline-block;
-  background-color: #c7babf; 
-  height: 250px; 
-  width: 100%; 
 
-  z-index: -3;
-}
 .serv-dash {
   border-top: 1px solid black;
   width: 100%;
@@ -1266,16 +1248,39 @@ margin: 0 150px;
   z-index: 2;
 
 }
+.prana-img {
+  width:100%; 
+  padding: 25px 7.5px 25px 7.5px; 
+  z-index: 100; 
+  
+  }
+  .prana-web-img {
+    width: 100%;
+    display: block;
+  
+    margin: 20px auto;
+    padding: 20px;
+    /* height: 400px;  */
+    /* position: relative; 
+    left: 100px;  */
+    z-index: 100;
+  }
 .pink-box {
 background-color: #c7babf;
  height: 355px;
  width: 100%;
  display: block;
 margin: 0 auto;
-
  position: inline;
  z-index: -100;
+}
+.prana-pink-sq {
+  display: inline-block;
+  background-color: #c7babf; 
+  height: 250px; 
+  width: 100%; 
 
+  z-index: -3;
 }
 .bike-text-box {
   position: absolute;
@@ -1376,13 +1381,9 @@ font-weight: 100; }
   width: 100%;
   display: block;
   padding: 0px 20px;
-  margin: 20px auto 40px auto;
+  margin: 20px auto;
 }
-.boat-container {
-  display: block;
-  margin: 0 auto;
-  padding: 0px 15px;
-}
+
 .siinc-div {
   margin: 0px 150px;
 }
@@ -1402,7 +1403,7 @@ height: 150px;
 }
 
 
- .flayvor-container, .siinc-container, .isc-container, .bat-design {
+.siinc-container, .isc-container, .bat-design {
   background-color: #e3e6e7; 
   z-index: -100;
   
@@ -1415,11 +1416,11 @@ height: 150px;
 .battized-container {
   background-color:#e3e6e7; 
 }
-.flayvor-container {
+/* .flayvor-container {
   padding: 75px;
   height: 550px;
 
-}
+} */
 .flayvor-web {
   /* background-color: #e3e6e7;  */
   height: 50px;
@@ -1435,6 +1436,7 @@ margin: 0 auto;
   display: block; 
   margin: 0 auto;
   padding: 75px;
+  z-index: 100;
 }
 .battized-container {
   display: block;
@@ -1463,7 +1465,26 @@ margin: 0 auto;
   background-size: cover;
 
 }
-.bike-container {
+.bike-container, .flayvor-container, .prana-container, .paint-container, .branding-container {
+  display: block;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+.flayvor-wood {
+  width: 100%;
+  z-index: -100;
+  background-image: url("../images/flayvor-wood.png");
+  padding-top: 150px;
+  padding-bottom: 150px;
+ 
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+}
+.bike-mocks {
+ margin: 50px 0px;
+}
+.boat-container {
   display: block;
   margin: 0 auto;
   padding: 0px 15px;
@@ -1485,10 +1506,10 @@ margin: 0 auto;
  
 }
 .prana-imgs {
-  width: 95%;
+  width: 100%;
   display: block;
   margin: 0 auto;
-  padding: 10px;
+  padding-top: 10px;
 }
 #details {
   padding: 10px;
@@ -2558,12 +2579,24 @@ margin: 10px auto;
  width: 100%;
 
     }
-    .bike-container {
+    .bike-container, .boat-container, .flayvor-container, .prana-container, .paint-container, .branding-container {
 max-width: 768px;
 
     }
     .bikepal-logo {
-      width: 70%;
+      width: 50%;
+    }
+    .prana-logo {
+      width: 60%;
+     }
+     .prana-work {
+      position: relative;
+      bottom: 0px;
+    }
+     .bat-top {
+      padding-top: 700px;
+      padding-bottom:700px;
+
     }
     .prana-headline {
       position: relative;
@@ -2582,6 +2615,11 @@ bottom: 0px; */
 align-content: center;
 align-items: center; */
   }
+  .prana-list-servs {
+    position: relative;
+    bottom: 0px;
+   
+   }
   
     .bats {
       padding: 0px !important;
@@ -2756,7 +2794,7 @@ padding: 20px;
   /* button.col.submitBtn {
   width: 100%;
 } */
-.bike-container {
+.bike-container, .boat-container, .bat-container, .flayvor-container, .prana-container, .paint-container, .branding-container {
   max-width: 992px;
 }
 .form-group{
