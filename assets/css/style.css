@@ -1496,7 +1496,7 @@ margin: 0 auto;
 }
 #shirt-layout {
   background-color: #e3e6e7;
-  height:500px;
+  height:400px;
   z-index: -1;
 /* 
   position: relative;
@@ -1505,6 +1505,7 @@ margin: 0 auto;
 
  
 }
+
 .prana-imgs {
   width: 100%;
   display: block;
@@ -2578,6 +2579,10 @@ margin: 10px auto;
     .details-div {
  width: 100%;
 
+    }
+    .bat-shirt-dt {
+  position: relative;
+  top: 100px;
     }
     .bike-container, .boat-container, .flayvor-container, .prana-container, .paint-container, .branding-container {
 max-width: 768px;
