@@ -2589,6 +2589,10 @@ margin: 10px auto;
  width: 100%;
 
     }
+    .bat-logo-mid {
+      position: relative;
+      top: 11px;
+    }
     .bat-shirt-dt {
   position: relative;
   top: 100px;
