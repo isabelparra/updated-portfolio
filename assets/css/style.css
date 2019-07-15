@@ -1408,11 +1408,7 @@ height: 150px;
   z-index: -100;
   
 }
-.isc-container {
-  width: 80%;
-  display: block;
-  margin: 0 auto;
-}
+
 .battized-container {
   background-color:#e3e6e7; 
 }
@@ -1466,6 +1462,13 @@ margin: 0 auto;
 
 }
 .bike-container, .flayvor-container, .prana-container, .paint-container, .branding-container {
+  display: block;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+.isc-container {
+  /* width: 100%; */
+
   display: block;
   margin: 0 auto;
   padding: 0px 15px;
@@ -2317,6 +2320,12 @@ div#navbarSupportedContent.collapse.navbar-collapse {
   float: right !important;
   align-content: flex-end;
 } 
+.isc-img {
+  width: 100%;
+  padding: 15px;
+  margin: 0 auto;
+}
+
 
 #final-nav {
   height: 75px; 
@@ -2584,7 +2593,7 @@ margin: 10px auto;
   position: relative;
   top: 100px;
     }
-    .bike-container, .boat-container, .flayvor-container, .prana-container, .paint-container, .branding-container {
+    .bike-container, .boat-container, .flayvor-container, .prana-container, .isc-container, .paint-container, .branding-container {
 max-width: 768px;
 
     }
