@@ -694,6 +694,10 @@ background-size: cover;
 }
 .yoga-img {
   width: 100%;
+  padding: 15px;
+}
+.yoga-img-vertical {
+  width: 104%;
 }
 /* span#typed-second {
   position: relative;
@@ -1060,7 +1064,7 @@ ul#portfolio-filter li, ul#portfolio-list li {
   width: 100%;
   padding: 0px;
   display: block;
-  margin: 5px auto;
+  margin: 0px auto;
 }
 #battized-boats {
   display: block;
@@ -2596,6 +2600,7 @@ margin: 10px auto;
     .bat-shirt-dt {
   position: relative;
   top: 100px;
+  padding: 0px 50px;
     }
     .bike-container, .boat-container, .flayvor-container, .prana-container, .isc-container, .paint-container, .branding-container {
 max-width: 768px;
@@ -2643,13 +2648,11 @@ align-items: center; */
       padding: 0px !important;
     }
     .batImgs {
-      width: 95%;
+      width: 100%;
     }
     #bat-logos {
       width: 100%;
-    
-      margin: 0px auto;
-    
+    margin: 50px auto;
     }
   .battizedImgs { 
     width: 95%;
