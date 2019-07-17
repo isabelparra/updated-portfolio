@@ -1310,8 +1310,11 @@ font-weight: 100; }
    background-color: blue;
 }
 .final-div {
+  margin: 50px auto;
   background-color: #f4f4f4; 
   width: 100%; 
+  position: relative;
+  left: 12px;
   /* height: 600px;
   padding: 50px 150px; */
 }
