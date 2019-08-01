@@ -25,11 +25,11 @@ html {
   z-index: 3;
   
 }
-#prana-side {
-  margin: auto 0px;
-  position: relative;
- 
-}
+  #prana-side {
+    margin: auto 0px;
+    position: relative;
+    top: 0px;
+  }
 
 .prana-details {
   position: relative;
@@ -1004,7 +1004,7 @@ ul#portfolio-filter li, ul#portfolio-list li {
 .flayvor-top {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-image: url("../images/grey7.jpeg");
+  background-image: url("../images/grey7.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1262,7 +1262,6 @@ margin: 0 150px;
   width:100%; 
   padding: 25px 7.5px 25px 7.5px; 
   z-index: 100; 
-  
   }
   .prana-web-img {
     width: 100%;
@@ -1444,8 +1443,10 @@ margin: 0 auto;
 .flayvor-steps {
   display: block; 
   margin: 0 auto;
-  padding: 0px;
+  padding: 50px;
   z-index: 100;
+  position: relative;
+  bottom: 70px;
 }
 .battized-container {
   display: block;
@@ -2527,7 +2528,14 @@ margin: 10px auto;
   .work-container {
     padding: 0px 75px;
    }
- 
+   .prana-img {
+      width: 90%;
+      margin: auto;
+  }
+  .prana-work {
+    position: relative;
+    top: 0px;
+  }
   .shadowImg {
     width: 70%;
     display: block;
@@ -2539,6 +2547,11 @@ margin: 10px auto;
   .testimonial, .pitch {
     margin: 30px 40px 20px 40px;
    }
+   #prana-side {
+    position: relative;
+    top: 120px;
+    
+  }
    .separator1 {
      width: 90%;
    }
@@ -2598,6 +2611,16 @@ margin: 10px auto;
     #prod-col-1 { 
       padding-right: 20px;
     } 
+    .prana-img {
+      width: 100%;
+      margin: auto;
+  }
+    
+    #prana-side {
+    
+      position: relative;
+      top: 0px;
+    }
     .details-div {
  width: 100%;
 
