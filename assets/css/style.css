@@ -428,7 +428,8 @@ span#typed {
 
 }
 .main-head {
-  background-color: #dac6bd;
+  /* background-color: #dac6bd; */
+  background-image: url("../images/nude-grain-nonbg.jpg");
   height: 865px;
   width: 100%;
 text-align: center;
