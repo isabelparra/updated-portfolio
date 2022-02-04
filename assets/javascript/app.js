@@ -1,5 +1,3 @@
-
-
 $(document).ready(function(){
   $(window).scroll(function(){
       if($(window).scrollTop() > 50){
@@ -9,8 +7,6 @@ $(document).ready(function(){
       }
   })
 })
-
-        
     // window.onscroll = function() {
     //   scrollFx();
    

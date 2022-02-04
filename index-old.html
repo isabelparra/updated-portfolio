@@ -7,9 +7,6 @@
     <!--CSS-->
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/nav.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/new-media.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/products.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -25,18 +22,17 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
 
+<!-- <body style="border: 16px solid #fff"> -->
   <body>
-   
   <nav id="final-nav" class="navbar navbar-expand-lg navbar-light">
-    <!-- <a class="navbar-brand" href="index.html"> 
-      <img class="nav-logo2" src="assets/images/logo.png">
-    </a> -->
+    <a class="navbar-brand" href="index.html"> 
+      <img class="nav-logo" src="assets/images/logo.png" style="display: none;">
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon" id="menuBtn"></span>
     </button>
-  
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
         <li class="nav-item">
           <a class="nav-link" href="about.html">ABOUT <span class="sr-only">(current)</span></a>
         </li>
@@ -44,38 +40,40 @@
           <a class="nav-link" href="contact.html">CONTACT</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="services.html">SERVICES</a>
-            </li>
-            <!-- <li class="nav-item">
-                <a class="nav-link" href="yoga.html">YOGA</a>
-              </li> -->
+          <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="services.html">SERVICES</a>
+        </li>
+          <!-- <li class="nav-item">
+              <a class="nav-link" href="yoga.html">YOGA</a>
+          </li> -->
       </ul>
     </div>
   </nav>
-  <div class="">
+    
+  <div class="main-container">
   <div class="top-header">
     <!-- <div class="new-header"> -->
       <div class="main-head">
-
+        <!-- <div class="new-banner"> -->
+      <!-- <img src="assets/images/header-test.jpg"> -->
+      
       <div class="col-12 logo-top" style="color: white;">
         <!-- <img src="assets/images/logo.png" class="site-logo"> -->
-        <!-- <img src="assets/images/new-logo.png" class="site-logo"> -->
-        <h1 class="temp-logo">DESIGN ROOTS</h1>
+        <img src="assets/images/new-logo.png" class="site-logo">
         <p class="main-title">CREATIVE STUDIO</p>
         <div class="half">
         <p class="brand-detail">Modern 
         <span id="typed"></span> 
         design for
         ambitious creatives.</p>
-                  <!-- <div class="informational">            
+                    <!-- <div class="informational">            
                       <p class="comments">
                         I work with clients to design strong, polished and practical brand identities and websites.
                         Experience, mindful design and one-on-one support combine to take your business from brainstorm to thriving brand.
                         </p>
-                    </div>  -->
+                    </div> -->
               </div>
         <!-- <span class="arrow"><i id="down-icon" class="material-icons">
           arrow_drop_down
@@ -115,21 +113,21 @@ ambitious creatives.</p>
     </div>
 </div> -->
   </div>  
-<div class="work-container">
-<div class="row" id="new_rcl">
-  <div class="column">
-    <img id="rcl-1" src="assets/images/CP_mockup.jpg">
-  </div>
-  <div class="column" >
-    <div class="row">
-      <div class="column"> <img class="right-col" src="assets/images/RCI-web-1.jpg"></div>
-      <div class="column"> <img class="right-col" src="assets/images/RCI-web-2.jpg"></div>
+  <div class="work-container">
+    <div class="row new_rcl">
+      <div class="column">
+        <img style="width: 100%" src="assets/images/CP_mockup.jpg">
+      </div>
+      <div class="column" style="padding: 5px 0px 0px 10px;">
+        <div class="row">
+          <div class="column"> <img style="width: 100%" src="assets/images/RCI-web-1.jpg"></div>
+          <div class="column"> <img style="width: 100%" src="assets/images/RCI-web-2.jpg"></div>
+        </div>
+        <div class="row">
+          <div class="column" style="padding-top:10px;"> <img style="width: 200%" src="assets/images/RCI-web-3.jpg"></div>
+        </div>
+      </div>
     </div>
-    <div class="row">
-      <div class="column"> <img id="rcl-3" src="assets/images/RCI-web-3.jpg"></div>
-    </div>
-  </div>
-</div>
     <!-- <div class="row">
       <div class="column">
         <a href="bikePal.html">
@@ -148,11 +146,11 @@ ambitious creatives.</p>
         </a>
       </div>
     </div> -->
-<div class="row">
-  <div class="col-12 btnSpace">
-    <a href="portfolio.html"><button class="viewAllBtn" >VIEW ALL WORK</button></a> 
+  <div class="row">
+    <div class="col-12 btnSpace">
+     <a href="portfolio.html"><button class="viewAllBtn" >VIEW ALL WORK</button></a> 
+    </div>
   </div>
-</div>
   </div>
   </div>
   <div class="chat">
@@ -260,19 +258,19 @@ ambitious creatives.</p>
           </div>
     </form>
 
-    <div class="row links" >
+    <div class="row links">
       <div class="col-12 col-md-6" style="padding:0px;">
         <p class= "texts">
           <a class="foot-link" href="mailto: info@isabel-parra.com" target="_top">
             info@isabel-parra.com
           </a><br>
          
-          <!-- <a class="foot-link" href="" target="blank">
+          <a class="foot-link" href="" target="blank">
           Instagram </a>
           • 
           <a class="foot-link" href="https://www.facebook.com/artnpractice/" target="blank">Facebook</a>
           • 
-          <a class="foot-link" href="https://www.pinterest.com/artnpractice" target="blank">Pinterest</a> -->
+          <a class="foot-link" href="https://www.pinterest.com/artnpractice" target="blank">Pinterest</a>
         </p>
       </div>
       <div class="col-12 col-md-6" style="padding:0px;">
@@ -299,7 +297,7 @@ ambitious creatives.</p>
   
   <!-- Lightbox -->
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script> -->
-<!-- <script>
+<script>
   window.onscroll = function() {
     scrollFx();
   };
@@ -309,7 +307,7 @@ ambitious creatives.</p>
       document.getElementById("faded-img").className = "slideUp"
     } 
   }
-</script> -->
+</script>
 
 <script language="javascript" type="text/javascript">
     $(function() {

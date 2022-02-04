@@ -1,0 +1,887 @@
+
+@media (min-width: 320px) { 
+/* ---- NAV BAR ---- */
+#final-nav {
+    height: 50px;
+}
+button.navbar-toggler {
+    position: relative;
+    left: 250px;
+}
+/* ---- END NAV BAR ---- */
+/* ---- HP HEADER ---- */
+.top-header {
+    padding-top:50px;
+}
+.logo-top {
+    margin: 0px 0px 0px 0px;
+    position: relative;
+    top: 75px;
+} 
+.main-title {
+    font-family: Dosis, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-align: center;
+    line-height: 1.55;
+    margin: 0px 0px 5px 0px;
+}
+.main-head {
+    width: auto;
+    height: 300px;
+}
+.temp-logo {
+    font-size: 38px;
+    padding: 35px 0px 0px 0px;
+}
+.brand-detail {
+    font-size: 11px;
+    /* line-height: 36.4px; */
+}
+/* ---- END HP HEADER ---- */
+.servicesBtn {
+    margin: 100px 0px 0px 0px;
+}
+
+.prana-img {
+    width: 90%;
+    margin: auto;
+}
+.prana-work {
+position: relative;
+top: 0px;
+}
+#prana-side {
+    position: relative;
+    top: 120px;
+
+}
+.shadowImg {
+width: 70%;
+display: block;
+margin: 0 auto;
+}
+.deskImg {
+width: 90%;
+}
+.testimonial, .pitch {
+margin: 30px 40px 20px 40px;
+}
+.separator1 {
+width: 90%;
+}
+#battized-front1 {
+
+padding: 0px;
+}
+#battized-front2 {
+padding: 0px;
+margin: 0px;
+}
+#battized-front3 {
+margin: 0px;
+padding: 0px;
+
+
+}
+.type-imgs {
+width: 100%;
+padding: 10px 0px;
+}
+.type-imgs-3 {
+width: 100%;
+padding: 0px 0px;
+}
+.type-imgs-2 {
+width: 95%;
+padding: 0px 0px 5px 0px;
+}
+.type-imgs-4 {
+width: 95%;
+padding: 0px 0px 0px 0px;
+}
+#rcl-1 {
+    width: 100%;
+}
+#rcl-3 {
+    width: 100%;
+}
+.right-col {
+width: 100%;
+}
+} 
+
+/* Small devices (landscape phones, 576px and up)*/ 
+
+/* ! FIX MOBILE NAV MENU BTN */
+@media (min-width: 420px) { 
+/* ---- NAV BAR ---- */
+button.navbar-toggler {
+    position: relative;
+    left: 320px;
+}
+}
+@media (min-width: 480px) { 
+/* ---- NAV BAR ---- */
+button.navbar-toggler {
+    position: relative;
+    left: 400px;
+}
+}
+@media (min-width: 620px) { 
+/* ---- NAV BAR ---- */
+button.navbar-toggler {
+    position: relative;
+    left: 550px;
+}
+}
+@media (min-width: 620px) { 
+/* ---- NAV BAR ---- */
+button.navbar-toggler {
+    position: relative;
+    left: 600px;
+}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+/* ---- NAV BAR ---- */
+button.navbar-toggler {
+    position: relative;
+    left: 700px;
+}
+/* ---- HEADER ---- */
+.main-head {
+    width: 100%;
+    height: 600px;
+}
+.temp-logo { 
+    /* padding: 130px 0px 50px 0px; */
+}
+.details-div {
+    width: 100%;
+}
+.top-header {
+    padding-top:50px;
+}
+.logo-top {
+    top: 200px;
+} 
+.main-title {
+  font-size: 18px;
+}
+.main-head {
+    /* width: auto;
+    height: 300px; */
+}
+.temp-logo {
+    font-size: 58px;
+}
+.brand-detail {
+    font-size: 16px;
+    padding-top: 15px;
+    font-weight: 300;
+}
+/* ---- END HEADER ---- */
+/* ---- .grid-item ---- */
+.grid-sizer,
+.grid-item {
+width: 33.333%;
+}
+.grid-item {
+    float: left;
+    border: 0px solid white;
+}
+.grid-item img {
+    display: block;
+    width: 100%; 
+    padding: 0px 5px 0px 5px;
+} 
+/* ---- END .grid-item ---- */
+/* ---- RCL  ---- */
+#rcl-1 {
+    width: 50%;
+    /* position: relative;
+    right:10px; */
+}
+#rcl-1 {
+    width: 100%;
+}
+#rcl-3 {
+    width: 200%;
+    position: relative;
+    bottom:10px;
+}
+.work-container {
+    /* padding: 0px 35px; */
+    /* padding-top:15px; */
+}
+
+/* ---- END RCL  ---- */
+.right-col {
+    /* width: 50%; */
+}
+.prod-details-col { 
+    margin-right: 50px;
+} 
+#prod-col-1 { 
+    padding-right: 20px;
+} 
+
+.prana-img {
+    width: 100%;
+    margin: auto;
+}
+    
+#prana-side {
+    position: relative;
+    top: 0px;
+}
+
+.bat-logo-mid {
+position: relative;
+top: 11px;
+}
+.bat-shirt-dt {
+position: relative;
+top: 100px;
+padding: 0px 50px;
+}
+.bike-container, .boat-container, .flayvor-container, .prana-container, .isc-container, .paint-container, .branding-container {
+max-width: 768px;
+
+}
+.boating-mock-mobile {
+margin: 50px auto;
+}
+.boating-wires {
+width:100%; 
+margin: 0 auto; 
+display: block;
+}
+.bikepal-logo {
+width: 50%;
+}
+.prana-logo {
+width: 60%;
+}
+.prana-work {
+position: relative;
+bottom: 0px;
+}
+.bat-top {
+padding-top: 350px;
+padding-bottom:350px;
+
+}
+.prana-headline {
+position: relative;
+bottom: 0px; 
+}
+.prana-details {
+position: relative;
+bottom: 0px;
+padding:5px;
+}
+.flayvor-top {
+padding-top: 200px;
+padding-bottom: 200px;
+
+}
+.flayvor-logo {
+
+padding: 20px;
+width: 70%;
+position: relative;
+top: 200px;
+}
+.prana-list {
+/* float: left; */
+/* position: relative;
+bottom: 0px; */
+/* text-align: center;
+align-content: center;
+align-items: center; */
+}
+.prana-list-servs {
+position: relative;
+bottom: 0px;
+
+}
+
+.bats {
+padding: 0px !important;
+}
+.batImgs {
+width: 100%;
+}
+#bat-logos {
+width: 100%;
+margin: 50px auto;
+}
+.battizedImgs { 
+width: 95%;
+display: block;
+margin: 0 auto; 
+}
+.bike-top {
+background-position: center center;
+}
+.about-details {
+width: 50%;
+padding: 0px;
+}
+.informational {
+    margin: 75px 20px;
+}
+.pages-footer {
+    /* padding: 20px; */
+}
+.links {
+    padding: 20px;
+}
+#home-form {
+    margin: 0px;
+}
+.site-logo {
+    width: 550px;
+}
+.artnpractice-logo {
+    width: 620px;
+}
+.time-logo {
+    position: relative;
+    top: 65px;
+}
+
+.deskImg {
+    width: 90%;
+}
+.shadowImg {
+    width: 50%;
+}  
+.texts-test, .separator1 {
+margin: 20px;
+}
+#right-text {
+margin: 0px;
+}
+#top-chat, #right-text, #last-cont, #chat-end{
+margin: 0px;
+}
+.testimonial, .pitch {
+margin-right: 25px;
+margin-left: 25px;
+}
+/* .texts-foot {
+
+    float: left;
+
+} */
+.column {
+    float: left;
+    width: 50%;
+    /* padding: 15px; */
+}
+
+.column img {
+    padding: 10px;
+    vertical-align: middle;
+}
+.chat {
+    padding: 20px 150px 20px 150px;
+}
+#details {
+    padding: 20px;
+}
+#footer {
+    padding: 0px 20px; 
+}
+
+ul#portfolio-list{padding-top:0px}
+#jason{margin-top:10px}
+#aboutMe,ul#portfolio-filter{
+margin:-20px 0;width:auto;border-bottom:none}
+ul#portfolio-list{padding-top:0px}
+ul#portfolio-filter{    
+    display:inline-flex;
+line-height:145px}
+#aboutMe{
+    display:initial;
+    height:64px;
+    line-height:104px;
+    padding-right:0;
+    padding-left:0;
+    border-top:none
+}
+#vertLine{display:inline}
+#jason{margin-top:0}
+.parallax-main { 
+    height: 400px;
+}
+#logo {
+    padding-top: 20px;
+    width: 800px;
+}
+#aboutMe {
+    display: initial;
+    height: 64px;
+    line-height: 104px;
+    padding-right: 0;
+    padding-left: 0;
+    border-top: none;
+}
+ul#portfolio-filter {
+    display: inline-flex;
+    line-height: 145px;
+}
+#aboutMe, ul#portfolio-filter {
+    margin: -20px 0;
+    width: auto;
+    border-bottom: none;
+}
+}
+/* copied from media.css */
+@media (min-width: 865px) {
+    /* ---- NAV BAR ---- */
+button.navbar-toggler {
+    position: relative;
+    left: 800px;
+}
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+#rcl-3 {
+    bottom:5px;
+}
+#footer {
+    width: 100%;
+    padding: 0px 25px;
+}
+/* #footer-form {
+    padding: 20px;
+} */
+
+.book-details {
+margin: 20px;
+padding: 20px;
+}
+.about-footer {
+    margin: 20px;
+}
+.index-footer {
+    position: relative;
+    bottom: 200px;
+    display: block;
+    margin: 0px 45px;
+    /* padding: 0px 55px; */
+}
+.pages-footer {
+    margin: 0px 55px;
+}
+.informational { 
+    margin: 75px 30px;
+}
+.about-details {
+    margin: 20px;
+    width: auto;
+    }
+/* button.col.submitBtn {
+width: 100%;
+} */
+.bike-container, .boat-container, .bat-container, .flayvor-container, .prana-container, .paint-container, .branding-container {
+max-width: 992px;
+}
+.form-group{
+/* width: 33.333% !important;
+float: left !important;
+    */
+
+}
+
+.links {
+margin-top: 25px;
+padding: 0px 25px;
+}
+#home-form {
+margin: 0px 7px;
+}
+
+.work-container {
+    padding: 0px 75px;
+    
+}
+#details {
+    float: right;
+    width: 50%;
+    position: relative;
+    bottom: 505px;
+    right: 100px;
+}
+.main-title {
+    font-size: 18px;
+    line-height: 34.1px;
+}
+.brand-detail {
+    font-size: 26px;
+    line-height: 36.4px;
+
+}
+.half { 
+    width: 60%; 
+    display: block;
+    margin: 0 auto;
+}
+.texts-test {
+    margin: 55px 0px 0px 0px;
+}
+.deskImg {
+    width: 35%;
+    float: left;
+}
+.chat {
+    padding: 30px 35px 20px 35px; 
+}
+.test-quote {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 36px;
+}
+.testimonial {
+    width: 50%;
+    float: left;
+    margin: 25px 50px;
+    padding: 0px;
+    
+    
+    }
+    .separator1 {
+    display: none;
+    }
+    .separator2 {
+    border-top: 1px solid black;
+    max-width: 100%;
+    margin: auto;
+    }
+    #right-text {
+    float: right;
+    width: 50%;
+    position: relative;
+    bottom: 100px;
+    right: 25px;
+    
+    }
+    .chat {
+    height: 950px;
+    }
+    .pitch {
+    margin-right: 0px;
+    }
+    .shadowImg {
+    width: 70%;
+    float: left;
+    position: relative;
+    bottom: 255px;
+    left: 35px;
+    }
+    /* #chat-end{
+    width: 50%;
+    float: right;
+    position: relative;
+    bottom: 350px;
+
+    } */
+#smallLogo {
+    display: inline;
+}
+#smallLogo{
+    height: 35px;
+    position: relative; 
+    top: 5px;
+}
+
+span#typed-second, span#typed-third {
+    /* font-size: 60px; */
+    /* font-weight: 700 */
+}
+
+.parallax-main { 
+    height: 450px;
+}
+#logo {
+    padding-top: 20px;
+    width: 900px;
+    }
+
+
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+.index-footer {
+margin: 0px 50px;
+}
+/* #bigLogo,.overlay,.projects{text-align:right} */
+.bat-top {
+padding-top: 550px;
+padding-bottom:550px;
+
+}
+#bigLogo {
+/* 
+position: relative;
+top: 200px;
+right: 50px; */
+}
+/* 
+div.grid-item {
+    padding-top: 0px;
+    padding-bottom: 0px;
+} */
+
+/* #footer, */
+
+/* .footerContent, */
+/* footer {
+position:relative;
+margin-top: 150px;
+height: 150px;
+clear: both;
+padding-top: 20px;
+} */
+/* #footer{
+clear:both;
+background-color:#FFF;
+float:left}
+
+.footerContent{margin:0 auto} */
+
+/* .footerContent, */
+/* #footer{text-align:center;
+width:100%;
+}
+.contactMe,.followMe{margin:50px 2% 50px 4%;float:left}
+#context,#littleLogo{display:none}
+.contactMe{text-align:left}
+.bigSentence{padding:50px 0 50px 4%;float:left;font-size:20px;font-weight:300}
+.copyright{clear:both;margin:10px 4%;padding-top:10px;padding-bottom:10px;text-align:center;width:90.5%;font-size:16px;font-weight:300;border-top:1px solid #b0b0b0}  */
+
+/* #jason a,#jason a:hover{text-decoration:underline} */
+
+
+/* #bigLogo,.overlay,.projects{text-align:right} */
+
+#bigLogo {
+/* 
+position: relative;
+top: 200px;
+right: 50px; */
+}
+/* 
+div.grid-item {
+    padding-top: 0px;
+    padding-bottom: 0px;
+} */
+
+/* #footer, */
+
+/* .footerContent, */
+/* footer {
+position:relative;
+margin-top: 150px;
+height: 150px;
+clear: both;
+padding-top: 20px;
+} */
+/* #footer{
+clear:both;
+background-color:#FFF;
+float:left}
+
+.footerContent{margin:0 auto} */
+
+/* .footerContent, */
+/* #footer{text-align:center;
+width:100%;
+} */
+.parallax-main {
+    height: 500px;
+}
+.work-container {
+    padding: 0px 100px;
+
+}
+.informational {
+    margin: 75px 100px;}
+
+
+.deskImg {
+width: 35%;
+overflow: hidden;
+margin: 0px 50px;
+
+}
+.testimonial {
+width: 45%;
+margin: 50px 25px 25px 25px;
+}
+#right-text {
+position: relative;
+bottom: 150px;
+width: 40%;
+}
+#test-quote {
+margin-top: 0px;
+}
+.shadowImg {
+width: 55%;
+position: relative;
+left: 125px;
+
+}
+.chat {
+height: 925px;
+}
+#details {
+padding: 0px 100px;
+}
+
+}
+@media (min-width: 1300px) and (max-width : 2600px) {
+.main-head {
+
+    width: 100%;
+    height: 1000px;
+    text-align: center;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+
+}
+.chat {
+    height: 950px;
+}
+.informational {
+margin: 75px 125px;
+}
+.work-container {
+    margin: 0px 50px;
+    padding: 0px 250px;
+    
+}
+    .shadowImg {
+    max-width: 40%;
+    position: relative;
+    bottom: 300px;
+    left:270px;
+    
+    }
+    #right-text{
+    position: relative;
+bottom: 50px;
+right: 150px;
+
+
+
+}
+.pages-footer {
+    margin: 0px 50px;
+    padding: 0px 150px;
+}
+.index-footer {
+    margin: 50px 150px;
+    padding: 0px 50px;
+    position: relative;
+    bottom: 400px;
+}
+
+
+
+/* 
+.picContainer,.picContainerIdle,.picContainerIdle:hover{box-shadow:0 1px 1px rgba(0,0,0,.15);outline:#fff solid 0}
+#jasoninside{width:90%;padding:5%;margin:0 auto}
+=======
+
+/* 
+.picContainer,.picContainerIdle,.picContainerIdle:hover{box-shadow:0 1px 1px rgba(0,0,0,.15);outline:#fff solid 0}
+#jasoninside{width:90%;padding:5%;margin:0 auto}
+
+*/
+
+/* @media screen and (min-width:1515px){
+.projects{
+    width:1515px;
+    margin:0 auto
+} */
+
+/* h1 {
+margin:0;
+padding:0;
+border:0;
+font-size:100%;
+font:inherit;
+vertical-align:baseline
+} */
+
+
+/* @media screen and (min-width:1515px){
+.projects{
+    width:1515px;
+    margin:0 auto
+} */
+
+/* h1 {
+margin:0;
+padding:0;
+border:0;
+font-size:100%;
+font:inherit;
+vertical-align:baseline
+} */
+
+    .deskImg {
+    max-width: 20%;
+    }
+
+    #top-chat {
+    margin-top: 10px;
+    }
+    #details {
+    position: relative;
+right: 150px;
+    }
+}
+@media (min-width: 1800px) {
+.index-footer { 
+    margin: 0px 200px;
+    padding: 0px 100px;
+}
+.pages-footer {
+    margin: 0px 150px;
+    padding: 0px 200px;
+}
+.informational {
+    margin: 75px 250px;
+    }
+}
+@media (min-width: 1800px) {
+
+/* #details {
+    position: relative;
+right: 250px;
+padding: 0px 150px;
+}
+.shadowImg {
+    position: relative;
+    bottom: 300px;
+    left:300px;
+} */
+/* .work-container {
+padding: 0px 400px;
+} */
+}
+@media (min-width:2500px) {
+.main-head {
+    height: 900px;
+}
+}
