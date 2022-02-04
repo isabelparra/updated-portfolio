@@ -8,6 +8,9 @@ button.navbar-toggler {
     position: relative;
     left: 250px;
 }
+.nav-logo2 {
+    width: 150px;
+}
 /* ---- END NAV BAR ---- */
 /* ---- HP HEADER ---- */
 .top-header {
