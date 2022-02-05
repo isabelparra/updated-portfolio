@@ -1,13 +1,13 @@
 
-@media (min-width: 320px) { 
+/* @media (min-width: 320px) {  */
 /* ---- NAV BAR ---- */
 #final-nav {
     height: 50px;
 }
-button.navbar-toggler {
+/* button.navbar-toggler {
     position: relative;
     left: 250px;
-}
+} */
 .nav-logo2 {
     width: 150px;
 }
@@ -41,6 +41,13 @@ button.navbar-toggler {
 .brand-detail {
     font-size: 11px;
     /* line-height: 36.4px; */
+}
+/* HP new layout */
+#new-text {
+
+}
+.new-testimonial {
+    margin: 20px 15px;
 }
 /* ---- END HP HEADER ---- */
 .servicesBtn {
@@ -113,47 +120,18 @@ padding: 0px 0px 0px 0px;
 .right-col {
 width: 100%;
 }
-} 
+/* }  */
 
 /* Small devices (landscape phones, 576px and up)*/ 
 
-/* ! FIX MOBILE NAV MENU BTN */
-@media (min-width: 420px) { 
-/* ---- NAV BAR ---- */
-button.navbar-toggler {
-    position: relative;
-    left: 320px;
-}
-}
-@media (min-width: 480px) { 
-/* ---- NAV BAR ---- */
-button.navbar-toggler {
-    position: relative;
-    left: 400px;
-}
-}
-@media (min-width: 620px) { 
-/* ---- NAV BAR ---- */
-button.navbar-toggler {
-    position: relative;
-    left: 550px;
-}
-}
-@media (min-width: 620px) { 
-/* ---- NAV BAR ---- */
-button.navbar-toggler {
-    position: relative;
-    left: 600px;
-}
-}
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
 /* ---- NAV BAR ---- */
-button.navbar-toggler {
+/* button.navbar-toggler {
     position: relative;
     left: 700px;
-}
+} */
 /* ---- HEADER ---- */
 .main-head {
     width: 100%;
@@ -187,6 +165,7 @@ button.navbar-toggler {
     font-weight: 300;
 }
 /* ---- END HEADER ---- */
+.hp-3, .hp-bagel{ width: 30%; float: left;}
 /* ---- .grid-item ---- */
 .grid-sizer,
 .grid-item {
@@ -217,7 +196,9 @@ width: 33.333%;
     bottom:10px;
 }
 .work-container {
-    /* padding: 0px 35px; */
+    padding: 0px 55px;
+    position: relative;
+    right: 5px;
     /* padding-top:15px; */
 }
 
@@ -448,9 +429,12 @@ ul#portfolio-filter {
 /* copied from media.css */
 @media (min-width: 865px) {
     /* ---- NAV BAR ---- */
-button.navbar-toggler {
+/* button.navbar-toggler {
     position: relative;
     left: 800px;
+} */
+.work-container {
+    padding: 0px 75px;
 }
 }
 /* Large devices (desktops, 992px and up) */
