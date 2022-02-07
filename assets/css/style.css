@@ -15,9 +15,9 @@ html {
 
 #content{padding:0}
 .logo-top {
-  margin: 0px 0px 0px 0px;
-  position: relative;
-  top: 250px;
+  /* margin: 100px 0px 0px 0px; */
+  /* position: relative;
+  top: 350px; */
 } 
 /* .main-title {
   font-family: Dosis, sans-serif;
@@ -419,10 +419,10 @@ span#typed {
   /* font-family: 'Libre Baskerville', serif; */
   /* font-family: 'Playfair Display', serif; */
   /* font-family: 'Ramaraja', serif; */
-  width: 375px;
+  width: 90%;
   height: auto;
   display: block;
-  margin: 0 auto;
+  margin: 10px auto;
 }
 
 .testimonial, .pitch {
