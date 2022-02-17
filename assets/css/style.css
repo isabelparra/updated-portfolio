@@ -67,7 +67,8 @@ html {
 
 .new-layout {
   background-color: #C1B6B6;
-  height:300px;
+  height:auto;
+  padding: 15px 0px;
 }
 .to-top {
   position: fixed;
@@ -135,6 +136,9 @@ html {
   padding: 0px;
 
 }
+.brand-logos {
+  padding-bottom: 35px;
+}
 
 
 
@@ -190,7 +194,7 @@ html {
   /* background-color: #E0E0E0; */
   height: auto;
   width: auto;
-  padding: 20px 35px 0px 35px;
+  padding: 20px 25px 0px 25px;
   /* margin-right: 20px;
   margin-left: 20px; */
 }
@@ -2350,11 +2354,15 @@ margin: 10px auto;
 
 .hp-headshot-bkg {
   background-color: #2A4034; 
-  height:275px;
+  /* height:270px; */
+  height: auto;
   position:relative;
   top: 0;
   left: 0;
  
+}
+.hp-desk {
+  display: none;
 }
 .hp-headshot {
   width: 100%;
@@ -2365,21 +2373,34 @@ margin: 10px auto;
   top: 0;
   left: 0;
   margin-top: 15px;
+  margin-bottom: 15px;
 }
 .meet-the-designer {
-  float:right;
+
   width: 90%;
-  padding: 40px 0px 0px 20px;
+  padding: 20px 0px 0px 15px;
 }
 #designer-block {
   padding-bottom:20px;
+}
+.hp-heart {
+  /* color: #e25555; */
+  
+}
+.new-foot {
+  width:100%;
+}
+.hp-footer {
+  /* height: 20px; */
+  text-align: center;
+  padding: 10px 0px 20px 0px;
 }
 .hp-serv {
   width: 90%;
   text-align: center;
   display: block;
   margin: 0 auto;
-  padding: 20px 0px;
+  padding: 10px 0px;
   /* float:right; */
 }
 .hp-bagel {
@@ -2388,7 +2409,9 @@ margin: 10px auto;
   margin: 0 auto;
   padding-top: 25px;
 }
-
+.hp-form-comm {
+  margin-bottom: 10px;
+}
   
 #aboutMe, ul#portfolio-filter{ display: inline-block;}
 
@@ -2460,3 +2483,25 @@ margin: 10px auto;
   .dropdown:hover .dropdown-content {
     display: block;
   } 
+
+
+  .hp-icon {
+    border: 1px solid black; 
+    width: 20%; 
+    display: block; 
+    margin: 0 auto; 
+  }
+
+/* ---- HP FORM ---- */
+
+#hpInputName, #hpInputPhone, #hpInputEmail, #hpBusinessName, #hpInputComment {
+
+  border-radius: 0;
+  border-style: none;
+  width: 98%;
+  display: block;
+  margin: 0 auto;
+  
+}
+
+/* ---- END HP FORM ---- */
