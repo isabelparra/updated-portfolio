@@ -32,12 +32,14 @@ function submitForm(e) {
     saveUser(name, email, phone, company, message);
 console.log(name, email, phone, company, message);
     //show alert
-    // document.querySelector('.alert').style.display = 'block';
+    document.querySelector('.alert').style.display = 'block';
+    document.querySelector('.submitBtn').style.display = 'none';
 
     //hide alert
-    // setTimeout(function() {
-    //     document.querySelector('.alert').style.display = 'none';
-    // }, 3000);
+    setTimeout(function() {
+        document.querySelector('.alert').style.display = 'none';
+        document.querySelector('.submitBtn').style.display = 'block';
+    }, 3000);
 
     //clear form
     document.getElementById('hp-form').reset();
