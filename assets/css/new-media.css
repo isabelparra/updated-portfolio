@@ -1099,13 +1099,16 @@ right: 150px;
     .meet-the-designer {
         padding-left:120px;
     }
+    .new-grid-3 {
+        max-width: 85%;
+    }
 }
 @media (min-width: 1800px) {
 .site-logo {
     width: 32%;
 }
 .work-container {
-    width:80%;
+    width:75%;
 }
 .main-title {
     font-size: 20px;
@@ -1141,6 +1144,12 @@ right: 150px;
 .informational {
     margin: 75px 250px;
 }
+
+}
+@media (min-width: 2000px) {
+    .chat {
+        padding:30px 450px 20px 450px;
+    }
 }
 
 @media (min-width:2500px) {
@@ -1148,6 +1157,10 @@ right: 150px;
     /* height: 900px; */
 }
 .work-container {
-    margin: 0px 100px;
+    width:70%;
+    /* margin: 0px 100px; */
+}
+.chat {
+    padding:30px 600px 20px 600px;
 }
 }
