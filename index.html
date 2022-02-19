@@ -23,7 +23,11 @@
     <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Ramaraja" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-   
+    
+    
+   <!--Firebase Script -->
+  <script src='https://www.gstatic.com/firebasejs/4.12.0/firebase.js'></script>
+
   </head>
 
   <body>
@@ -215,7 +219,11 @@ ambitious creatives.</p>
 
 <div class="new-layout">
   <div class="hp-icon" >SERVICES</div>
-  <p class="hp-serv">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore odit odio tempore mollitia dolorem temporibus perferendis pariatur! Doloremque, velit, repellendus nostrum laudantium iure rerum tempora culpa voluptatem sequi, inventore vel?</p>
+  <p class="hp-serv">
+   Build confidence in your brand with the use of beautiful, strategic design. Services include web design and analysis, content strategy, digital marketing, brand redesign and style guidelines.
+    <!-- My goal is to provide you with a solid visual foundation to build your business upon. -->
+<!-- Let's Work Together -->
+</p>
 </div>
 <!-- <div class="new-layoutContainer"> -->
   <div class="new-grid-3">
@@ -240,9 +248,14 @@ ambitious creatives.</p>
 <!-- </div> -->
 
 <div class="last-p">
-  <p class="hp-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, nihil odio dolores excepturi placeat non, ipsa perspiciatis sunt soluta aspernatur a consequatur impedit in corporis necessitatibus maiores illum atque nam.</p>
-
-</div> 
+  <p class="hp-text">
+     <!-- With the use of beautiful, strategic design,  -->
+     <!-- My goal is to help you develop absolute confidence and pride in your brand style and to provide you with a solid visual foundation to build your business upon.  
+     If you're ready for a new brand style or website, I would love to hear your story and work together. -->
+    
+     Working in collaboration with my clients, I take your clever ideas and goals and turn them into tangible, professional designs. During our one-on-one consultations I develop a connection and understanding of your business and help walk you through topics such as marketing, goals, content strategy, style and so much more to help you gain absolute clarity on your brand. It's the information that I get from these meetings that helps me develop graphic identities, brand materials and websites that kick goals and contributes to your success as a business owner.
+    </p>
+    </div> 
 <div class="brand-logos"  style="display:none;">
   <div class="row">
     <div class="col">
@@ -272,7 +285,7 @@ ambitious creatives.</p>
   </div>
  
 </div>
-<div class="new-form hp-form">
+<form class="new-form hp-form" id="hp-form">
   <div class="hp-row">
     <div class="hp-contact-box" >
       <h3 class="hp-contact">CONTACT</h3>
@@ -295,20 +308,20 @@ ambitious creatives.</p>
   </div>
   <div class=""  >
     <div class="">
-      <input type="text" class="form-control" id="hpBusinessName" aria-describedby="businessHelp" placeholder="Your Business Name">
+      <input type="text" class="form-control" id="hpCompany" aria-describedby="companyHelp" placeholder="Your Business Name">
     </div> 
   </div>
   <div class="" >
     <div class="hp-form-comm">
-      <input type="text" class="form-control" id="hpInputComment" aria-describedby="commentsHelp" placeholder="Comments">
+      <input type="text" class="form-control" id="hpMessage" aria-describedby="messageHelp" placeholder="Message">
     </div> 
   </div>
   <div class="submitBtn-row"  >
     <div class="form-group">
-      <button type="submit" class="submitBtn">SUBMIT</button>
+      <button type="submit" class="submitBtn" id="submit-hp">SUBMIT</button>
     </div>
   </div>
-</div>
+</form>
 
 
  <!-- <div class="index-footer">
@@ -381,14 +394,18 @@ ambitious creatives.</p>
   <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <!--Javascript-->
-  <script type="text/javascript" src="assets/javascript/app.js"></script>
+  
   <!-- <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script> -->
   <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
   <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
   <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
-
+ <!--Firebase Script -->
+ <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+ <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+ <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+ <script type="text/javascript" src="assets/javascript/app.js"></script>
+ <script type="text/javascript" src="assets/javascript/form.js"></script>
   <!-- Lightbox -->
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script> -->
 <!-- <script>
