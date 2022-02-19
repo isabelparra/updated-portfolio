@@ -2,7 +2,7 @@
 var config = {
     apiKey: "AIzaSyCVZc2v8dhL3-TCTvoFT0Q2UhllIi-94A8",
     authDomain: "portfolio-fb4a1.firebaseapp.com",
-    databaseURL: "https://portfolio-fb4a1.firebaseio.com",
+    databaseURL: "https://portfolio-fb4a1-default-rtdb.firebaseio.com",
     projectId: "portfolio-fb4a1",
     storageBucket: "portfolio-fb4a1.appspot.com",
     messagingSenderId: "496056002295"
