@@ -189,12 +189,19 @@ width: 100%;
         width: 65%;
         margin-top: 10px;
     }
+    #rcl-header {
+        font-size: 75px;
+        padding: 250px 0px 300px 0px;
+    }
 }
 /* Small devices (landscape phones, 576px and up)*/ 
 @media (min-width: 576px) {
     .site-logo {
         width: 60%;
 
+    }
+    #rcl-header {
+        font-size: 7rem;
     }
 }
 
@@ -459,7 +466,7 @@ padding: 0px;
 .links {
     padding: 20px;
 }
-#home-form {
+#small-form {
     margin: 0px;
 }
 
@@ -683,7 +690,7 @@ float: left !important;
 margin-top: 25px;
 padding: 0px 25px;
 }
-#home-form {
+#small-form {
 margin: 0px 7px;
 }
 
