@@ -24,6 +24,8 @@
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Ramaraja" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <!--Firebase Script -->
+  <script src='https://www.gstatic.com/firebasejs/4.12.0/firebase.js'></script>
   </head>
 <body style="border: 16px solid #fff">
   <div id="back2">
@@ -144,21 +146,22 @@
       </div>
     </div>
 
-          <form  class="row" id="home-form">
+          <form  class="row" id="small-form">
               <div class="col-12 col-lg-4 " style="padding:0px;" >
                   <div class="form-group">
-                <input type="name" class="form-control" id="exInputName" aria-describedby="nameHelp" placeholder="Name">
+                <input type="name" class="form-control" id="newsName" aria-describedby="nameHelp" placeholder="Name">
               </div>
             </div>
            
               <div class="col-12 col-lg-4"  style="padding:0px;">
                   <div class="form-group">
-                  <input type="email" class="form-control" id="exInputEmail" aria-describedby="emailHelp" placeholder="E-mail">
+                  <input type="email" class="form-control" id="newsEmail" aria-describedby="emailHelp" placeholder="E-mail">
                 </div> 
             </div>
             
                 <div class="col-12 col-lg-4"  style="padding:0px;">
                     <div class="form-group">
+                      <div class="alert-sm">Thank you for subscribing!</div>
                   <button type="submit" class="submitBtn">SUBSCRIBE</button>
                 </div>
                 </div>
@@ -196,6 +199,7 @@
 
 <!--Javascript-->
 <script type="text/javascript" src="assets/javascript/app.js"></script>
+<script type="text/javascript" src="assets/javascript/form-sm.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
