@@ -18,7 +18,7 @@ html {
   text-shadow: 0 0 5px rgb(0 0 0 / 30%);
   color: #fff;
   /* font-size: 2rem; */
-  font-size: 55px;
+  font-size: 2rem;
   line-height: 1.2;
   letter-spacing: 2px;
   /* font-size:100%; */
@@ -29,6 +29,122 @@ html {
   /* font-size: 65px; */
   /* line-height: 100px; */
 
+}
+.rcl-title {
+  font-family: "ProximaNova-Regular", Arial, sans-serif;
+  white-space: nowrap;
+  /* text-shadow: 0 0 5px rgb(0 0 0 / 30%); */
+  color: #15264c;
+  /* font-size: 2rem; */
+  font-size: 0.875rem;
+  line-height: 1.2;
+  letter-spacing: 2px;
+  /* font-size:100%; */
+  word-spacing: 4px;
+  margin:0;
+  text-align: center;
+  /* padding: 300px 0px; */
+}
+.rcl-title2 {
+  font-family: 'Kapra', Impact, 'Arial Narrow', Arial, sans serif;
+  /* white-space: nowrap; on for desktop */
+  /* text-shadow: 0 0 5px rgb(0 0 0 / 30%); */
+  color: #15264c;
+  font-size: 2rem;
+  /* font-size: 2.625rem; */
+  line-height: 1.2;
+  letter-spacing: 2px;
+  /* font-size:100%; */
+  word-spacing: 4px;
+  margin:0;
+  text-align: center;
+  
+}
+.slantLayout {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  margin: auto;
+  background-size: cover;
+}
+
+#slantLayout_container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  /* -ms-flex-pack: center; */
+  justify-content: center;
+
+}
+.slantLayout__container .content {
+  color: white;
+  z-index: 5;
+  position: relative;
+  width: 100%;
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
+  padding-left: 1.875rem;
+  padding-right: 1.875rem;
+  text-align: center;
+}
+#slantLayout_container:before {
+  content: ' ';
+  background-image: -webkit-linear-gradient(left top,white 0,white 49.6%,transparent 50%);
+  background-image: -moz-linear-gradient(left top,white 0,white 49.6%,transparent 50%);
+  background-image: linear-gradient(to right bottom,white 0,white 49.6%,transparent 50%);
+  position: absolute;
+  width: 110%;
+  height: 4.5rem;
+  top: 0;
+  left: -5%;
+  z-index: 3;
+}
+#slantLayout_container .content {
+  color: white;
+  z-index: 5;
+  position: relative;
+  width: 100%;
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
+  padding-left: 1.875rem;
+  padding-right: 1.875rem;
+  text-align: center;
+}
+#slantLayout_container:after {
+  content: ' ';
+  background-image: -webkit-linear-gradient(right bottom,white 0,white 49.6%,transparent 50%);
+  background-image: -moz-linear-gradient(right bottom,white 0,white 49.6%,transparent 50%);
+  background-image: linear-gradient(to left top,white 0,white 49.6%,transparent 50%);
+  position: absolute;
+  width: 110%;
+  height: 4.5rem;
+  bottom: 0;
+  left: -5%;
+  z-index: 3;
+}
+.rcl-layout {
+  margin-top:50px;
+  /* height: 450px; */
+}
+.rcl-container {
+  display: block;
+  margin: 25px auto;
+}
+.hp-slant-bckg {
+  background-image:url("../images/destination-hub-caribbean.jpeg"); 
+  background-size: cover;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    background-position: center center;
 }
 .alert {
   display:none;
@@ -1614,6 +1730,7 @@ padding: 75px 100px;
  width: 50%;
  display: block;
  margin: 0 auto;
+ padding-top:75px;
 }
 /* .parallax-container {
   height: 400px;
@@ -2457,7 +2574,7 @@ margin: 10px auto;
 .meet-the-designer {
 
   width: 90%;
-  padding: 20px 0px 0px 15px;
+  padding: 20px 0px 0px 25px;
 }
 #designer-block {
   padding-bottom:20px;
@@ -2566,14 +2683,99 @@ margin: 10px auto;
 
   .hp-icon {
     border: 1px solid black; 
-    width: 10%; 
+    width: 50%; 
     display: block; 
-    margin: 0 auto; 
+    margin: 10px auto;
     padding: 10px 0px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 22.5px;
   }
+  .hp-flourish {
+    text-align: center;
+    display: block; 
+    font-size: 22px;
+    font-weight: 300;
+    margin: 55px auto;
+  }
+
   .learn-more {
   text-transform: uppercase;
+  color: black;
 
+  }
+  .learn-more-v2 {
+    font-weight: 600;
+    display: inline;
+  }
+  .intl-mkt {
+    color: rgba(0, 94, 220, 0.5);
+    display: inline-flex;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    line-height: 16px;
+    text-transform: uppercase;
+    font-family: "ProximaNova-Regular", Arial, sans-serif;
+    text-decoration: none;
+    outline: none;
+    
+    padding: 10px 30px 10px 30px;
+  }
+  .countries {
+    display: block;
+    margin: 0 auto;
+  }
+  .intl-mkt-content {
+    padding: 35px 0px 0px 0px;
+  
+    text-align: center;
+  }
+  .rcl-booked {
+    color:white;
+  width:80%;
+  margin: 0 auto 80px auto;
+  text-align:center;
+  }
+  .rcl-heading {
+    margin: 0px;
+    font-family: Kapra, "Open Sans", sans-serif;
+    text-transform: uppercase;
+    /* font-size:4rem; */
+    font-size:3rem;
+    padding-top:50px;
+  }
+  .paragraphCopy {
+    font-family: "ProximaNova-Regular", Arial, sans-serif;
+    /* font-size: 1.125rem; */
+    font-size:0.75rem;
+    line-height: 150%;
+    padding: 15px 0px 0px 0px;
+  }
+  .rcl-page {
+    width:35%;
+    float:left;
+  }
+  .rcl-page3 {
+    width:30%;
+    float:left;
+  }
+  .rcl-page2 {
+    width:45%;
+    float:right;
+  }
+  .return-to-port {
+    clear: both;
+  }
+  #rcl-subHead {
+    /* font-size:  1.375rem; */    font-size:  1rem;
+    font-family: "ProximaNova-Regular", Arial, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 200;
   }
   .desk-css {
     display:none;
@@ -2592,3 +2794,7 @@ margin: 10px auto;
 }
 
 /* ---- END HP FORM ---- */
+
+
+
+

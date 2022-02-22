@@ -99,15 +99,7 @@
     width: 100%;
     padding: 0px 0px 10px 0px;
 }
-.hp-icon {
-    margin: 10px auto;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    font-size: 14px;
-    font-weight: 300;
-    letter-spacing: 2px;
-    line-height: 22.5px;
-}
+
 .boating-wires {
     width:90%; 
     margin: 0 auto; 
@@ -188,6 +180,9 @@ width: 100%;
     .site-logo {
         width: 65%;
         margin-top: 10px;
+    }
+    .hp-icon {
+        max-width: 250px;
     }
     #rcl-header {
         font-size: 75px;
