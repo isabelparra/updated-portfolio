@@ -1,31 +1,15 @@
 /* prana */
-.prana-headline {
-    font-family: ModenaSans;
-    margin: 7.5px;
-    font-size: 22px;
-    line-height: 1.5;
-    position: relative;
-    bottom: 100px;
-    z-index: 3; 
-}
+
 #prana-side {
-    margin: auto 0px;
+    /* margin: auto 0px;
     position: relative;
-    top: 0px;
+    top: 0px; */
 }
-.prana-details {
-    position: relative;
-    bottom: 75px;
-    padding:5px;
-    /* font-size: 15px; */
-    font-family: 'Inconsolata', monospace;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 1.5;
-}
+
 .prana-list {
-    width: 105px;
-    display: inline-block;
+    width: 33%;
+    float:left;
+    /* display: inline-block; */
     padding:5px;
     text-align: center;
     /* font-size: 15px; */
@@ -34,13 +18,7 @@
     font-weight: 400;
     line-height: 1.5;
 }
-.prana-list-servs {
-    position: relative;
-    bottom: 85px;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-}
+
 .prana-col {
     width: 10%;
     float: left;

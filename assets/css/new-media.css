@@ -4,6 +4,9 @@
 #final-nav {
     height: 50px;
 }
+.pink-box {
+    /* height:355px; */
+}
 /* button.navbar-toggler {
     position: relative;
     left: 250px;
@@ -110,18 +113,20 @@
 }
 
 .prana-img {
-    width: 90%;
+    width:98%; 
+    padding: 25px 7.5px 25px 7.5px; 
+    z-index: 100; 
     margin: auto;
-}
+    }
 .prana-work {
 position: relative;
 top: 0px;
 }
-#prana-side {
+/* #prana-side {
     position: relative;
     top: 120px;
 
-}
+} */
 .shadowImg {
 width: 70%;
 display: block;
@@ -188,6 +193,22 @@ width: 100%;
         font-size: 75px;
         padding: 250px 0px 300px 0px;
     }
+    .prana-headline {
+        position:relative;
+        bottom:90px;
+    }
+    .prana-details {
+        bottom:80px;
+    }
+    .pink-box {
+        height:400px;
+    }
+    .prana-list-servs {
+        bottom:90px;
+    }
+    #prana-side {
+        height:150px;
+    }
 }
 /* Small devices (landscape phones, 576px and up)*/ 
 @media (min-width: 576px) {
@@ -198,6 +219,33 @@ width: 100%;
     #rcl-header {
         font-size: 7rem;
     }
+    .rcl-iphone { 
+        width:78%;
+        /* float:left; */
+    }
+    #iphone-col {
+        width:40%;
+        float:left;
+        padding:0px;
+    }
+    .rcl-booked {
+        width:85%;
+    }
+    #rcl-inside {
+        float:left;
+        width:55%;
+        margin:0px;
+        padding:0px;
+    }
+    /* .prana-top {
+        height: 650px;
+    } */
+   .pink-box {
+       height:500px;
+   }
+  #prana-side {
+      height:150px;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -335,6 +383,13 @@ width: 33.333%;
     position: relative;
     bottom:10px;
 }
+.cross-sell-content {
+    width: 85%;
+}
+.rcl-iphone {
+    width: 75%;
+   
+}
 .work-container {
     padding: 0px 55px;
     position: relative;
@@ -359,8 +414,8 @@ width: 33.333%;
 }
     
 #prana-side {
-    position: relative;
-    top: 0px;
+    /* position: relative;
+    top: 0px; */
 }
 
 .bat-logo-mid {
@@ -397,11 +452,11 @@ padding-bottom:350px;
 }
 .prana-headline {
 position: relative;
-bottom: 0px; 
+/* bottom: 0px;  */
 }
 .prana-details {
 position: relative;
-bottom: 0px;
+/* bottom: 0px; */
 padding:5px;
 }
 .flayvor-top {
@@ -426,7 +481,7 @@ align-items: center; */
 }
 .prana-list-servs {
 position: relative;
-bottom: 0px;
+/* bottom: 0px; */
 
 }
 
@@ -602,6 +657,28 @@ ul#portfolio-filter {
 }
 
 }
+@media (min-width:650px) {
+    .pink-box {
+        height:525px;
+    }
+    .prana-headline {
+        bottom:40px;
+    }
+    .prana-details {
+        bottom: 20px;
+    }
+    .prana-list-servs {
+        bottom:20px;
+    }
+}
+@media (min-width:770px) {
+/* .pink-box {
+    height:auto;
+} */
+.prana-headline, .prana-details, .prana-list-servs {
+    bottom:0px;
+}
+}
 /* copied from media.css */
 @media (min-width: 865px) {
     /* ---- NAV BAR ---- */
@@ -629,6 +706,12 @@ ul#portfolio-filter {
   }
 .site-logo {
     width: 45%;
+}
+.rcl-iphone {
+    width: 70%;
+}
+.rcl-booked {
+    
 }
 }
 /* Large devices (desktops, 992px and up) */
