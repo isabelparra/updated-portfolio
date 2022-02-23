@@ -382,7 +382,10 @@ html {
   text-align: center;
 } 
 span.step {
-  background: white;
+  /* background: white; */
+  /* background: #e3e6e7; */
+  background: #d3d2d2;
+ 
   border-radius: 0.8em;
   -moz-border-radius: 0.8em;
   -webkit-border-radius: 0.8em;
@@ -966,14 +969,26 @@ a{
 ul#portfolio-list{
   list-style:none;
   float:left}
+  .prana-banner {
+    width:100%;
+  }
+#prana-side {
+  width:85%;
+  /* margin: auto 0px; */
+  padding:0px 15px;
+  position: relative;
+  top: 0px;
+  height:225px;
+}
   .prana-top {
-    padding-top: 200px;
+    padding-top: 175px;
     padding-bottom: 200px;
-    height: 650px;
+    /* height: 500px; */
     /* width: 100%; */
     background-image: url("../images/prana-top.png");
     background-repeat: no-repeat;
-    background-position: center bottom;
+    /* background-position: center bottom; */
+    background-position: left top;
     background-size: cover;
     border-right-width: 0px;
     border-bottom-width: 1px;
@@ -1050,11 +1065,12 @@ ul#portfolio-list{
   z-index: -2;
 }
 .flayvorBtn {
-  display: inline-block;
+  display: block;
+  margin: 0 auto;
   z-index: 100;
-  position: absolute;
+  /* position: absolute;
   right: 100px;
-  top: 100px;
+  top: 100px; */
   padding: 15px;
   background-color: black;
   color: white;
@@ -1067,7 +1083,8 @@ ul#portfolio-list{
 .flayvor-top {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-image: url("../images/grey7.jpg");
+  /* background-image: url("../images/grey7.jpg"); */
+  background-image: url("../images/flayvor-top.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1320,11 +1337,7 @@ margin: 0 150px;
   z-index: 2;
 
 }
-.prana-img {
-  width:100%; 
-  padding: 25px 7.5px 25px 7.5px; 
-  z-index: 100; 
-  }
+
   .prana-web-img {
     width: 100%;
     display: block;
@@ -1338,7 +1351,7 @@ margin: 0 150px;
   }
 .pink-box {
 background-color: #c7babf;
- height: 355px;
+ height: auto;
  width: 100%;
  display: block;
 margin: 0 auto;
@@ -1492,23 +1505,26 @@ height: 150px;
 
 } */
 .flayvor-web {
+  padding: 50px 0px;
   /* background-color: #e3e6e7;  */
-  height: 50px;
+  height: auto;
   background-color: #d3d2d2; 
- 
   width: 100%;
   display: block;
-margin: 0 auto; 
- 
-  
+  margin: 0 auto; 
+}
+.flayvor-end {
+  clear:both;
 }
 .flayvor-steps {
   display: block; 
-  margin: 0 auto;
-  padding: 50px;
+  /* margin: 0 auto; */
+  padding: 25px 50px;
   z-index: 100;
-  position: relative;
-  bottom: 70px;
+  /* position: relative;
+  bottom: 70px; */
+  width:85%;
+  /* margin: 0 auto; */
 }
 .battized-container {
   display: block;
@@ -1552,7 +1568,8 @@ margin: 0 auto;
 .flayvor-wood {
   width: 100%;
   z-index: -100;
-  background-image: url("../images/marble-back.jpg");
+  /* background-image: url("../images/marble-back.jpg"); */
+  background-image: url("../images/flayvor-wood.png");
   padding-top: 150px;
   padding-bottom: 150px;
  
@@ -2421,6 +2438,35 @@ color: black;
 /* #typed {
 display: none;
 } */
+.return-container {
+  width:100%;
+}
+.prana-headline {
+  font-family: ModenaSans;
+  margin: 7.5px;
+  font-size: 22px;
+  line-height: 1.5;
+  position: relative;
+  bottom: 135px;
+  z-index: 3; 
+}
+.prana-details {
+  position: relative;
+  bottom: 100px;
+  padding:5px;
+  /* font-size: 15px; */
+  font-family: 'Inconsolata', monospace;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.prana-list-servs {
+  position: relative;
+  bottom: 100px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
 .viewAllBtn, .returnBtn {
 display: block;
 margin: 10px auto;
@@ -2755,17 +2801,56 @@ margin: 10px auto;
     line-height: 150%;
     padding: 15px 0px 0px 0px;
   }
-  .rcl-page {
-    width:35%;
-    float:left;
+  .rcl-iphone{
+    width:85%;
+  
+  }
+  #rcl-inside {
+    
+  }
+  .rcl-layout-hor {
+    width:100%; float:right;padding:20px 0px 0px 0px;
+  }
+  #rcl-row {
+    width:100%;
+    margin: 0px;
+  }
+  .rcl-banner {
+    width:100%;
+  }
+  .rcl-page-left {
+    padding-right: 5px;
+  }
+  .rcl-page-right {
+    padding-left: 5px;
   }
   .rcl-page3 {
-    width:30%;
-    float:left;
+    margin-top:10px;
+    /* padding-right:5px; */
+    width:50%;
+    /* padding:5px; */
+    /* float:right; */
   }
   .rcl-page2 {
     width:45%;
     float:right;
+  }
+  .rcl-return {
+    padding-top:25px;
+  }
+  #rcl-return {
+    margin: 0px auto;
+    
+  }
+  .cross-sell-content{
+    display: block;
+    margin: 35px auto;
+    width: 85%;
+  }
+  .cross-sell {
+    width:100%;
+    float:left;
+    padding:10px 5px 0px 5px;
   }
   .return-to-port {
     clear: both;
