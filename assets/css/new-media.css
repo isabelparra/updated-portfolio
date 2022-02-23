@@ -219,6 +219,9 @@ width: 100%;
     #rcl-header {
         font-size: 7rem;
     }
+    .cross-sell {
+        width:33%;
+    }
     .rcl-iphone { 
         width:78%;
         /* float:left; */
@@ -229,7 +232,7 @@ width: 100%;
         padding:0px;
     }
     .rcl-booked {
-        width:85%;
+        width:80%;
     }
     #rcl-inside {
         float:left;
@@ -711,7 +714,7 @@ ul#portfolio-filter {
     width: 70%;
 }
 .rcl-booked {
-    
+
 }
 }
 /* Large devices (desktops, 992px and up) */
@@ -899,6 +902,7 @@ span#typed-second, span#typed-third {
 #designer-block {
     /* padding: 15px 30px 40px 30px; */
 }
+
 
 }
 /* Extra large devices (large desktops, 1200px and up) */
@@ -1235,6 +1239,9 @@ right: 150px;
     .chat {
         padding:30px 450px 20px 450px;
     }
+    .rcl-booked {
+    width:60%;
+}
 }
 
 @media (min-width:2500px) {
