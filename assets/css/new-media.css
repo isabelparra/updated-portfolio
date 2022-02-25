@@ -220,7 +220,7 @@ width: 100%;
         font-size: 7rem;
     }
     .cross-sell {
-        width:33%;
+        width:33.33%;
     }
     .rcl-iphone { 
         width:78%;
@@ -673,11 +673,15 @@ ul#portfolio-filter {
     .prana-list-servs {
         bottom:20px;
     }
+    .email-img { 
+        width:20%;
+        float:left;
+    }
 }
 @media (min-width:770px) {
-/* .pink-box {
+.pink-box {
     height:auto;
-} */
+}
 .prana-headline, .prana-details, .prana-list-servs {
     bottom:0px;
 }
