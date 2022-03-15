@@ -132,7 +132,7 @@ html {
 }
 .rcl-container {
   display: block;
-  margin: 25px auto;
+  margin: 35px auto;
 }
 .hp-slant-bckg {
   background-image:url("../images/destination-hub-caribbean.jpeg"); 
@@ -1744,7 +1744,7 @@ padding: 75px 100px;
 }
 
 #resume {
- width: 50%;
+ width: 65%;
  display: block;
  margin: 0 auto;
  padding-top:75px;
