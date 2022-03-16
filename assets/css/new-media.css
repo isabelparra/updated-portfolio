@@ -234,6 +234,11 @@ width: 100%;
     .rcl-booked {
         width:80%;
     }
+    .rcl-mockup {
+        width:47%;
+        float:right;
+        margin-right: 45px;
+    }
     #rcl-inside {
         float:left;
         width:55%;
@@ -346,7 +351,7 @@ width: 100%;
     margin:0 auto; 
     text-align: center;
     clear: both;
-    
+    margin-top:15px;
 }
 #new-text {
     padding-top: 25px;
@@ -664,6 +669,12 @@ ul#portfolio-filter {
     .pink-box {
         height:525px;
     }
+    .rcl-small-text {
+        font-size:1rem;
+        position: relative;
+        bottom:5px;
+    }
+   
     .prana-headline {
         bottom:40px;
     }
@@ -681,6 +692,9 @@ ul#portfolio-filter {
 @media (min-width:770px) {
 .pink-box {
     height:auto;
+}
+.subHeading {
+    font-size: 0.875rem;
 }
 .prana-headline, .prana-details, .prana-list-servs {
     bottom:0px;
@@ -923,6 +937,23 @@ span#typed-second, span#typed-third {
 }
 .index-footer {
 margin: 0px 50px;
+}
+.new-layout {
+    min-height:200px;
+}
+.hp-icon {
+    margin-top:25px;
+}
+.new-grid-3 {
+    width:75%;
+}
+.bike1 {
+    margin: 15px 0px;
+    width:33.33%;
+    float:left;
+}
+.bike-return {
+    clear:left;
 }
 /* #bigLogo,.overlay,.projects{text-align:right} */
 .bat-top {
