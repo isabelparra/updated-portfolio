@@ -134,6 +134,10 @@ html {
   display: block;
   margin: 35px auto;
 }
+.rcl-content {
+
+  text-align:center;
+}
 .hp-slant-bckg {
   background-image:url("../images/destination-hub-caribbean.jpeg"); 
   background-size: cover;
@@ -238,6 +242,7 @@ html {
   background-color: #C1B6B6;
   height:auto;
   padding: 15px 0px;
+ 
 }
 .to-top {
   position: fixed;
@@ -2650,12 +2655,15 @@ margin: 10px auto;
   padding: 10px 0px 20px 0px;
 }
 .hp-serv {
-  width: 90%;
+  width: 80%;
   text-align: center;
   display: block;
   margin: 0 auto;
   padding: 10px 0px;
   /* float:right; */
+  font-family: 'Inconsolata', monospace;
+  font-weight: 400;
+  /* margin: 20px 0px; */
 }
 .hp-bagel {
   width: 100%;
@@ -2768,6 +2776,7 @@ margin: 10px auto;
   .learn-more-v2 {
     font-weight: 600;
     display: inline;
+    color: black;
   }
   .intl-mkt {
     color: rgba(0, 94, 220, 0.5);
@@ -2820,8 +2829,13 @@ margin: 10px auto;
     text-align: center;
     
   }
+  .rcl-layout {
+    width:85%;
+    display: block;
+    margin: 0 auto;
+  }
   .sectionDestination__header {
-    margin: 0 auto 80px auto;
+    margin: 0 auto 40px auto;
     text-align: center;
     width: 80%;
 }
@@ -2893,13 +2907,16 @@ margin: 10px auto;
   }
   .rcl-deals {
     padding-top:25px;
+    clear: both;
   }
   .rcl-iphone{
     width:85%;
   
   }
   #rcl-inside {
-    
+    width: 78%;
+    display: block;
+    margin: 0 auto;
   }
   .rcl-layout-hor {
     width:100%; float:right;padding:20px 0px 0px 0px;
