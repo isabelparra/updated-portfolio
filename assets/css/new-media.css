@@ -223,11 +223,11 @@ width: 100%;
         width:33.33%;
     }
     .rcl-iphone { 
-        width:78%;
+        width:80%;
         /* float:left; */
     }
     #iphone-col {
-        width:40%;
+        width:35%;
         float:left;
         padding:0px;
     }
@@ -241,7 +241,7 @@ width: 100%;
     }
     #rcl-inside {
         float:left;
-        width:55%;
+        width:60%;
         margin:0px;
         padding:0px;
     }
@@ -392,12 +392,13 @@ width: 33.333%;
     bottom:10px;
 }
 .cross-sell-content {
-    width: 85%;
+    width: 95%;
+    padding-left:75px;
 }
-.rcl-iphone {
+/* .rcl-iphone {
     width: 75%;
    
-}
+} */
 .work-container {
     padding: 0px 55px;
     position: relative;
@@ -666,6 +667,11 @@ ul#portfolio-filter {
 
 }
 @media (min-width:650px) {
+    .rcl-content {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
     .pink-box {
         height:525px;
     }
@@ -729,7 +735,7 @@ ul#portfolio-filter {
     width: 45%;
 }
 .rcl-iphone {
-    width: 70%;
+    width: 77%;
 }
 .rcl-booked {
 
@@ -737,6 +743,9 @@ ul#portfolio-filter {
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
+.rcl-content {
+    width: 75%;
+}
 #rcl-3 {
     bottom:5px;
 }
@@ -1086,6 +1095,9 @@ padding: 0px 100px;
 }
 /* and (max-width : 2600px) */
 @media (min-width: 1300px)  {
+.rcl-content {
+    width: 65%;
+}
 .site-logo {
     width:35%;
 }
@@ -1267,6 +1279,9 @@ right: 150px;
 }
 .informational {
     margin: 75px 250px;
+}
+.rcl-content {
+    width: 55%;
 }
 
 }
