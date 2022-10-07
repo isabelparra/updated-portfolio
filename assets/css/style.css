@@ -2994,10 +2994,28 @@ margin: 10px auto;
     margin: 25px auto;
     width:100%;
   }
+  
   .email-img {
     width:90%;
     display:block;
     margin: 0 auto;
+  }
+  .email-header {
+    clear: both;
+    display: block;
+    margin: 0 auto;
+    padding-top:50px;
+  }
+  .email-new {
+    width:55%;
+    display:block;
+  /* float: left; */
+  margin: 0 auto;
+   
+  }
+  .email-container {
+    margin-top:20px;
+    /* padding:75px; */
   }
   #rcl-subHead {
     /* font-size:  1.375rem; */    font-size:  1rem;
