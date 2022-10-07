@@ -14,7 +14,10 @@
 }
 .nav-logo2 {
 
-display: block;
+    width: 150px;
+    display: none;
+
+/* display: block; */
 color: black;
 text-align: center;
 /* padding: 14px 16px; */

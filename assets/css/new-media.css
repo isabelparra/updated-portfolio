@@ -1,193 +1,17 @@
 
-/* @media (min-width: 320px) {  */
-/* ---- NAV BAR ---- */
-#final-nav {
-    height: 50px;
-}
-.pink-box {
-    /* height:355px; */
-}
-/* button.navbar-toggler {
-    position: relative;
-    left: 250px;
-} */
-.nav-logo2 {
-    width: 150px;
-}
-/* ---- END NAV BAR ---- */
-/* ---- HP HEADER ---- */
-.top-header {
-    padding-top:50px;
-}
-.logo-top {
-    margin: 0px 0px 0px 0px;
-    position: relative;
-    top: 105px;
-} 
-.main-title {
-    font-family: Dosis, sans-serif;
-    font-weight: 400;
-    font-size: 12px;
-    letter-spacing: 3px;
-    text-align: center;
-    line-height: 1.55;
-    margin: 0px 0px 10px 0px;
-}
-.main-head {
-    width: auto;
-    height: 300px;
-}
-.temp-logo {
-    font-size: 38px;
-    padding: 35px 0px 0px 0px;
-}
-.brand-detail {
-    font-size: 11px;
-    /* line-height: 36.4px; */
-}
-/* HP new layout */
-#new-text {
-    text-align: center;
-}
-.hp-logo { 
-    width:55%;
-    /* float: left; */
-    height: auto;
-    vertical-align:middle;
-    display: block;
-    margin:0 auto;
-}
-.new-testimonial {
-    margin: 20px 15px;
-}
-/* ---- END HP HEADER ---- */
-.last-p {
-    margin: 25px auto;
-    text-align: center;
-    width: 80%;
-    padding-bottom: 10px;
-
-}
-.hp-form {
-    background-color: #D9D9D9;
-    width:95%;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    /* padding-bottom: 5px; */
-
-}
-.hp-contact-box {
-    background-color:#000000;
-    color:white;
-    width:45%;
-    /* padding: 15px 0px; */
-    height:40px;
-    display: block;
-    margin: 0 auto;
-}
-.hp-contact {
-    font-size: 16px;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 300;
-    letter-spacing: 2px;
-    line-height: 37.5px;
-    /* border-radius: 5px; */
-    
-}
-.hp-row {
-    width: 100%;
-    padding: 0px 0px 10px 0px;
-}
-
-.boating-wires {
-    width:90%; 
-    margin: 0 auto; 
-    display: block;
-    }
-.servicesBtn {
-    margin: 100px 0px 0px 0px;
-}
-
-.prana-img {
-    width:98%; 
-    padding: 25px 7.5px 25px 7.5px; 
-    z-index: 100; 
-    margin: auto;
-    }
-.prana-work {
-position: relative;
-top: 0px;
-}
-/* #prana-side {
-    position: relative;
-    top: 120px;
-
-} */
-.shadowImg {
-width: 70%;
-display: block;
-margin: 0 auto;
-}
-.deskImg {
-width: 90%;
-}
-.testimonial, .pitch {
-margin: 30px 40px 20px 40px;
-}
-.separator1 {
-width: 90%;
-}
-#battized-front1 {
-
-padding: 0px;
-}
-#battized-front2 {
-padding: 0px;
-margin: 0px;
-}
-#battized-front3 {
-margin: 0px;
-padding: 0px;
-
-
-}
-.type-imgs {
-width: 100%;
-padding: 10px 0px;
-}
-.type-imgs-3 {
-width: 100%;
-padding: 0px 0px;
-}
-.type-imgs-2 {
-width: 95%;
-padding: 0px 0px 5px 0px;
-}
-.type-imgs-4 {
-width: 95%;
-padding: 0px 0px 0px 0px;
-}
-#rcl-1 {
-    width: 100%;
-}
-#rcl-3 {
-    width: 100%;
-}
-.right-col {
-width: 100%;
-}
-/* }  */
 @media (min-width: 420px) {
     .site-logo {
-        width: 65%;
-        margin-top: 10px;
+        width: 40%;
+        margin-top: 0px;
+    }
+    .main-title{
+        margin: 0px;
     }
     .hp-icon {
         max-width: 250px;
+    }
+    .rcl-header-title {
+        width: 50%;
     }
     #rcl-header {
         font-size: 75px;
@@ -213,8 +37,18 @@ width: 100%;
 /* Small devices (landscape phones, 576px and up)*/ 
 @media (min-width: 576px) {
     .site-logo {
-        width: 60%;
+        width: 25%;
 
+    }
+    .main-title {
+        font-size: 10px;
+        letter-spacing: 2px;
+        
+    }
+    .brand-detail {
+        display: block;
+        font-size: 10px;
+        font-weight: 200;
     }
     #rcl-header {
         font-size: 7rem;
@@ -226,6 +60,7 @@ width: 100%;
         width:80%;
         /* float:left; */
     }
+   
     #iphone-col {
         width:35%;
         float:left;
@@ -266,9 +101,10 @@ width: 100%;
 } */
 /* ---- HEADER ---- */
 .site-logo {
-    width: 70%;
-    padding: 35px 0px 0px 0px;
+    width: 40%;
+    padding: 20px 0px 10px 0px;
 }
+
 
 .main-head {
     width: 100%;
@@ -668,7 +504,7 @@ ul#portfolio-filter {
 }
 @media (min-width:650px) {
     .rcl-content {
-        width: 90%;
+        width: 95%;
         display: block;
         margin: 0 auto;
     }
@@ -705,6 +541,18 @@ ul#portfolio-filter {
 .prana-headline, .prana-details, .prana-list-servs {
     bottom:0px;
 }
+.rcl-header-title {
+    width: 35%;
+}
+.cruise-planner-div { 
+    float:left;
+    width: 50%;
+}
+
+.other-web {
+    float:left;
+    width:50%;
+}
 }
 /* copied from media.css */
 @media (min-width: 865px) {
@@ -732,7 +580,7 @@ ul#portfolio-filter {
     display:inline;
   }
 .site-logo {
-    width: 45%;
+    width: 30%;
 }
 .rcl-iphone {
     width: 77%;
@@ -941,9 +789,13 @@ span#typed-second, span#typed-third {
     padding-left:120px;
 }
 .site-logo {
-    width: 45%;
-    padding: 25px 0px 5px 0px;
+    width: 25%;
+    padding: 15px 0px 5px 0px;
 }
+.logo-top {
+    top: 200px;
+} 
+
 .index-footer {
 margin: 0px 50px;
 }
@@ -1098,9 +950,9 @@ padding: 0px 100px;
 .rcl-content {
     width: 65%;
 }
-.site-logo {
-    width:35%;
-}
+/* .site-logo {
+    width:25%;
+} */
 .hp-headshot-bkg {
     width: 40%;
 }
@@ -1216,8 +1068,8 @@ right: 150px;
 }
 @media (min-width: 1500px) {
     .site-logo {
-        width:35%;
-        padding: 20px 0px 5px 0px;
+        width:22%;
+        padding: 0px 0px 5px 0px;
     }
     .work-container {
         /* margin: 20px 50px; */
@@ -1241,7 +1093,7 @@ right: 150px;
 }
 @media (min-width: 1800px) {
 .site-logo {
-    width: 32%;
+    width: 20%;
 }
 .work-container {
     width:75%;
@@ -1292,6 +1144,15 @@ right: 150px;
     .rcl-booked {
     width:60%;
 }
+.logo-top {
+    top: 175px;
+} 
+.site-logo {
+    width: 20%;
+}
+.top-header {
+    padding-top:0px;
+}
 }
 
 @media (min-width:2500px) {
@@ -1305,4 +1166,5 @@ right: 150px;
 .chat {
     padding:30px 600px 20px 600px;
 }
+
 }
