@@ -23,38 +23,19 @@
     <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Ramaraja" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    
+   <!--Firebase Script -->
+  <script src='https://www.gstatic.com/firebasejs/4.12.0/firebase.js'></script>
+
   </head>
 
   <body>
-    <!-- test new nav -->
-  <!-- <nav id="final-nav" class="navbar navbar-expand-lg navbar-light">
+  <!-- HP NAV BAR -->
+  <nav id="final-nav" class="navbar navbar-expand-lg navbar-light">
     <a class="navbar-brand" href="index.html"> 
       <img class="nav-logo" src="assets/images/logo.png" style="display: none;">
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon" id="menuBtn"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">ABOUT <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">CONTACT</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="services.html">SERVICES</a>
-        </li>
-      </ul>
-    </div>
-  </nav> -->
-  <nav id="final-nav" class="navbar navbar-expand-lg navbar-light">
-    <!-- <a class="navbar-brand" href="index.html"> 
-      <img class="nav-logo2" src="assets/images/logo.png">
-    </a> -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon" id="menuBtn"></span>
     </button>
@@ -70,12 +51,16 @@
         <li class="nav-item">
             <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
           </li>
-          <li class="nav-item">
-              <a class="nav-link" href="services.html">SERVICES</a>
-            </li>
-            <!-- <li class="nav-item">
-                <a class="nav-link" href="yoga.html">YOGA</a>
-              </li> -->
+
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="services.html">SERVICES</a>
+        </li> -->
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="yoga.html">YOGA</a>
+        </li> -->  
+        <li class="nav-item">
+          <a class="nav-link" href="resume.html">CV</a>
+        </li>
       </ul>
     </div>
   </nav>
@@ -85,9 +70,9 @@
       <div class="main-head">
 
       <div class="col-12 logo-top" style="color: white;">
-        <!-- <img src="assets/images/logo.png" class="site-logo"> -->
+        <img src="assets/images/2022-logo.png" class="site-logo">
         <!-- <img src="assets/images/new-logo.png" class="site-logo"> -->
-        <h1 class="temp-logo">DESIGN ROOTS</h1>
+        <!-- <h1 class="temp-logo">DESIGN ROOTS</h1> -->
         <p class="main-title">CREATIVE STUDIO</p>
         <div class="half">
         <p class="brand-detail">Modern 
@@ -140,20 +125,22 @@ ambitious creatives.</p>
 </div> -->
   </div>  
   <div class="work-container">
-    <div class="row new_rcl">
-      <div class="column">
-        <img id="rcl-1" src="assets/images/CP_mockup.jpg">
-      </div>
-      <div class="column" >
-        <div class="row">
-          <div class="column"> <img class="right-col" src="assets/images/RCI-web-1.jpg"></div>
-          <div class="column"> <img class="right-col" src="assets/images/RCI-web-2.jpg"></div>
-        </div>
-        <div class="row">
-          <div class="column"> <img id="rcl-3" src="assets/images/RCI-web-3.jpg"></div>
-        </div>
-      </div>
+<div class="" id="new_rcl"><a href="rcl.html">
+  <div class="column">
+    <img id="rcl-1" src="assets/images/CP_mockup.jpg">
+  </div>
+  <div class="column" >
+    <div class="row">
+      <div class="column">  <img class="right-col" src="assets/images/RCI-web-1.jpg"></div>
+      <div class="column"> <img class="right-col" src="assets/images/RCI-web-2.jpg"></div>
     </div>
+    <div class="row">
+      <div class="column"> <img id="rcl-3" src="assets/images/RCI-web-3.jpg"></div>
+    </div>
+  </div>
+</a>
+</div>
+
     <!-- <div class="row">
       <div class="column">
         <a href="bikePal.html">
@@ -172,89 +159,188 @@ ambitious creatives.</p>
         </a>
       </div>
     </div> -->
-  <div class="row">
-    <div class="col-12 btnSpace">
-     <a href="portfolio.html"><button class="viewAllBtn" >VIEW ALL WORK</button></a> 
-    </div>
+<div class="">
+  <div class="btnSpace">
+    <a href="portfolio.html"><button class="viewAllBtn" >VIEW ALL WORK</button></a> 
   </div>
+</div>
+
   </div>
+  
   </div>
   <div class="chat">
     <div class="row" id="top-chat">
       <div class="texts-test">
-        <img src="./assets/images/desk.jpg" class="deskImg">
-        <div class="testimonial">
-          <p id="test-quote">
-              "What I loved the most was that Isabel took time to figure out and understand what mattered to me and what my why was. Beyond what colours and textures and styles I liked, she was curious about my purpose and my work."
+        <!-- <div class="testimonial"> -->
+        <div class="new-testimonial">
+          <div id="new-text">
+            Beyond Digital is a space for creative and passionate business owners to share their stories and ideas and have them transformed into refined and compelling designs.
+       <br><br class="desk-css">
+            Professional design, experience, and business support are included as part of every project, but it's a genuine and shared interest in the success of your brand that's at the heart of the process.
+            <br><br class="desk-css"><a href="about.html"><b class="learn-more">Learn More</b></a>
+          </div>
+
+        </div>
+        <img src="./assets/images/final-boat.png" class="deskImg">
+      
+        <!-- <div class="separator1">  </div> -->
+      </div>
+    </div>
+    <div class="row" id="designer-block" >
+      
+      <div class="hp-headshot-bkg hp-desk">
+        <img class="hp-headshot" src="assets/images/headshot3.png">
+      </div>
+      <div class="meet-the-designer">
+        <p class="main-headline">
+          <!-- Meet the Designer. -->Hey there,
+
+        </p>
+        <p class="texts-serv">
+          I'm Isabel, the designer behind Beyond Digital. I am currently based in South Florida, although I was born and raised in Venezuela.
+                            I am interested in projects which challenge the familiar and inspire me to push the boundaries of my skills. My current focus is to help brands communicate their story in an engaging and disruptive fashion.
+                            
+                             
+          <!-- Good design and great aesthetics is just plain good business sense. Whether it's to build your brand, 
+          engage an audience, 
+          disrupt the competition or ultimately increase your profit,
+          good design is the perfect support for these goals. -->
+        </p>
+      </div>
+      <div class="hp-headshot-bkg hp-mob">
+        <img class="hp-headshot" src="assets/images/headshot3.png">
+      </div>
+
+    
+    </div>
+  </div>
+
+<!-- </div> -->
+
+<div class="new-layout">
+  <div class="hp-icon">
+    <section>SERVICES</section></div>
+
+    <!-- <section class="hp-flourish">Helping brands flourish.</section> -->
+  <p class="hp-serv" >      My goal is to help you develop absolute confidence and pride in your brand style and to provide you with a solid visual foundation to build your business upon.  
+    Working in collaboration with my clients, I develop graphic identities, brand materials and websites that kick goals and contributes to your success as a business owner.
+    <a href="portfolio.html" class="learn-more-v2">Learn More</a>
+     <!-- If you're ready for a new brand style or website, I would love to hear your story and work together.  -->
+     </p>
+   <!-- Build confidence in your brand with the use of beautiful, strategic design.
+    I develop graphic identities, brand materials and websites that kick goals and contributes to your success as a business owner. -->
+   <!-- Services include web design and analysis, content strategy, digital marketing, brand redesign and style guidelines. -->
+   
+   <!-- Working in collaboration with my clients, I take your clever ideas and goals and turn them into tangible, professional designs. During our one-on-one consultations I develop a connection and understanding of your business and help walk you through topics such as marketing, goals, content strategy, style and so much more to help you gain absolute clarity on your brand.
+     It's the information that I get from these meetings that helps me develop graphic identities, brand materials and websites that kick goals and contributes to your success as a business owner. -->
+    <!-- My goal is to provide you with a solid visual foundation to build your business upon. -->
+<!-- Let's Work Together -->
+<!-- </p> -->
+</div>
+<!-- <div class="new-layoutContainer"> -->
+  <div class="new-grid-3">
+<div class="three-col">
+  <div class="hp-3">
+    <div class="" >
+      <img class="hp-bagel" src="./assets/images/hp-bagels.jpg">
+    </div>
+  </div>
+  <div class="hp-3">
+    <div class=" ">
+      <a href="prana.html"><img class="hp-bagel" src="./assets/images/hp-grid-pranav2.jpg"></a>
+      
+    </div>
+  </div>
+  <div class="hp-3">
+    <div class="">
+      <img class="hp-bagel" src="./assets/images/boat-temp.jpg">
+    </div>
+  </div>
+</div>
+</div>
+<!-- </div> -->
+
+<div class="last-p">
+  <!-- <p class="hp-text"> -->
+     <!-- With the use of beautiful, strategic design,  -->
+      <!-- My goal is to help you develop absolute confidence and pride in your brand style and to provide you with a solid visual foundation to build your business upon.  
+     If you're ready for a new brand style or website, I would love to hear your story and work together.  -->
+      <!-- Helping brands flourish. -->
+     <!-- Working in collaboration with my clients, I take your clever ideas and goals and turn them into tangible, professional designs. During our one-on-one consultations I develop a connection and understanding of your business and help walk you through topics such as marketing, goals, content strategy, style and so much more to help you gain absolute clarity on your brand. It's the information that I get from these meetings that helps me develop graphic identities, brand materials and websites that kick goals and contributes to your success as a business owner. -->
+    <!-- </p> -->
+    </div> 
+<div class="brand-logos"  style="display:none;">
+  <div class="row">
+    <div class="col">
+      <img class="hp-logo" src="assets/images/rcl-logo-01.png">
+    </div>
+    <div class="col">
+      <img class="hp-logo" src="assets/images/isc-logo.png">
+    </div>
+    <div class="col">
+      <img class="hp-logo" src="assets/images/fdot-logo.png">
+    </div>
+    <div class="col">
+      <img class="hp-logo" src="assets/images/tpo-logo.png">
+    </div>
+  </div>
+ 
+  <div class="row">
+    <div class="col">
+      <img class="hp-logo" src="assets/images/dade-logo.png">
+    </div>
+    <div class="col">
+      <img class="hp-logo" src="assets/images/siinc-logo.png">
+    </div>
+    <div class="col">
+      <img class="hp-logo" src="assets/images/blackDecker-logo.png">
+    </div>
+  </div>
+ 
+</div>
+<form class="new-form hp-form" id="hp-form">
+ 
+  <div class="hp-row">
+    <div class="hp-contact-box" >
+      <h3 class="hp-contact">CONTACT</h3>
+    </div>
+  </div>
+  <div class=""  >
+    <div class="">
+      <input type="name" class="form-control" id="hpInputName" aria-describedby="nameHelp" placeholder="Your Name">
+    </div>
+  </div>
+  <div class=""  >
+    <div class="">
+      <input type="email" class="form-control" id="hpInputEmail" aria-describedby="emailHelp" placeholder="Your E-mail">
+    </div> 
+  </div>
+  <div class=""  >
+    <div class="">
+      <input type="number" class="form-control" id="hpInputPhone" aria-describedby="phoneHelp" placeholder="Your Phone Number">
+    </div> 
+  </div>
+  <div class=""  >
+    <div class="">
+      <input type="text" class="form-control" id="hpCompany" aria-describedby="companyHelp" placeholder="Your Business Name">
+    </div> 
+  </div>
+  <div class="" >
+    <div class="hp-form-comm">
+      <input type="text" class="form-control" id="hpMessage" aria-describedby="messageHelp" placeholder="Message">
+    </div> 
+  </div>
+  <div class="submitBtn-row"  >
+    <div class="form-group">
+      <button type="submit" class="submitBtn" id="submit-hp">SUBMIT</button>
+      <div class="alert">Your message has been sent. We'll be in contact with you shortly. Thank you!</div>
+    </div>
+  </div>
   
-          </p>
-          <p> - Jennifer Smith</p>
-        </div>
-        <div class="separator1">  </div>
-      </div>
-    </div>
-    <div class="row" id="right-text" >
-      <div class="texts-test">
-        <div class="pitch">
-          <p class="main-headline">
-            Give your business every chance for success.
-          </p>
-          <p class="texts-serv">
-            Good design and great aesthetics is just plain good business sense. Whether it's to build your brand, 
-            engage an audience, 
-            disrupt the competition or ultimately increase your profit,
-            good design is the perfect support for these goals.
-          
-    
-          </p>
-          <div class="vertical-dash">
-            <!-- <p>        DESIGN SERVICES INCLUDE:</p> -->
-            <p class="serv-list texts">
-              
-              Brand Identity <br>
-              Web Design + Development <br>
-              Packaging Design <br>
-              Marketing Collateral <br>
-          <!-- & more -->
-            </p>
-          </div>
-          <button class="servicesBtn"><a  href="services.html" style="color: white;">SEE FULL SERVICE LIST</a></button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="business-info">
-    <div class="row" > 
-      <div class="texts-test">
-        <!-- <div class="col-12" id="imgBox"> -->
-        <img class="shadowImg" src="assets/images/shadows.jpg">
-        <!-- </div> -->
-    
-      </div>
-    </div>
-    <div class="row" id= "details">
-        <div class="col-12" style="padding: 0px;" >
-            <h3 class="heading">
-              If not now, when?
-            </h3>
-            <p class="texts-about">
-          Now or never is as much a mantra as it is a business strategy. 
-          
-          It's about the moments and decisions to build a business for yourself.
-          
-          I'd love to be a part of your journey and support you as you take the leap and get started on your big dreams.
-            </p>
-            <div class="separator2"></div>
-            <p class="touch"><strong>GET IN TOUCH</strong></p>
-          </div>
-    </div>
+</form>
 
-  </div>
 
-<!-- </div>
-</div> -->
-
-  <div class="index-footer">
+ <!-- <div class="index-footer">
     <div class="row" id="footer">
       <div class="col-12" id="sign-up">
         <h3 class="heading2" style="padding: 10px 0px;">
@@ -290,18 +376,29 @@ ambitious creatives.</p>
           <a class="foot-link" href="mailto: info@isabel-parra.com" target="_top">
             info@isabel-parra.com
           </a><br>
-         
-          <!-- <a class="foot-link" href="" target="blank">
-          Instagram </a>
-          • 
-          <a class="foot-link" href="https://www.facebook.com/artnpractice/" target="blank">Facebook</a>
-          • 
-          <a class="foot-link" href="https://www.pinterest.com/artnpractice" target="blank">Pinterest</a> -->
+       
         </p>
       </div>
       <div class="col-12 col-md-6" style="padding:0px;">
         <p class="copyright texts">Beyond Digital © 2022</p>
       </div>
+    </div>
+  </div>-->
+  <div class="hp-footer">
+     
+    <div class="">
+      <div class=" " style="padding:0px;">
+        <!-- <p class= "new-foot"> -->
+          <!-- <a class="foot-link" href="mailto: info@isabel-parra.com" target="_top">
+            info@isabel-parra.com
+          </a> -->
+          Made with <span class="hp-heart">&#9825</span> in Miami
+        
+        <!-- </p> -->
+      </div>
+      <!-- <div class="col-12 col-md-6" style="padding:0px;">
+        <p class="copyright texts">Beyond Digital © 2022</p>
+      </div> -->
     </div>
   </div>
   <a href="#" class="to-top" >
@@ -313,14 +410,18 @@ ambitious creatives.</p>
   <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <!--Javascript-->
-  <script type="text/javascript" src="assets/javascript/app.js"></script>
+  
   <!-- <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script> -->
   <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
   <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-      <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
-  
+  <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+ <!--Firebase Script -->
+ <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+ <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+ <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+ <script type="text/javascript" src="assets/javascript/app.js"></script>
+ <script type="text/javascript" src="assets/javascript/form.js"></script>
   <!-- Lightbox -->
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script> -->
 <!-- <script>

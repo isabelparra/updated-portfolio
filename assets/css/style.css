@@ -12,6 +12,9 @@ html {
   color: white;
   text-align: center;
 }
+
+
+
 #rcl-header {
   font-family: 'Kapra', Impact, 'Arial Narrow', Arial, sans serif;
   white-space: nowrap;
@@ -30,6 +33,10 @@ html {
   /* line-height: 100px; */
 
 }
+.rcl-all {
+  width:100%;
+  margin-bottom: 50px;
+}
 .rcl-title {
   font-family: "ProximaNova-Regular", Arial, sans-serif;
   white-space: nowrap;
@@ -44,6 +51,9 @@ html {
   margin:0;
   text-align: center;
   /* padding: 300px 0px; */
+}
+.rcl-text {
+  text-align: center;
 }
 .rcl-title2 {
   font-family: 'Kapra', Impact, 'Arial Narrow', Arial, sans serif;
@@ -132,10 +142,10 @@ html {
 }
 .rcl-container {
   display: block;
-  margin: 35px auto;
+  margin: 35px auto 0px auto;
 }
 .rcl-content {
-
+  padding-top: 20px;
   text-align:center;
 }
 .hp-slant-bckg {
@@ -231,7 +241,6 @@ html {
   font-weight: 300;
   font-family: Roboto, sans-serif;
 }
-.nav-logo2{width:175px;}
 
 .new-grid-3 {
   display: block;
@@ -458,12 +467,14 @@ span.step {
 }
 .brand-detail {
   font-family: 'Oswald', sans-serif;
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 10px;
+  font-weight: 300;
   line-height: 1.4;
   letter-spacing: 1px;
   text-align: center;
- margin: 0px 25px 0px 25px;
+  margin: 3px 25px 0px 25px;
+  /* display: none; */
+  /* line-height: 36.4px; */
 }
 span#typed {
   font-style: inherit;
@@ -544,6 +555,14 @@ span#typed {
   line-height: 22.5px;
   color: black;
 }
+.rcl-headline {
+  font-family: 'Inconsolata', monospace;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 22.5px;
+  color: black;
+}
 
 #newsName, #newsEmail {
   padding: 10px 10px;
@@ -600,10 +619,10 @@ span#typed {
   /* font-family: 'Libre Baskerville', serif; */
   /* font-family: 'Playfair Display', serif; */
   /* font-family: 'Ramaraja', serif; */
-  width: 90%;
+  width: 50%;
   height: auto;
   display: block;
-  margin: 10px auto;
+  margin: 0px auto 0px auto;
 }
 
 .testimonial, .pitch {
@@ -3004,7 +3023,200 @@ margin: 10px auto;
 }
 
 /* ---- END HP FORM ---- */
+/* adding from css media file*/
+/* @media (min-width: 320px) {  */
+/* ---- NAV BAR ---- */
+#final-nav {
+  height: 50px;
+}
+.pink-box {
+  /* height:355px; */
+}
+/* button.navbar-toggler {
+  position: relative;
+  left: 250px;
+} */
+
+/* ---- END NAV BAR ---- */
+/* ---- HP HEADER ---- */
+.top-header {
+  padding-top:50px;
+}
+.logo-top {
+  margin: 0px 0px 0px 0px;
+  position: relative;
+  top: 105px;
+} 
+.main-title {
+  display: none;
+  font-family: Dosis, sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-align: center;
+  line-height: 1.55;
+  margin: 5px 0px 0px 0px;
+}
+.main-head {
+  width: auto;
+  height: 300px;
+}
+.temp-logo {
+  font-size: 38px;
+  padding: 35px 0px 0px 0px;
+}
+
+/* HP new layout */
+#new-text {
+  text-align: center;
+}
+.hp-logo { 
+  width:55%;
+  /* float: left; */
+  height: auto;
+  vertical-align:middle;
+  display: block;
+  margin:0 auto;
+}
+.new-testimonial {
+  margin: 20px 15px;
+}
+/* ---- END HP HEADER ---- */
+.last-p {
+  margin: 25px auto;
+  text-align: center;
+  width: 80%;
+  padding-bottom: 10px;
+
+}
+.hp-form {
+  background-color: #D9D9D9;
+  width:95%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  /* padding-bottom: 5px; */
+
+}
+.hp-contact-box {
+  background-color:#000000;
+  color:white;
+  width:45%;
+  /* padding: 15px 0px; */
+  height:40px;
+  display: block;
+  margin: 0 auto;
+}
+.hp-contact {
+  font-size: 16px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  letter-spacing: 2px;
+  line-height: 37.5px;
+  /* border-radius: 5px; */
+  
+}
+.hp-row {
+  width: 100%;
+  padding: 0px 0px 10px 0px;
+}
+
+.boating-wires {
+  width:90%; 
+  margin: 0 auto; 
+  display: block;
+  }
+.servicesBtn {
+  margin: 100px 0px 0px 0px;
+}
+.rcl-header-title {
+  display: block;
+  margin: 0 auto;
+  padding-top:300px;
+  width:80%;
+}
+.rcl-l, .rcl-r {
+  width:100%;
+  display:block;
+  margin: 15px auto;
+}
 
 
+.rcl-row-web {
+  display:block;
+  margin: 0 auto;
+}
+.prana-img {
+  width:98%; 
+  padding: 25px 7.5px 25px 7.5px; 
+  z-index: 100; 
+  margin: auto;
+  }
+.prana-work {
+position: relative;
+top: 0px;
+}
+/* #prana-side {
+  position: relative;
+  top: 120px;
+
+} */
+.shadowImg {
+width: 70%;
+display: block;
+margin: 0 auto;
+}
+.deskImg {
+width: 90%;
+}
+.testimonial, .pitch {
+margin: 30px 40px 20px 40px;
+}
+.separator1 {
+width: 90%;
+}
+#battized-front1 {
+
+padding: 0px;
+}
+#battized-front2 {
+padding: 0px;
+margin: 0px;
+}
+#battized-front3 {
+margin: 0px;
+padding: 0px;
+
+
+}
+.type-imgs {
+width: 100%;
+padding: 10px 0px;
+}
+.type-imgs-3 {
+width: 100%;
+padding: 0px 0px;
+}
+.type-imgs-2 {
+width: 95%;
+padding: 0px 0px 5px 0px;
+}
+.type-imgs-4 {
+width: 95%;
+padding: 0px 0px 0px 0px;
+}
+#rcl-1 {
+  width: 100%;
+}
+#rcl-3 {
+  width: 100%;
+}
+.right-col {
+width: 100%;
+}
+/* }  */
 
 
