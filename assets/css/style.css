@@ -2862,6 +2862,12 @@ margin: 10px auto;
     clear:both;
     /* height: 450px; */
   }
+  .gif-box {
+    display:none;
+  }
+  .rcl-gif-ho {
+    width:95%;
+  }
   .sectionDestination__header {
     margin: 0 auto 40px auto;
     text-align: center;
