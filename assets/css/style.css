@@ -136,11 +136,9 @@ html {
   left: -5%;
   z-index: 3;
 }
-.rcl-layout {
-  margin-top:50px;
-  /* height: 450px; */
-}
+
 .rcl-container {
+  width:100%;
   display: block;
   margin: 35px auto 0px auto;
 }
@@ -336,6 +334,7 @@ html {
   font-style: normal;
   font-size: 45px;
 }
+
 
 #portfolio-list {
   padding: 0px;
@@ -2848,10 +2847,20 @@ margin: 10px auto;
     text-align: center;
     
   }
+  .rcl-layout-1 {
+
+  }
+  .rcl-mockup-1 {
+    display: block;
+    margin: auto;
+  }
   .rcl-layout {
     width:85%;
     display: block;
     margin: 0 auto;
+    margin-top:50px;
+    clear:both;
+    /* height: 450px; */
   }
   .sectionDestination__header {
     margin: 0 auto 40px auto;
@@ -2925,8 +2934,9 @@ margin: 10px auto;
     margin:0 auto;
   }
   .rcl-deals {
-    padding-top:25px;
+  
     clear: both;
+    /* padding-top:15px; */
   }
   .rcl-iphone{
     width:85%;
@@ -2975,13 +2985,19 @@ margin: 10px auto;
     
   }
   .cross-sell-content{
-    display: block;
-    margin: 35px auto;
+    clear:both;
+    width:100%;
+    margin-top:25px;
+    
     /* width: 85%; */
   }
-  .cross-sell {
+  .cross-sell-div {
     width:100%;
-    float:left;
+  }
+  .cross-sell {
+    width:95%;
+    display:block;
+  margin: 0 auto;
     padding:10px 5px 0px 5px;
   }
   .return-to-port {

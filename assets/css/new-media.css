@@ -55,6 +55,8 @@
     }
     .cross-sell {
         width:33.33%;
+        float:left;
+        margin-top: 25px;
     }
     .rcl-iphone { 
         width:80%;
@@ -229,8 +231,11 @@ width: 33.333%;
 }
 .cross-sell-content {
     width: 95%;
-    padding-left:75px;
+   display:block;
+   margin: 0px auto;  
+
 }
+
 /* .rcl-iphone {
     width: 75%;
    
@@ -551,11 +556,13 @@ ul#portfolio-filter {
 .cruise-planner-div { 
     float:left;
     width: 50%;
+    padding: 0px 20px;
 }
 
 .other-web {
     float:left;
     width:50%;
+    padding: 0px 20px;
 }
 }
 /* copied from media.css */
@@ -591,6 +598,9 @@ ul#portfolio-filter {
 }
 .rcl-booked {
 
+}
+.cross-sell-content{
+ width:85%;
 }
 }
 /* Large devices (desktops, 992px and up) */
