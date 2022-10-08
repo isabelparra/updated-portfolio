@@ -73,8 +73,8 @@
     }
     .rcl-mockup {
         width:45%;
-        float:right;
-        margin-right: 45px;
+        /* float:right; */
+        /* margin-right: 45px; */
     }
     #rcl-inside {
         float:left;
@@ -91,6 +91,20 @@
   #prana-side {
       height:150px;
   }
+  .gif-box {
+    display:block;
+    width:50%;
+    float:left;
+    margin: 35px 0px 0px 5px;
+}
+.rcl-gif {
+    width:15%;
+    float:left;
+}
+.horizontal-gif {
+    width:90%;
+    float:left;
+}
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -232,23 +246,10 @@ width: 33.333%;
 .cross-sell-content {
     width: 95%;
    display:block;
-   margin: 0px auto;  
+   margin: 10px auto;  
 
 }
-.gif-box {
-    display:block;
-    width:40%;
-    float:left;
-    margin: 35px 0px 0px 5px;
-}
-.rcl-gif {
-    width:15%;
-    float:left;
-}
-.horizontal-gif {
-    width:90%;
-    float:left;
-}
+
 
 /* .rcl-iphone {
     width: 75%;
@@ -550,7 +551,7 @@ ul#portfolio-filter {
         float:left;
     }
     .email-new {
-        /* width:70%; */
+        width:70%;
       
       }
 }
@@ -617,7 +618,10 @@ ul#portfolio-filter {
  width:85%;
 }
 .gif-box {
-    width: 45%;
+    width: 50%;
+}
+.rcl-layout {
+    width: 70%;
 }
 }
 /* Large devices (desktops, 992px and up) */
@@ -625,6 +629,10 @@ ul#portfolio-filter {
 .rcl-content {
     width: 75%;
 }
+.email-new {
+    width:50%;
+  
+  }
 #rcl-3 {
     bottom:5px;
 }
@@ -979,7 +987,7 @@ padding: 0px 100px;
 /* and (max-width : 2600px) */
 @media (min-width: 1300px)  {
 .rcl-content {
-    width: 65%;
+    width: 55%;
 }
 /* .site-logo {
     width:25%;

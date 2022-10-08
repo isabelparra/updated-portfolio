@@ -2815,7 +2815,7 @@ margin: 10px auto;
     margin: 0 auto;
   }
   .intl-mkt-content {
-    padding: 35px 0px 0px 0px;
+    padding: 5px 0px 5px 0px;
   
     text-align: center;
   }
@@ -3031,7 +3031,7 @@ margin: 10px auto;
     padding-top:50px;
   }
   .email-new {
-    width:55%;
+    width:95%;
     display:block;
   /* float: left; */
   margin: 0 auto;
@@ -3183,7 +3183,7 @@ margin: 10px auto;
 .rcl-l, .rcl-r {
   width:100%;
   display:block;
-  margin: 15px auto;
+  margin: 0px auto 10px auto;
 }
 
 
