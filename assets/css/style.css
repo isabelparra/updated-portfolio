@@ -2883,6 +2883,8 @@ margin: 10px auto;
 }
 .subHeading {
   font-family: "ProximaNova-Regular", Arial, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.2;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
