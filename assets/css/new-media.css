@@ -1,5 +1,12 @@
 
 @media (min-width: 420px) {
+    .hp-logo { 
+        width:55%;
+    }
+    .logo-container {
+        height: 100px;
+      
+      }
     .site-logo {
         width: 40%;
         margin-top: 0px;
@@ -36,6 +43,9 @@
 }
 /* Small devices (landscape phones, 576px and up)*/ 
 @media (min-width: 576px) {
+    .hp-logo {
+        width: 45%;
+    }
     .site-logo {
         width: 25%;
 
@@ -96,6 +106,9 @@
 /* Medium devices (tablets, 768px and up) */
 /* @media (min-width: 768px) {  */
 @media (min-width: 600px) {   
+    .hp-logo {
+        width: 45%;
+    }
 /* ---- NAV BAR ---- */
 /* button.navbar-toggler {
     position: relative;
@@ -521,7 +534,21 @@ ul#portfolio-filter {
 }
 
 }
+@media only screen and (max-width: 767px)
+{
+.font--paragraph, body {
+    font-size: 15px;
+}
+}
+@media only screen and (max-width: 650px)
+{
+#sec-1 .sec-card {
+    width: 100%;
+    margin: 20px auto;
+}
+}
 @media (min-width:650px) {
+    
     .rcl-content {
         width: 95%;
         display: block;
@@ -555,6 +582,11 @@ ul#portfolio-filter {
       }
 }
 @media (min-width:770px) {
+    .logo-container {
+        
+        height: 117px;
+      
+      }
 .pink-box {
     height:auto;
 }
@@ -621,7 +653,43 @@ ul#portfolio-filter {
 }
 }
 /* Large devices (desktops, 992px and up) */
+@media (min-width: 950px) {
+
+
+    .hp-logo {
+        width: 50%;
+    }
+    .logo-container {
+    height: 135px;
+    }
+}
 @media (min-width: 992px) { 
+    .main-nav-2023 {
+        display: block;
+        margin: 0 auto;
+      }
+      .navbar-nav {
+        margin-bottom:10px !important;
+      }
+      .nav-item {
+        padding: 0px 16px;
+      
+        
+      }
+      #nav-link, #nav-item, nav a{
+        color: #444444 !important;
+        font-size: 12px;
+        
+      }
+#final-nav {
+    height: 75px; 
+
+    z-index: 100;
+    width: 100%;
+    position: relative;
+ 
+    background-color: #faf2e5 !important;
+}   
 .rcl-content {
     width: 75%;
 }

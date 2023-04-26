@@ -1,11 +1,11 @@
 $(document).ready(function(){
-  $(window).scroll(function(){
-      if($(window).scrollTop() > 50){
-          $("#final-nav").css({"background-color":"white"});   
-          $(".navbar-nav").css({"background-color":"white"}); 
+  // $(window).scroll(function(){
+  //     if($(window).scrollTop() > 50){
+  //         $("#final-nav").css({"background-color":"white"});   
+  //         $(".navbar-nav").css({"background-color":"white"}); 
         
-      }
-  })
+  //     }
+  // })
 })
     // window.onscroll = function() {
     //   scrollFx();
@@ -686,3 +686,10 @@ $(document).on('click', '[data-toggle="lightbox"]', function(event) {
     //   x[slideIndex-1].style.display = "block";  
     //   dots[slideIndex-1].className += " w3-white";
     // }
+
+
+
+    function designForm() {
+      var popup = document.getElementById("myPopup");
+      popup.classList.toggle("show");
+    }

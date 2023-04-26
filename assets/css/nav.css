@@ -32,9 +32,9 @@ bottom: 7px; */
 /* margin: 20px; */
 }
 .nav-link {
-color: black !important;
+/* color: black !important; */
 font-family: Dosis, sans-serif;
-font-size: 14px;
+/* font-size: 14px; */
 font-weight: 400;
 text-transform: uppercase;
 text-align: right;
@@ -48,9 +48,9 @@ padding-bottom: 14px !important;
 float: right;
 }
 #nav-link, #nav-item, nav a{
-color: black !important;
+/* color: black !important; */
 font-family: Dosis, sans-serif;
-font-size: 14px;
+/* font-size: 14px; */
 font-weight: 400;
 text-transform: uppercase;
 text-align: right;
@@ -80,7 +80,7 @@ margin-left:100px !important;
 color: black;
 }
 div#navbarSupportedContent.collapse.navbar-collapse {
-float: right !important;
+/* float: right !important; */
 align-content: flex-end;
 } 
 #final-nav {
@@ -91,6 +91,7 @@ align-content: flex-end;
     width: 100%;
     position: fixed;
     top: 0;
+    background: rgba(0,0,0,0) !important;
     /* padding: 30px 75px !important; */ /*IP rm dec 15*/
     /* background-color: #dac6bd; */
 }
@@ -109,11 +110,12 @@ align-content: flex-end;
     padding: 10px 75px;
     /* background-color: #dac6bd; */
 }
- /* #navbar {
-    overflow: hidden;
+ .navbar {
+    /* overflow: hidden;
     background-color: white;
-    z-index: 100;
-  } */
+    z-index: 100; */
+    /* font-family: "Louize" !important; */
+  }
 /* #myTopnav {
     overflow: hidden;
     z-index: 100;

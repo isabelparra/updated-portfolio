@@ -24,13 +24,14 @@ function submitForm(e) {
     // Grabs user input
     var name = $('#hpInputName').val().trim();
     var email = $('#hpInputEmail').val().trim();
-    var phone = $('#hpInputPhone').val().trim();
-    var company = $('#hpCompany').val().trim();
-    var message = $('#hpMessage').val().trim();
+    var last = $('#hpInputLast').val().trim();
+    // var phone = $('#hpInputPhone').val().trim();
+    // var company = $('#hpCompany').val().trim();
+    // var message = $('#hpMessage').val().trim();
 
     //save user
-    saveUser(name, email, phone, company, message);
-console.log(name, email, phone, company, message);
+    saveUser(name, last, email);
+console.log(name, last, email);
     //show alert
     document.querySelector('.alert').style.display = 'block';
     document.querySelector('.submitBtn').style.display = 'none';
@@ -51,14 +52,13 @@ function getInputVal(id) {
 
 //save to firebase
 
-function saveUser(name, email, phone, company, message) {
+function saveUser(name, last, email) {
     var newUserRef = usersRef.push();
     newUserRef.set({
         name: name,
-        email: email,
-        phone: phone, 
-        company: company,
-        message: message
+        last: last,
+        email: email
+      
     });
 }
 
@@ -152,3 +152,17 @@ function saveUser(name, email, phone, company, message) {
 //     });
 // }
 
+//
+//
+//
+// NEW FORM 2023
+
+// function designForm() {
+//     alert('Coming Soon!');
+
+// }
+
+// function designForm() {
+//     var popup = document.getElementById("myPopup");
+//     popup.classList.toggle("show");
+//   }
