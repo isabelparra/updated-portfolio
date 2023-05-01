@@ -695,15 +695,9 @@ $(document).on('click', '[data-toggle="lightbox"]', function(event) {
     }
 
     
-      
+
       
       function emailContact() {
-        console.log('contact');
-        var email = 'info@isabel-parra.com';
-        var subject = 'test';
-        var emailBody = 'hi sample';
-        var attach = 'path';
-        document.location = "mailto:"+email+"?subject="+subject+"&body="+emailBody+"?attach="+attach;
-      
+     
        
       };
