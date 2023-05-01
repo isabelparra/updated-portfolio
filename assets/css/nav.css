@@ -88,15 +88,16 @@ div#navbarSupportedContent.collapse.navbar-collapse {
 } 
 #navbarSupportedContent {
   background: var(--bg-color--body);
+  float:right;
 }
 #final-nav {
-    height: 75px; 
+    /* height: 20px;  */
     /* width: 700px !important; */
     /* float: right !important; */
     z-index: 100;
     width: 100%;
     position: fixed;
-    top: 0;
+    top: 20px;
     background: rgba(0,0,0,0) !important;
     /* padding: 30px 75px !important; */ /*IP rm dec 15*/
     /* background-color: #dac6bd; */
@@ -186,3 +187,28 @@ background-color: white;
       text-align: left;
     }
   } */
+.navbar {
+  float: right;
+    bottom: 55px;
+    font-size:13px;
+}
+@media only screen and (min-width: 992px) {
+  #final-nav {
+    position: relative;
+    padding:0px !important;
+  }
+  .navbar-nav {
+    margin: 0 auto;
+  }
+  #navbarSupportedContent {
+      display:block;
+      float: none;
+    
+  }
+  .layout--main-content {
+    clear:both;
+  }
+  .layout--header{
+    height:80px !important;
+  }
+}

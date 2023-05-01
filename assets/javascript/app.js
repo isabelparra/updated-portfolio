@@ -287,7 +287,7 @@ $(document).ready(function(){
   function closeModal() {
     document.getElementById('myModal').style.display = "none";
   }
-  
+ 
       
 
  
@@ -693,3 +693,17 @@ $(document).on('click', '[data-toggle="lightbox"]', function(event) {
       var popup = document.getElementById("myPopup");
       popup.classList.toggle("show");
     }
+
+    
+      
+      
+      function emailContact() {
+        console.log('contact');
+        var email = 'info@isabel-parra.com';
+        var subject = 'test';
+        var emailBody = 'hi sample';
+        var attach = 'path';
+        document.location = "mailto:"+email+"?subject="+subject+"&body="+emailBody+"?attach="+attach;
+      
+       
+      };
