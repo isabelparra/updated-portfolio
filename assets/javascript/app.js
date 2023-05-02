@@ -697,7 +697,24 @@ $(document).on('click', '[data-toggle="lightbox"]', function(event) {
     
 
       
-      function emailContact() {
+      function emailContact(to, subject, emailBody) {
      
-       
+        // const email = document.getElementById('contact-btn').addEventListener('click',  function() {
+          console.log('contact');
+            var form = document.createElement('form');
+            form.setAttribute('method', 'post');
+            form.setAttribute('enctype', 'text/plain');
+            form.setAttribute('action', 'mailto:' + escape(to) + '?Subject=' + escape(subject) + '&Body=' + escape(emailBody ? emailBody : ' ') );
+	          form.setAttribute('style', 'display:none');
+            document.body.appendChild(form);
+            form.submit();
+            document.body.removeChild(form);
+            
+                //  var to = 'info@isabel-parra.com';
+                //  var subject = 'test';
+                //  var emailBody = 'hi sample';
+                //  var attach = 'path';
+                //  window.document.location = 'mailto:'+email+'?subject='+subject+'&body='+emailBody+'?attach='+attach;
+              //  });
+    
       };
