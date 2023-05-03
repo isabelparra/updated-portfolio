@@ -1,0 +1,15 @@
+
+/* fonts */
+@font-face {
+  font-family: 'Louize';
+  src: url(LouizeDisplay.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Louize';
+  src: url(LouizeDisplay-Italic.woff) format('woff2');
+  font-style: italic;
+}
+
+* {
+    font-family: "Louize" !important;
+  }

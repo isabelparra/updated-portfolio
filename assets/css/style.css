@@ -3491,8 +3491,8 @@ h3 {
   margin-inline-end: 0px;
   font-weight: bold;
 }
-#sec-2, #sec-4, #sec-5 .bg {
-  background-image: url(//cdn.shopify.com/s/files/1/0363/1870/7847/t/2/assets/home_ultimate.jpg?v=9674891…);
+/* #sec-2, #sec-4, #sec-5 .bg {
+   background-image: url(//cdn.shopify.com/s/files/1/0363/1870/7847/t/2/assets/home_ultimate.jpg?v=9674891…); 
   background-size: cover;
   background-position: center;
   height: 50vw;
@@ -3501,4 +3501,4 @@ h3 {
 }
 .service-img {
   width:65%;
-}
+} */

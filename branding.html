@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8" name='viewport' content='width=device-width, initial-scale=1.0'>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Home | Crafted</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/nav.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/main-fonts.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/fonts.css">
+  
+  <!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/nav.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/main-fonts.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/fonts.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/new-media.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/products.css"> -->
+  <link rel="stylesheet" href="assets/css/2023.css">
+  <!--CSS-->
+  <!-- <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/nav.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/new-media.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/products.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet"> -->
+  <!-- Bootstrap -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://use.typekit.net/qrb6jmu.css"> -->
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Ramaraja" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+  
+  <!--Firebase Script -->
+<script src='https://www.gstatic.com/firebasejs/4.12.0/firebase.js'></script>
+
+
+
+</head>
+
+<body>
+  <header class="layout--header 2023-header spacing--5x">
+  
+    <div class="logo-container">
+     <a href="index.html"> <img src="assets/images/logos-iep-04.png" class="hp-logo" ></a>
+    </div>
+    <div class="left-top-side">
+      Crafting human connection<br>through digital experience
+      <!-- Curated design + development -->
+    </div>
+ 
+  </header> 
+  <nav id="final-nav" class="navbar navbar-expand-lg navbar-light">
+    <!-- <a class="navbar-brand" href="index.html"> 
+      <img class="nav-logo2" src="assets/images/logo.png">
+    </a> -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" id="menuBtn"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">ABOUT <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">CONTACT</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="work.html">WORK</a>
+          </li>
+       
+      </ul>
+    </div>
+  </nav>
+ 
+  
+
+  <main class="layout--main-content">
+   
+  </main>
+
+  <div class="newsletter-wrapper">
+    <div id="shopify-section-framework--newsletter" class="shopify-section">  
+      <div class="newsletter--root" data-section-id="framework--newsletter" style="">
+        <div class="newsletter--container">       
+            <div class="newsletter--header">  
+                <h2 class="newsletter--heading font--section-heading">subscribe to our newsletter</h2>             
+            </div>        
+            <form class="new-form hp-form" id="hp-form">
+      
+              <input type="name" class="form-control" id="hpInputName" aria-describedby="nameHelp"  placeholder="Your First Name">
+              
+              <input type="name" class="form-control" id="hpInputLast" aria-describedby="nameHelp" placeholder="Your Last Name">
+            
+              <input type="email" class="form-control" id="hpInputEmail" aria-describedby="emailHelp" placeholder="Your E-mail">
+          <!-- <div class="form-group ">
+            <button class="font--button" id="newsletter--button submit-hp" name="subscribe">
+              Subscribe
+            </button>
+            <div class="alert">Your message has been sent. We'll be in contact with you shortly. Thank you!</div>
+          </div> -->
+              
+          
+            <div class="submitBtn-row"  >
+              <div class="form-group">
+                <button type="submit" class="submitBtn font--button" id="newsletter--button submit-hp">SUBMIT</button>
+                <div class="alert">Your message has been sent. We'll be in contact with you shortly. Thank you!</div>
+              </div>
+            </div>
+            
+            </form> 
+        </div>
+      </div>
+    </div>
+  </div> 
+
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+  <!-- <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script> -->
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+  <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script> -->
+ <!--Firebase Script -->
+ <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+ <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+ <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+ <script type="text/javascript" src="assets/javascript/app.js"></script>
+ <script type="text/javascript" src="assets/javascript/form.js"></script>
+
+
+
+
+
+  </div>
+</div>
+
+
+   
+    
+ 
+
+
+
+
+</body>
+<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+</html>
+
