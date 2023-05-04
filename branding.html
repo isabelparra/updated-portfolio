@@ -91,155 +91,107 @@
     <div class="branding-main">
       <div class="branding-1">
         <!-- <img class="rcl-mockup1" src="assets/images/rcl-screen-1.png"> -->
-        <img class="rcl-all" src="assets/images/brand.jpg">
+        <img class="branding-all" src="assets/images/brand.jpg">
       </div> 
       
     </div>
   </main>
-  <div class="branding-1">
-    <!-- <img class="rcl-mockup1" src="assets/images/rcl-screen-1.png"> -->
-    <img class="rcl-all" src="assets/images/brand-2.png">
-  </div> 
-  <div class="bg-locations">
-    <section id="studio-locations">
-  <h2>Our Partners</h2>
-  <div>
-    <div class="location">
-      <div class="image-120">
-        <img src="assets/images/homepage-imgs-15.jpg" alt="Become A Crafted Partner" data-location="miami">
-      </div>
-      <h3 class="accordion" data-location="miami">
-        <i>Wynwood, Miami</i>
-        <span class="arrow">&nbsp;&nbsp;→</span>
-      </h3>
-    </div>
-    <div class="location">
-      <div class="image-120">
-        <img src="assets/images/boat-mobile.jpg" alt="Visit Us IRL">
-      </div>
-        <h3 class="accordion" data-location="ftl">
-        <i>Fort Lauderdale</i>
-        <span class="arrow">&nbsp;&nbsp;→</span>
-      </h3>
-    </div>
-    <div class="location" data-link="/pages/grove">
-      <div class="image-120">
-        <img src="assets/images/home_sec3.jpg" alt="Visit Us IRL">
-      </div>
-      <h3><i><a href="/pages/grove" title="" target="_self">Coconut Grove - Coming soon</a></i></h3>
-    </div>
+ 
+  <header class="branding--header Branding" data-section-id="header" data-section-type="header" data-js-class="Header" data-header--logo-height="35" data-header--logo-type="inline" style="" data-js-loaded="true" data-menu-overlap="false">
+  
+    <div class="header-text">Content<br>Made For<br><br><div class="line"></div>
+    <p>You</p>
   </div>
-  
-  
-</section>
+    
+     
+    
 
-<style>
-  #studio-locations {
-	margin: auto;
-    padding: 50px 0;
-    max-width: 800px;
-    width: 100%;
-  }
-  #studio-locations > div {
-  	margin: 20px auto;
-    display: flex;
-    justify-content: space-between;
-    gap: 1vw;
-  }
-  #studio-locations > div > .location {
-    flex: 1 1 50px;
-  }
-  #studio-locations .details {
-    display: none;
-  }
-  #studio-locations .expended.details {
-    display: block;
-  }
-  
-  #studio-locations img {
-    width: 100%;
-    margin: 0 auto;
-    cursor: pointer;
-  }
-  #studio-locations h2 {
-    font-weight: lighter;
-    font-size: 32px;
-  }
-  #studio-locations h3 {
-    font-size: 30px;
-    margin: 10px 0;
-    cursor: pointer;
-  }
-  #studio-locations h4 {
-    margin-top: 5px; 
-  }
-  #studio-locations h4 > span:first-child {
-    color: #ad6d59;
-    margin-right: 5px;
-  }
-  
-  @media only screen and (max-width: 950px) {
-    #studio-locations h3 {
-      font-size: 4.5vw;
-    }
-    #studio-locations h4 {
-      font-size: 3.5vw;
-    }
-  }
 
-</style>
-<script>
-  document.querySelectorAll(".location[data-link]").forEach(el => {
-    const link = el.getAttribute("data-link");
-    el.addEventListener("click", e => {
-      window.location.href = link;
-    })
-  })
-</script>
-<!-- <script>
-  var acc = document.querySelectorAll("#studio-locations .accordion");
-  for (let i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function() {
-      for (let j = 0; j < acc.length; j++) {
-        if (i === j) {
-          this.parentNode.classList.toggle("active");
-        } else {
-          acc[j].parentNode.classList.remove("active");
-        }
-      }
-    });
-  }
-  const miami = document.querySelector("#studio-locations h3[data-location='miami']");
-  const miami_pic = document.querySelector("#studio-locations img[data-location='miami']");
-  const miami_details = document.querySelector("#studio-locations div[data-details='miami']");
-
-  const ftl = document.querySelector("#studio-locations h3[data-location='ftl']");
-  const ftl_pic = document.querySelector("#studio-locations img[data-location='ftl']");
-  const ftl_details = document.querySelector("#studio-locations div[data-details='ftl']");
-  
-  miami.addEventListener("click", function() {
-    miami_details.classList.toggle("expended");
-  });
-  miami_pic.addEventListener("click", function() {
-    miami_details.classList.toggle("expended");
-  });
-
-  ftl.addEventListener("click", function() {
-    ftl_details.classList.toggle("expended");
-  });
-  ftl_pic.addEventListener("click", function() {
-    ftl_details.classList.toggle("expended");
-  });
-</script> -->
-  </div>
+  </header>
   <style>
-    .bg-locations {
-    background-color: #ddd2ba;
-    margin-top: 60px;
-    padding: 5px;
+    /* header .header-text {
+      z-index: -3 !important;
+    } */
+    header .fw--logo img {
+      height: 35px;
+    }
+
+    .layout--main-content {
+      padding-top: 110px;
+    }
+    @media only screen and (max-width: 950px) {
+    .layout--header.Branding {
+      height: 80vw;
+      background-size: 80vw auto;
+    }
+    .layout--header.Branding .header-text {
+      font-size: 50px;
+      width: 200px;
+      bottom: 30vw;
+    }
+    .layout--header.Branding .header-text .line {
+      transform: translate(70px) rotate(-45deg);
+    }
   }
+
+    @media only screen and (max-width: 1024px) {
+      .layout--main-content {
+        padding-top: 80px;
+      }
+     header .header-text {
+        z-index: -3 !important;
+      }
+      header .fw--logo img {
+        height: 35px;
+      }
+    }
+    
+
+  
+
   </style>
-  <div class="newsletter-wrapper">
+  <style>
+    .branding--header.Branding {
+    background: no-repeat url(assets/images/brand-1.jpg);
+    background-position: 100% 90%;
+    background-size: 45vw auto;
+    background-color: #D2A987;
+    height: 600px;
+
+  }
+  .branding--header.Branding .header-text {
+    /* position: absolute; */
+    color: white;
+    font-size: 5vw;
+    line-height: 1.1;
+    left: 10vw;
+    bottom: 50px;
+    width: 25vw;
+    height: 25vw;
+    position: relative;
+    top: 100px;
+  }
+  .branding--header.Branding .header-text p {
+    text-align: right;
+    font-style: italic;
+  }
+
+  .branding--header.Branding .header-text .line {
+    background: white;
+    width: 16vw;
+    height: 1px;
+    transform: translate(10vw, -1vw) rotate(-45deg);
+  }
+  
+  </style>
+ 
+
+<div class="branding-1">
+  <!-- <img class="rcl-mockup1" src="assets/images/rcl-screen-1.png"> -->
+  <img class="brand-all" src="assets/images/brand-2.jpg">
+</div> 
+
+  <div class="newsletter-wrapper brand">
     <div id="shopify-section-framework--newsletter" class="shopify-section">  
       <div class="newsletter--root" data-section-id="framework--newsletter" style="">
         <div class="newsletter--container">       

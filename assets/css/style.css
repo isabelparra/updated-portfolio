@@ -102,11 +102,21 @@ html, body {
   margin: 0 auto;
   margin-bottom: 50px;
 }
+.brand-all {
+  float:left;
+  width:80%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
 .branding-main {
   width:50%;
   display: block;
   margin: 20px auto;
 
+}
+.newsletter-wrapper.brand{
+  clear:both;
 }
 .rcl-title {
   font-family: "ProximaNova-Regular", Arial, sans-serif;
