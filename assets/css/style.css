@@ -97,8 +97,16 @@ html, body {
 
 }
 .rcl-all {
-  width:100%;
+  width:80%;
+  display: block;
+  margin: 0 auto;
   margin-bottom: 50px;
+}
+.branding-main {
+  width:50%;
+  display: block;
+  margin: 20px auto;
+
 }
 .rcl-title {
   font-family: "ProximaNova-Regular", Arial, sans-serif;
@@ -628,6 +636,8 @@ span#typed {
 
 #newsName, #newsEmail {
   padding: 10px 10px;
+  text-transform: capitalize;
+  font-size:12px;
 
 }
 .texts-tips {
@@ -727,6 +737,8 @@ span#typed {
 .about-container {
   margin: 0px 0px;
   clear:both;
+  position: relative;
+  top:25px;
   /* text-align: center; */
 }
 .about-details, .book-details {
@@ -1487,7 +1499,9 @@ font-weight: 100; }
   padding: 50px 150px; */
 }
 .contact-div {
-  margin: 60px 20px;
+  margin: 100px auto 0px auto;
+  width:55%;
+  
 }
 #back2 {
   background: url("https://www.noworneverdesign.com/wp-content/uploads/2018/03/greengrain.jpg");
@@ -1533,7 +1547,7 @@ font-weight: 100; }
   padding: 5px 0px;
 }
 
-.about-me {
+.about-drawn {
   margin: 50px 0px;
   font-family: "Inconsolata", sans-serif;
   font-size: 15px;
@@ -2051,7 +2065,8 @@ padding: 75px 100px;
   padding: 0px !important;
 }
 .submitBtn {
-  margin: 0px;
+  width:100% !important;
+  /* margin: 0px;
   padding: 10px !important;
   width: 100%;
   background-color: black;
@@ -2061,7 +2076,22 @@ padding: 75px 100px;
   font-size: 16px;
   letter-spacing: 2px;
   line-height: 22.5px;
-  border-radius: 5px;
+  border-radius: 5px; */
+
+}
+.submitBtn-2 {
+  
+   margin: 0px;
+  padding: 10px !important;
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 2px;
+  line-height: 22.5px;
+  border-radius: 5px; 
 
 }
 .heading3 {
@@ -2121,7 +2151,12 @@ padding: 75px 100px;
   cursor: pointer;
 }
 .contact-form {
-  margin: 0px 50px;
+  margin: 0px 20px;
+  
+}
+#form-name, #form-last-name, #form-number, #form-business, #form-description, #form-details, #form-other {
+  text-transform: capitalize;
+  margin-bottom:0px;
 }
 
 
@@ -2915,10 +2950,11 @@ margin: 10px auto;
   .rcl-layout-1 {
 
   }
-  .rcl-mockup-1 {
+  .rcl-mockup-1, .branding-1 {
     display: block;
     margin: auto;
   }
+  
   .rcl-layout {
     width:85%;
     display: block;
@@ -3119,15 +3155,15 @@ margin: 10px auto;
 
 /* ---- HP FORM ---- */
 
-#hpInputName, #hpInputPhone, #hpInputEmail, #hpCompany, #hpMessage {
-  border: 4px solid #D9D9D9;
+/* #hpInputName, #hpInputPhone, #hpInputEmail, #hpCompany, #hpMessage {
+ 
   border-radius: 0;
-  /* border-style: none; */
+
   width: 100%;
   display: block;
   margin: 0 auto;
   
-}
+} */
 
 /* ---- END HP FORM ---- */
 /* adding from css media file*/
@@ -3198,7 +3234,7 @@ margin: 10px auto;
 
 }
 .hp-form {
-  background-color: #D9D9D9;
+  /* background-color: #D9D9D9; */
   width:95%;
   display: block;
   margin: 0 auto;
@@ -3247,7 +3283,7 @@ margin: 10px auto;
   width:80%;
 }
 .rcl-l, .rcl-r {
-  width:100%;
+  width:85%;
   display:block;
   margin: 15px auto;
 }
@@ -3330,7 +3366,7 @@ width: 100%;
 /* 2023 EDITS */
 .logo-container {
   background-color: #faf2e5;
-  height: 87px;
+  /* height: 87px; */
 
 }
 .hp-logo {

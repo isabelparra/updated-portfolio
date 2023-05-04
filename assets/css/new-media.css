@@ -4,7 +4,7 @@
         width:55%;
     }
     .logo-container {
-        height: 100px;
+        /* height: 100px; */
       
       }
     .site-logo {
@@ -584,7 +584,7 @@ ul#portfolio-filter {
 @media (min-width:770px) {
     .logo-container {
         
-        height: 117px;
+        /* height: 117px; */
       
       }
 .pink-box {
@@ -602,13 +602,13 @@ ul#portfolio-filter {
 .cruise-planner-div { 
     float:left;
     width: 50%;
-    padding: 0px 20px;
+    padding: 0px 0px;
 }
 
 .other-web {
     float:left;
     width:50%;
-    padding: 0px 20px;
+    padding: 0px 0px;
 }
 }
 /* copied from media.css */
@@ -651,6 +651,9 @@ ul#portfolio-filter {
 .gif-box {
     width: 45%;
 }
+.about-drawn {
+    width:65%;
+}
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 950px) {
@@ -660,7 +663,7 @@ ul#portfolio-filter {
         width: 50%;
     }
     .logo-container {
-    height: 135px;
+    /* height: 135px; */
     }
 }
 @media (min-width: 992px) { 
@@ -682,13 +685,13 @@ ul#portfolio-filter {
         
       }
 #final-nav {
-    height: 75px; 
+    /* height: 75px;  */
 
     z-index: 100;
     width: 100%;
     position: relative;
  
-    background-color: #faf2e5 !important;
+    /* background-color: #faf2e5 !important; */
 }   
 .rcl-content {
     width: 75%;

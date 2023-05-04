@@ -87,7 +87,7 @@ div#navbarSupportedContent.collapse.navbar-collapse {
 
 } 
 #navbarSupportedContent {
-  background: var(--bg-color--body);
+  /* background: var(--bg-color--body); */
   float:right;
 }
 #final-nav {
@@ -208,7 +208,7 @@ background-color: white;
   .layout--main-content {
     clear:both;
   }
-  .layout--header{
+  /* .layout--header{
     height:80px !important;
-  }
+  } */
 }
