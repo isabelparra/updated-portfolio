@@ -414,7 +414,7 @@
     }
 
     .layout--main-content {
-      padding-top: 0px;
+      padding-top: 110px;
     }
     @media only screen and (max-width: 950px) {
     .layout--header.Branding {
@@ -488,8 +488,220 @@
     <!-- <img class="rcl-mockup1" src="assets/images/rcl-screen-1.png"> -->
     <img class="brand-all" src="assets/images/brand-2.jpg">
   </div>
-  
+  <div style="clear:left"></div>
+  <main role="main" class="layout--main-content">
+    <div id="giftcard-page">
+<section id="sec-top">
+<div>
+<h2>Gift The Sana Glow</h2>
+<p>
+  The ultimate self care gift. Our gift cards are valid for<br>
+  any of our facials and in studio product purchases.<br>
+  They are not valid for product purchases on our<br>online shop.
+</p>
+</div>
+<div><img src="assets/images/brand-2.jpg" alt=""></div>
+</section>
+<div id="purchase_btn"><a href="https://sanaskinstudio.zenoti.com/webstoreNew/giftcards" target="_blank" rel="noopener">Purchase <i>Gift cards</i></a></div>
+<section id="sec-middle" class="spacing--4">
+<div><meta charset="utf-8">
+<div>
+<div><span>You must present the gift card code at checkout in order to redeem it. Gift cards are non-refundable and they do not expire. They are equivalent to cash and can be used for any in store purchase. Gift cards are not valid for product purchases on our online shop, only in studio.</span></div>
+</div></div>
+<div><img src="assets/images/brand-2.jpg" alt="gift card"></div>
+</section>
+<section id="sec-bottom">
+<div><img src="assets/images/brand-2.jpg" alt="gift card"></div>
+</section>
+</div>
 
+<style>
+.layout--header.Giftcard .header-text {
+position: absolute;
+color: white;
+font-size: 5vw;
+line-height: 1.1;
+left: 15vw;
+bottom: 100px;
+width: 25vw;
+}
+.layout--header.Giftcard .header-text p {
+text-align: right;
+font-style: italic;
+color: white;
+}
+.layout--header.Giftcard .header-text .line {
+background: white;
+width: 16vw;
+height: 1px;
+transform: translate(10vw, -1vw) rotate(-45deg);
+}
+
+.layout--header.Giftcard .header-text .line {
+background: white;
+width: 12vw;
+transform: translate(1vw, 1vw) rotate(-45deg);
+}
+
+.layout--header.Giftcard .header-text {
+color: white;
+}
+
+.layout--header.Giftcard {
+background: no-repeat top/100% url(//cdn.shopify.com/s/files/1/0363/1870/7847/t/2/assets/giftcard_header.jpg?v=48117286608420260771634499004);
+background-position: 0 10%;
+background-size: cover;
+height: 600px;
+}
+
+#giftcard-page {
+max-width: 900px;
+margin: auto;
+}
+
+#sec-top, #sec-middle, #sec-bottom {
+max-width: 1200px;
+margin: 0 auto;
+padding-top: 0;
+padding-bottom: 0;
+position: relative;
+z-index: -1;
+}
+#sec-top {
+transform: translateY(100px);
+}
+#sec-top > div:first-child, #sec-middle > div:first-child {
+text-align: center;
+padding: 30px 50px;
+color: white;
+background-color: #95664B;
+}
+#sec-top > div:first-child {
+position: absolute;
+right: 0;
+top: -50px;
+}
+#sec-top > div:first-child h2 {
+margin: 0 0 20px;
+font-weight: lighter;
+}
+#sec-top img {
+width: 60vw;
+max-width: 500px;
+max-height: 500px;
+object-fit: cover;
+/*     border-radius: 50%; */
+}
+#sec-middle {
+display: flex;
+align-items: center;
+}
+#sec-middle > div:first-child {
+flex: 1 1 100px;
+}
+#sec-middle > div:last-child {
+flex: 1 1 60px;
+padding: 0 0 0 60px;
+}
+#purchase_btn {
+display: block;
+max-width: 300px;
+margin: 0 0 0 auto;
+border: 1px solid #ad6d59;
+font-size: 32px;
+padding: 20px 30px 15px;
+line-height: 1.1;
+transform: translate(-60px, -100px);
+text-align: center;
+}
+#purchase_btn a {
+color: #ad6d59;
+}
+#sec-middle img {
+/*     border-radius: 500px; */
+max-height: 480px;
+}
+
+#sec-bottom {
+margin-bottom: 100px;
+}
+#sec-bottom img {
+max-width: 520px;
+}
+@media only screen and (max-width: 950px) {
+.layout--header.Giftcard {
+background-image: url(//cdn.shopify.com/s/files/1/0363/1870/7847/t/2/assets/giftcard_header.jpg?v=48117286608420260771634499004);
+height: 80vw;
+background-position: top;
+}
+.layout--header.Giftcard .header-text {
+font-size: 30px;
+width: 280px;
+bottom: 10vw;
+}
+.layout--header.Giftcard .header-text .line {
+width: 100px;
+transform: translate(0px, 0px) rotate(-45deg);
+}
+#sec-top, #sec-middle {
+transform: unset;
+padding: 30px 30px 0;
+}
+#sec-top > div:last-child {
+text-align: center;
+}
+#sec-top > div:first-child, #sec-bottom > div:last-child {
+position: relative;
+color: black;
+background-color: unset;
+width: 100%;
+padding: 0;
+top: unset;
+bottom: unset;
+}
+#sec-top img, #sec-middle img {
+max-width: unset;
+max-height: 70vw;
+margin-top: 20px;
+}
+#purchase_btn {
+margin: 20px auto;
+transform: unset;
+}
+#purchase_btn a {
+line-height: 2;
+font-size: 28px;
+}
+#sec-middle {
+flex-direction: column-reverse;
+}
+#sec-middle > div:first-child {
+flex-basis: 40px;
+}
+#sec-middle > div:last-child {
+padding-left: 20px;
+}
+#sec-middle img {
+max-height: unset;
+max-width: 60vw;
+margin: 0 auto 20px;
+}
+#purchase_btn {
+font-size: 18px;
+padding: 10px 10px 5px;
+}
+#sec-bottom img {
+max-width: 100%;
+width: 100%;
+margin-top: 20px;
+}
+#sec-bottom {
+margin-bottom: 0;
+}
+} 
+</style>
+  </main>
+  
   
 
   
@@ -571,10 +783,36 @@
         
 
         <main role="main" class="layout--main-content">
-          <div id="facial-page" style="padding: 0px 0 0;">
 
 
- 
+
+
+            
+          <div id="facial-page" style="padding: 20px 0 0;">
+
+
+  <section id="facial-programs">
+    <div>
+      <div>
+        <h2>learn more<br>about our digital collaboration program</h2>
+        <a href="" target="_self">Digital Program</a>
+      </div>
+      <div class="image">
+        <img src="assets/images/brand.jpg" style="width: 400px;height: 400px;object-fit: cover;" alt="Digital Program">
+      </div>
+    </div>
+    <div>
+      <div class="image">
+        <div class="image-120">
+          <img src="assets/images/about-main-2.jpeg" alt="About">
+        </div>
+      </div>
+      <div>
+        <h2>Add a<br>Personal<br>Touch</h2>
+        <a href="" target="_blank" rel="noopener">Book Project</a>
+      </div>
+    </div>
+  </section>
   <div class="bg-locations">
     <section id="studio-locations">
 
@@ -928,7 +1166,7 @@
   }
   .bg-locations {
     background-color: #ddd2ba;
-    margin-top: 0px;
+    margin-top: 60px;
     padding: 5px;
   }
   @media only screen and (max-width: 1000px) {
