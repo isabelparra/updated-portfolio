@@ -103,8 +103,8 @@ html, body {
   margin-bottom: 50px;
 }
 .brand-all {
-  float:left;
-  width:75%;
+  /* float:left; */
+  width:50%;
   display: block;
   margin: 0 auto;
   margin-bottom: 50px;
