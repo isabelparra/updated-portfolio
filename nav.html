@@ -1,0 +1,1208 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8" name='viewport' content='width=device-width, initial-scale=1.0'>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Home | Crafted</title>
+
+  
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/nav.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/main-fonts.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/fonts.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/new-media.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/products.css">
+  <link rel="stylesheet" href="assets/css/2023.css">
+  
+  <!--CSS-->
+  <!-- <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/nav.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/new-media.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/products.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet"> -->
+  <!-- Bootstrap -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://use.typekit.net/qrb6jmu.css"> -->
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Ramaraja" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+  
+  <!--Firebase Script -->
+<script src='https://www.gstatic.com/firebasejs/4.12.0/firebase.js'></script>
+
+<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+
+
+</head>
+
+<body>
+
+<header data-test="header" id="header" class="
+    
+      light
+    
+    header theme-col--primary
+  " data-controller="Header" data-current-styles="{
+&quot;layout&quot;: &quot;navCenter&quot;,
+&quot;action&quot;: {
+&quot;href&quot;: &quot;/inquire&quot;,
+&quot;buttonText&quot;: &quot;work with me&quot;,
+&quot;newWindow&quot;: false
+},
+&quot;showSocial&quot;: true,
+&quot;socialOptions&quot;: {
+&quot;socialBorderShape&quot;: &quot;none&quot;,
+&quot;socialBorderStyle&quot;: &quot;outline&quot;,
+&quot;socialBorderThickness&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 1.0
+}
+},
+&quot;sectionTheme&quot;: &quot;light&quot;,
+&quot;menuOverlayTheme&quot;: &quot;light&quot;,
+&quot;menuOverlayAnimation&quot;: &quot;fade&quot;,
+&quot;cartStyle&quot;: &quot;cart&quot;,
+&quot;cartText&quot;: &quot;Cart&quot;,
+&quot;showEmptyCartState&quot;: true,
+&quot;cartOptions&quot;: {
+&quot;iconType&quot;: &quot;solid-7&quot;,
+&quot;cartBorderShape&quot;: &quot;none&quot;,
+&quot;cartBorderStyle&quot;: &quot;outline&quot;,
+&quot;cartBorderThickness&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 1.0
+}
+},
+&quot;showButton&quot;: true,
+&quot;showCart&quot;: false,
+&quot;showAccountLogin&quot;: true,
+&quot;headerStyle&quot;: &quot;solid&quot;,
+&quot;languagePicker&quot;: {
+&quot;enabled&quot;: false,
+&quot;iconEnabled&quot;: false,
+&quot;iconType&quot;: &quot;globe&quot;,
+&quot;flagShape&quot;: &quot;shiny&quot;,
+&quot;languageFlags&quot;: [ ]
+},
+&quot;mobileOptions&quot;: {
+&quot;layout&quot;: &quot;logoLeftNavRight&quot;,
+&quot;menuIcon&quot;: &quot;halfLineHamburger&quot;,
+&quot;menuIconOptions&quot;: {
+&quot;style&quot;: &quot;tripleLineHamburger&quot;,
+&quot;thickness&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 1.0
+}
+}
+},
+&quot;dynamicOptions&quot;: {
+&quot;border&quot;: {
+&quot;enabled&quot;: false,
+&quot;position&quot;: &quot;allSides&quot;,
+&quot;thickness&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 4.0
+},
+&quot;color&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;colorName&quot;: &quot;black&quot;,
+&quot;alphaModifier&quot;: 1.0
+}
+}
+}
+},
+&quot;solidOptions&quot;: {
+&quot;headerOpacity&quot;: {
+&quot;unit&quot;: &quot;%&quot;,
+&quot;value&quot;: 100.0
+},
+&quot;border&quot;: {
+&quot;enabled&quot;: true,
+&quot;position&quot;: &quot;bottom&quot;,
+&quot;thickness&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 1.0
+},
+&quot;color&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;colorName&quot;: &quot;darkAccent&quot;,
+&quot;alphaModifier&quot;: 1.0
+}
+}
+},
+&quot;dropShadow&quot;: {
+&quot;enabled&quot;: false,
+&quot;blur&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 30.0
+},
+&quot;spread&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 0.0
+},
+&quot;distance&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 0.0
+},
+&quot;color&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;colorName&quot;: &quot;black&quot;,
+&quot;alphaModifier&quot;: 1.0
+}
+}
+},
+&quot;blurBackground&quot;: {
+&quot;enabled&quot;: false,
+&quot;blurRadius&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 12.0
+}
+},
+&quot;backgroundColor&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;colorName&quot;: &quot;lightAccent&quot;,
+&quot;alphaModifier&quot;: 1.0
+}
+},
+&quot;navigationColor&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;colorName&quot;: &quot;black&quot;,
+&quot;alphaModifier&quot;: 1.0
+}
+}
+},
+&quot;gradientOptions&quot;: {
+&quot;gradientType&quot;: &quot;faded&quot;,
+&quot;headerOpacity&quot;: {
+&quot;unit&quot;: &quot;%&quot;,
+&quot;value&quot;: 90.0
+},
+&quot;border&quot;: {
+&quot;enabled&quot;: false,
+&quot;position&quot;: &quot;allSides&quot;,
+&quot;thickness&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 4.0
+},
+&quot;color&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;colorName&quot;: &quot;black&quot;,
+&quot;alphaModifier&quot;: 1.0
+}
+}
+},
+&quot;dropShadow&quot;: {
+&quot;enabled&quot;: false,
+&quot;blur&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 30.0
+},
+&quot;spread&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 0.0
+},
+&quot;distance&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 0.0
+},
+&quot;color&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;colorName&quot;: &quot;black&quot;,
+&quot;alphaModifier&quot;: 1.0
+}
+}
+},
+&quot;blurBackground&quot;: {
+&quot;enabled&quot;: false,
+&quot;blurRadius&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 12.0
+}
+},
+&quot;backgroundColor&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;colorName&quot;: &quot;white&quot;,
+&quot;alphaModifier&quot;: 1.0
+}
+},
+&quot;navigationColor&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;colorName&quot;: &quot;black&quot;,
+&quot;alphaModifier&quot;: 1.0
+}
+}
+},
+&quot;dropShadowOptions&quot;: {
+&quot;enabled&quot;: false,
+&quot;blur&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 30.0
+},
+&quot;spread&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 0.0
+},
+&quot;distance&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 0.0
+},
+&quot;color&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;colorName&quot;: &quot;black&quot;,
+&quot;alphaModifier&quot;: 1.0
+}
+}
+},
+&quot;borderOptions&quot;: {
+&quot;enabled&quot;: true,
+&quot;position&quot;: &quot;bottom&quot;,
+&quot;thickness&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 1.0
+},
+&quot;color&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;colorName&quot;: &quot;darkAccent&quot;,
+&quot;alphaModifier&quot;: 1.0
+}
+}
+},
+&quot;showPromotedElement&quot;: false
+}" data-section-id="header" data-header-theme="light" data-menu-overlay-theme="light" data-header-style="solid" data-language-picker="{
+&quot;enabled&quot;: false,
+&quot;iconEnabled&quot;: false,
+&quot;iconType&quot;: &quot;globe&quot;,
+&quot;flagShape&quot;: &quot;shiny&quot;,
+&quot;languageFlags&quot;: [ ]
+}" data-first-focusable-element="" tabindex="-1" style="
+    
+      
+        --solidHeaderDropShadowColor: hsla(var(--black-hsl), 1);
+      
+      
+        --gradientHeaderDropShadowColor: hsla(var(--black-hsl), 1);
+      
+      
+        --solidHeaderBorderColor: hsla(var(--darkAccent-hsl), 1);
+      
+      
+        --gradientHeaderBorderColor: hsla(var(--black-hsl), 1);
+      
+    
+    
+      --solidHeaderBackgroundColor: hsla(var(--lightAccent-hsl), 1);
+    
+    
+      --solidHeaderNavigationColor: hsla(var(--black-hsl), 1);
+    
+    
+      --gradientHeaderBackgroundColor: hsla(var(--white-hsl), 1);
+    
+    
+      --gradientHeaderNavigationColor: hsla(var(--black-hsl), 1);
+    
+  " data-controllers-bound="Header">
+  
+<div class="sqs-announcement-bar-dropzone"></div>
+
+  <div class="header-announcement-bar-wrapper"> 
+
+    <a href="#page" tabindex="1" class="header-skip-link sqs-button-element--primary">
+      Skip to Content
+    </a>
+    
+
+
+<style>
+    @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+        .header-blur-background {
+            
+                -webkit-backdrop-filter: blur(12px);
+                backdrop-filter: blur(12px);
+            
+            
+        }
+    }
+</style>
+    <div class="header-border" data-header-style="solid" data-header-usability-enabled="false" data-header-border="true" data-test="header-border" style="
+
+
+  
+    
+      border-width: 0px 0px 1px 0px !important;
+    
+  
+
+
+
+
+
+
+
+
+
+"></div>
+    <div class="header-dropshadow" data-header-style="solid" data-header-usability-enabled="false" data-header-dropshadow="false" data-test="header-dropshadow" style="
+  
+    box-shadow: none;
+  
+
+
+
+
+"></div>
+    
+    
+      <div>
+        <div class="header-background-solid" data-header-style="solid" data-test="header-background-solid" style="opacity: calc(100 * .01)"></div>
+      </div>
+    
+
+    <div class="header-inner container--fluid
+      
+      
+      
+       header-mobile-layout-logo-left-nav-right
+      
+      
+      
+      
+      
+      
+      
+      
+       header-layout-nav-center
+      
+      
+      
+      
+      
+      
+      " style="
+
+
+  
+    
+      padding: 0 0 1px 0;
+    
+  
+
+
+
+
+
+
+
+" data-test="header-inner">
+      <!-- Background -->
+      <div class="header-background theme-bg--primary"></div>
+
+      <div class="header-display-desktop" data-content-field="site-title">
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+        
+          
+          <!-- Social -->
+          
+            
+          
+        
+          
+          <!-- Title and nav wrapper -->
+          <div class="header-title-nav-wrapper">
+            
+
+            
+
+            
+              
+              <!-- Title -->
+              
+                <div class="
+                    header-title
+                    
+                  " data-animation-role="header-element">
+                  
+                    <div class="header-title-text">
+                      <a id="site-title" href="/" data-animation-role="header-element">Alexandra Sardi</a>
+                    </div>
+                  
+                  
+                </div>
+              
+            
+              
+              <!-- Nav -->
+              <div class="header-nav">
+                <div class="header-nav-wrapper">
+                  <nav class="header-nav-list">
+                    
+
+
+  
+    <div class="header-nav-item header-nav-item--collection">
+      <a href="/about" data-animation-role="header-element">
+        About
+      </a>
+    </div>
+  
+  
+  
+
+
+  
+    <div class="header-nav-item header-nav-item--collection">
+      <a href="/branding-design" data-animation-role="header-element">
+        Branding
+      </a>
+    </div>
+  
+  
+  
+
+
+  
+    <div class="header-nav-item header-nav-item--collection">
+      <a href="/website-design" data-animation-role="header-element">
+        Website
+      </a>
+    </div>
+  
+  
+  
+
+
+  
+    <div class="header-nav-item header-nav-item--collection">
+      <a href="/design-intensives" data-animation-role="header-element">
+        Intensives
+      </a>
+    </div>
+  
+  
+  
+
+
+  
+    <div class="header-nav-item header-nav-item--collection">
+      <a href="/projects" data-animation-role="header-element">
+        Projects
+      </a>
+    </div>
+  
+  
+  
+
+
+  
+    <div class="header-nav-item header-nav-item--collection">
+      <a href="/blog" data-animation-role="header-element">
+        Blog
+      </a>
+    </div>
+  
+  
+  
+
+
+
+                  </nav>
+                </div>
+              </div>
+            
+            
+          </div>
+        
+          
+          <!-- Actions -->
+          <div class="header-actions header-actions--right">
+            
+            
+              
+                <div class="header-actions-action header-actions-action--social">
+                  
+                    
+                      <a class="icon icon--fill  header-icon header-icon-border-shape-none header-icon-border-style-outline" href="https://www.instagram.com/alexsardi.studio/" target="_blank" aria-label="Instagram">
+                        <svg viewBox="23 23 64 64">
+                          <use xlink:href="#instagram-unauth-icon" width="110" height="110"></use>
+                        </svg>
+                      </a>
+                    
+                      <a class="icon icon--fill  header-icon header-icon-border-shape-none header-icon-border-style-outline" href="https://www.facebook.com/AlexandraSardiDesign" target="_blank" aria-label="Facebook">
+                        <svg viewBox="23 23 64 64">
+                          <use xlink:href="#facebook-unauth-icon" width="110" height="110"></use>
+                        </svg>
+                      </a>
+                    
+                      <a class="icon icon--fill  header-icon header-icon-border-shape-none header-icon-border-style-outline" href="https://www.pinterest.com/alexandrasardi/" target="_blank" aria-label="Pinterest">
+                        <svg viewBox="23 23 64 64">
+                          <use xlink:href="#pinterest-unauth-icon" width="110" height="110"></use>
+                        </svg>
+                      </a>
+                    
+                      <a class="icon icon--fill  header-icon header-icon-border-shape-none header-icon-border-style-outline" href="https://www.linkedin.com/in/alex-sardi/" target="_blank" aria-label="LinkedIn">
+                        <svg viewBox="23 23 64 64">
+                          <use xlink:href="#linkedin-unauth-icon" width="110" height="110"></use>
+                        </svg>
+                      </a>
+                    
+                  
+                </div>
+              
+            
+
+            
+
+          
+          
+
+            
+            <div class="showOnMobile">
+              
+            </div>
+
+            
+            <div class="showOnDesktop">
+              
+            </div>
+
+            
+              <div class="header-actions-action header-actions-action--cta" data-animation-role="header-element">
+                <a class="btn btn--border theme-btn--primary-inverse sqs-button-element--primary" href="/inquire">
+                  work with me
+                </a>
+              </div>
+            
+          </div>
+        
+          
+
+
+<style>
+  .top-bun, 
+  .patty, 
+  .bottom-bun {
+    height: 1px;
+  }
+</style>
+
+<!-- Burger -->
+<div class="header-burger
+
+  menu-overlay-has-visible-non-navigation-items
+
+" data-animation-role="header-element">
+  <button class="header-burger-btn burger" data-test="header-burger">
+    <span class="js-header-burger-open-title visually-hidden">Open Menu</span>
+    <span hidden="" class="js-header-burger-close-title visually-hidden">Close Menu</span>
+    <div class="burger-box">
+      <div class="burger-inner header-menu-icon-tripleLineHamburger">
+        <div class="top-bun"></div>
+        <div class="patty"></div>
+        <div class="bottom-bun"></div>
+      </div>
+    </div>
+  </button>
+</div>
+
+        
+        
+        
+        
+        
+
+      </div>
+      <div class="header-display-mobile" data-content-field="site-title">
+        
+          
+          <!-- Social -->
+          
+            
+          
+        
+          
+          <!-- Title and nav wrapper -->
+          <div class="header-title-nav-wrapper">
+            
+
+            
+
+            
+              
+              <!-- Title -->
+              
+                <div class="
+                    header-title
+                    
+                  " data-animation-role="header-element">
+                  
+                    <div class="header-title-text">
+                      <a id="site-title" href="/" data-animation-role="header-element">Alexandra Sardi</a>
+                    </div>
+                  
+                  
+                </div>
+              
+            
+              
+              <!-- Nav -->
+              <div class="header-nav">
+                <div class="header-nav-wrapper">
+                  <nav class="header-nav-list">
+                    
+
+
+  
+    <div class="header-nav-item header-nav-item--collection">
+      <a href="/about" data-animation-role="header-element">
+        About
+      </a>
+    </div>
+  
+  
+  
+
+
+  
+    <div class="header-nav-item header-nav-item--collection">
+      <a href="/branding-design" data-animation-role="header-element">
+        Branding
+      </a>
+    </div>
+  
+  
+  
+
+
+  
+    <div class="header-nav-item header-nav-item--collection">
+      <a href="/website-design" data-animation-role="header-element">
+        Website
+      </a>
+    </div>
+  
+  
+  
+
+
+  
+    <div class="header-nav-item header-nav-item--collection">
+      <a href="/design-intensives" data-animation-role="header-element">
+        Intensives
+      </a>
+    </div>
+  
+  
+  
+
+
+  
+    <div class="header-nav-item header-nav-item--collection">
+      <a href="/projects" data-animation-role="header-element">
+        Projects
+      </a>
+    </div>
+  
+  
+  
+
+
+  
+    <div class="header-nav-item header-nav-item--collection">
+      <a href="/blog" data-animation-role="header-element">
+        Blog
+      </a>
+    </div>
+  
+  
+  
+
+
+
+                  </nav>
+                </div>
+              </div>
+            
+            
+          </div>
+        
+          
+          <!-- Actions -->
+          <div class="header-actions header-actions--right">
+            
+            
+              
+                <div class="header-actions-action header-actions-action--social">
+                  
+                    
+                      <a class="icon icon--fill  header-icon header-icon-border-shape-none header-icon-border-style-outline" href="https://www.instagram.com/alexsardi.studio/" target="_blank" aria-label="Instagram">
+                        <svg viewBox="23 23 64 64">
+                          <use xlink:href="#instagram-unauth-icon" width="110" height="110"></use>
+                        </svg>
+                      </a>
+                    
+                      <a class="icon icon--fill  header-icon header-icon-border-shape-none header-icon-border-style-outline" href="https://www.facebook.com/AlexandraSardiDesign" target="_blank" aria-label="Facebook">
+                        <svg viewBox="23 23 64 64">
+                          <use xlink:href="#facebook-unauth-icon" width="110" height="110"></use>
+                        </svg>
+                      </a>
+                    
+                      <a class="icon icon--fill  header-icon header-icon-border-shape-none header-icon-border-style-outline" href="https://www.pinterest.com/alexandrasardi/" target="_blank" aria-label="Pinterest">
+                        <svg viewBox="23 23 64 64">
+                          <use xlink:href="#pinterest-unauth-icon" width="110" height="110"></use>
+                        </svg>
+                      </a>
+                    
+                      <a class="icon icon--fill  header-icon header-icon-border-shape-none header-icon-border-style-outline" href="https://www.linkedin.com/in/alex-sardi/" target="_blank" aria-label="LinkedIn">
+                        <svg viewBox="23 23 64 64">
+                          <use xlink:href="#linkedin-unauth-icon" width="110" height="110"></use>
+                        </svg>
+                      </a>
+                    
+                  
+                </div>
+              
+            
+
+            
+
+          
+          
+
+            
+            <div class="showOnMobile">
+              
+            </div>
+
+            
+            <div class="showOnDesktop">
+              
+            </div>
+
+            
+              <div class="header-actions-action header-actions-action--cta" data-animation-role="header-element">
+                <a class="btn btn--border theme-btn--primary-inverse sqs-button-element--primary" href="/inquire">
+                  work with me
+                </a>
+              </div>
+            
+          </div>
+        
+          
+
+
+<style>
+  .top-bun, 
+  .patty, 
+  .bottom-bun {
+    height: 1px;
+  }
+</style>
+
+<!-- Burger -->
+<div class="header-burger
+
+  menu-overlay-has-visible-non-navigation-items
+
+" data-animation-role="header-element">
+  <button class="header-burger-btn burger" data-test="header-burger">
+    <span class="js-header-burger-open-title visually-hidden">Open Menu</span>
+    <span hidden="" class="js-header-burger-close-title visually-hidden">Close Menu</span>
+    <div class="burger-box">
+      <div class="burger-inner header-menu-icon-tripleLineHamburger">
+        <div class="top-bun"></div>
+        <div class="patty"></div>
+        <div class="bottom-bun"></div>
+      </div>
+    </div>
+  </button>
+</div>
+
+        
+        
+        
+        
+        
+      </div>
+    </div>
+  </div>
+  <!-- (Mobile) Menu Navigation -->
+  <div class="header-menu header-menu--folder-list
+    light
+    
+    
+    
+    
+    " data-current-styles="{
+&quot;layout&quot;: &quot;navCenter&quot;,
+&quot;action&quot;: {
+&quot;href&quot;: &quot;/inquire&quot;,
+&quot;buttonText&quot;: &quot;work with me&quot;,
+&quot;newWindow&quot;: false
+},
+&quot;showSocial&quot;: true,
+&quot;socialOptions&quot;: {
+&quot;socialBorderShape&quot;: &quot;none&quot;,
+&quot;socialBorderStyle&quot;: &quot;outline&quot;,
+&quot;socialBorderThickness&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 1.0
+}
+},
+&quot;sectionTheme&quot;: &quot;light&quot;,
+&quot;menuOverlayTheme&quot;: &quot;light&quot;,
+&quot;menuOverlayAnimation&quot;: &quot;fade&quot;,
+&quot;cartStyle&quot;: &quot;cart&quot;,
+&quot;cartText&quot;: &quot;Cart&quot;,
+&quot;showEmptyCartState&quot;: true,
+&quot;cartOptions&quot;: {
+&quot;iconType&quot;: &quot;solid-7&quot;,
+&quot;cartBorderShape&quot;: &quot;none&quot;,
+&quot;cartBorderStyle&quot;: &quot;outline&quot;,
+&quot;cartBorderThickness&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 1.0
+}
+},
+&quot;showButton&quot;: true,
+&quot;showCart&quot;: false,
+&quot;showAccountLogin&quot;: true,
+&quot;headerStyle&quot;: &quot;solid&quot;,
+&quot;languagePicker&quot;: {
+&quot;enabled&quot;: false,
+&quot;iconEnabled&quot;: false,
+&quot;iconType&quot;: &quot;globe&quot;,
+&quot;flagShape&quot;: &quot;shiny&quot;,
+&quot;languageFlags&quot;: [ ]
+},
+&quot;mobileOptions&quot;: {
+&quot;layout&quot;: &quot;logoLeftNavRight&quot;,
+&quot;menuIcon&quot;: &quot;halfLineHamburger&quot;,
+&quot;menuIconOptions&quot;: {
+&quot;style&quot;: &quot;tripleLineHamburger&quot;,
+&quot;thickness&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 1.0
+}
+}
+},
+&quot;dynamicOptions&quot;: {
+&quot;border&quot;: {
+&quot;enabled&quot;: false,
+&quot;position&quot;: &quot;allSides&quot;,
+&quot;thickness&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 4.0
+},
+&quot;color&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;colorName&quot;: &quot;black&quot;,
+&quot;alphaModifier&quot;: 1.0
+}
+}
+}
+},
+&quot;solidOptions&quot;: {
+&quot;headerOpacity&quot;: {
+&quot;unit&quot;: &quot;%&quot;,
+&quot;value&quot;: 100.0
+},
+&quot;border&quot;: {
+&quot;enabled&quot;: true,
+&quot;position&quot;: &quot;bottom&quot;,
+&quot;thickness&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 1.0
+},
+&quot;color&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;colorName&quot;: &quot;darkAccent&quot;,
+&quot;alphaModifier&quot;: 1.0
+}
+}
+},
+&quot;dropShadow&quot;: {
+&quot;enabled&quot;: false,
+&quot;blur&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 30.0
+},
+&quot;spread&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 0.0
+},
+&quot;distance&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 0.0
+},
+&quot;color&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;colorName&quot;: &quot;black&quot;,
+&quot;alphaModifier&quot;: 1.0
+}
+}
+},
+&quot;blurBackground&quot;: {
+&quot;enabled&quot;: false,
+&quot;blurRadius&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 12.0
+}
+},
+&quot;backgroundColor&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;colorName&quot;: &quot;lightAccent&quot;,
+&quot;alphaModifier&quot;: 1.0
+}
+},
+&quot;navigationColor&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;colorName&quot;: &quot;black&quot;,
+&quot;alphaModifier&quot;: 1.0
+}
+}
+},
+&quot;gradientOptions&quot;: {
+&quot;gradientType&quot;: &quot;faded&quot;,
+&quot;headerOpacity&quot;: {
+&quot;unit&quot;: &quot;%&quot;,
+&quot;value&quot;: 90.0
+},
+&quot;border&quot;: {
+&quot;enabled&quot;: false,
+&quot;position&quot;: &quot;allSides&quot;,
+&quot;thickness&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 4.0
+},
+&quot;color&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;colorName&quot;: &quot;black&quot;,
+&quot;alphaModifier&quot;: 1.0
+}
+}
+},
+&quot;dropShadow&quot;: {
+&quot;enabled&quot;: false,
+&quot;blur&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 30.0
+},
+&quot;spread&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 0.0
+},
+&quot;distance&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 0.0
+},
+&quot;color&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;colorName&quot;: &quot;black&quot;,
+&quot;alphaModifier&quot;: 1.0
+}
+}
+},
+&quot;blurBackground&quot;: {
+&quot;enabled&quot;: false,
+&quot;blurRadius&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 12.0
+}
+},
+&quot;backgroundColor&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;colorName&quot;: &quot;white&quot;,
+&quot;alphaModifier&quot;: 1.0
+}
+},
+&quot;navigationColor&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;colorName&quot;: &quot;black&quot;,
+&quot;alphaModifier&quot;: 1.0
+}
+}
+},
+&quot;dropShadowOptions&quot;: {
+&quot;enabled&quot;: false,
+&quot;blur&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 30.0
+},
+&quot;spread&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 0.0
+},
+&quot;distance&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 0.0
+},
+&quot;color&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;colorName&quot;: &quot;black&quot;,
+&quot;alphaModifier&quot;: 1.0
+}
+}
+},
+&quot;borderOptions&quot;: {
+&quot;enabled&quot;: true,
+&quot;position&quot;: &quot;bottom&quot;,
+&quot;thickness&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 1.0
+},
+&quot;color&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;colorName&quot;: &quot;darkAccent&quot;,
+&quot;alphaModifier&quot;: 1.0
+}
+}
+},
+&quot;showPromotedElement&quot;: false
+}" data-section-id="overlay-nav" data-show-account-login="true" data-test="header-menu" style="padding-top: 94.7812px;">
+    <div class="header-menu-bg theme-bg--primary"></div>
+    <div class="header-menu-nav">
+      <nav class="header-menu-nav-list">
+        
+      <div data-folder="root" class="header-menu-nav-folder header-menu-nav-folder--active">
+          <!-- Menu Navigation -->
+<div class="header-menu-nav-folder-content">
+<div class="header-menu-nav-wrapper">
+
+  <div class="container header-menu-nav-item header-menu-nav-item--collection">
+    <a href="/about">
+      <div class="header-menu-nav-item-content">
+        About
+      </div>
+    </a>
+  </div>
+
+  <div class="container header-menu-nav-item header-menu-nav-item--collection">
+    <a href="/branding-design">
+      <div class="header-menu-nav-item-content">
+        Branding
+      </div>
+    </a>
+  </div>
+
+  <div class="container header-menu-nav-item header-menu-nav-item--collection">
+    <a href="/website-design">
+      <div class="header-menu-nav-item-content">
+        Website
+      </div>
+    </a>
+  </div>
+
+  <div class="container header-menu-nav-item header-menu-nav-item--collection">
+    <a href="/design-intensives">
+      <div class="header-menu-nav-item-content">
+        Intensives
+      </div>
+    </a>
+  </div>
+
+  <div class="container header-menu-nav-item header-menu-nav-item--collection">
+    <a href="/projects">
+      <div class="header-menu-nav-item-content">
+        Projects
+      </div>
+    </a>
+  </div>
+
+  <div class="container header-menu-nav-item header-menu-nav-item--collection">
+    <a href="/blog">
+      <div class="header-menu-nav-item-content">
+        Blog
+      </div>
+    </a>
+  </div>
+
+</div>
+
+</div>
+
+          <div class="header-menu-actions social-accounts">
+            <div class="header-menu-actions-action header-menu-actions-action--social mobile">
+              <a class="icon icon--lg icon--fill  header-icon header-icon-border-shape-none header-icon-border-style-outline" href="https://www.instagram.com/alexsardi.studio/" target="_blank" aria-label="Instagram">
+                <svg viewBox="23 23 64 64">
+                  <use xlink:href="#instagram-unauth-icon" width="110" height="110"></use>
+                </svg>
+              </a>
+            </div>
+            
+            <div class="header-menu-actions-action header-menu-actions-action--social mobile">
+              <a class="icon icon--lg icon--fill  header-icon header-icon-border-shape-none header-icon-border-style-outline" href="https://www.facebook.com/AlexandraSardiDesign" target="_blank" aria-label="Facebook">
+                <svg viewBox="23 23 64 64">
+                  <use xlink:href="#facebook-unauth-icon" width="110" height="110"></use>
+                </svg>
+              </a>
+            </div>
+            
+            <div class="header-menu-actions-action header-menu-actions-action--social mobile">
+              <a class="icon icon--lg icon--fill  header-icon header-icon-border-shape-none header-icon-border-style-outline" href="https://www.pinterest.com/alexandrasardi/" target="_blank" aria-label="Pinterest">
+                <svg viewBox="23 23 64 64">
+                  <use xlink:href="#pinterest-unauth-icon" width="110" height="110"></use>
+                </svg>
+              </a>
+            </div>
+            
+            <div class="header-menu-actions-action header-menu-actions-action--social mobile">
+              <a class="icon icon--lg icon--fill  header-icon header-icon-border-shape-none header-icon-border-style-outline" href="https://www.linkedin.com/in/alex-sardi/" target="_blank" aria-label="LinkedIn">
+                <svg viewBox="23 23 64 64">
+                  <use xlink:href="#linkedin-unauth-icon" width="110" height="110"></use>
+                </svg>
+              </a>
+            </div>
+            </div>
+          
+          
+          <div class="header-menu-cta">
+            <a class="theme-btn--primary btn sqs-button-element--primary" href="/inquire">
+              work with me
+            </a>
+          </div>
+          
+        </div></nav>
+    </div>
+  </div>
+</header>
+</body>
+</html>

@@ -3181,6 +3181,7 @@ margin: 10px auto;
 /* ---- NAV BAR ---- */
 #final-nav {
   height: 50px;
+
   
 }
 .pink-box {
@@ -3384,8 +3385,8 @@ width: 100%;
   display: block;
   margin:0 auto; */
 }
-#hp-logo-2023 {
- 
+.new-logo {
+ width:25%;
 }
 
 .nav-link {
@@ -3548,3 +3549,11 @@ h3 {
 .service-img {
   width:65%;
 } */
+.hp-right-container {
+  display:none;
+ 
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+}
