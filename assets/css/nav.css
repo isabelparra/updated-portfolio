@@ -15,7 +15,7 @@
 .nav-logo2 {
 
     width: 150px;
-    display: none;
+    /* display: none; */
 
 /* display: block; */
 color: black;
@@ -88,20 +88,24 @@ div#navbarSupportedContent.collapse.navbar-collapse {
 } 
 #navbarSupportedContent {
   /* background: var(--bg-color--body); */
-  float:right;
+  /* float:right;  */
+  /* position: relative;
+  bottom:50px; */
 }
 #final-nav {
     /* height: 20px;  */
     /* width: 700px !important; */
     /* float: right !important; */
     z-index: 100;
-    width: 100%;
+    /* width: 100%; */
     position: fixed;
     top: 20px;
     background: rgba(0,0,0,0) !important;
+    /* background: #faf2e5; */
     /* padding: 30px 75px !important; */ /*IP rm dec 15*/
     /* background-color: #dac6bd; */
     /* left: 230px; */
+    width: 100%;
 }
 
 /* #navbarSupportedContent {
@@ -198,11 +202,11 @@ background-color: white;
     padding:0px !important;
   }
   .navbar-nav {
-    margin: 0 auto;
+    /* margin: 0 auto; */
   }
   #navbarSupportedContent {
       display:block;
-      float: none;
+      /* float: none; RM FOR NEW NAV 2023 */
     
   }
   .layout--main-content {

@@ -8002,18 +8002,28 @@ body {
   display: inline-flex;
   margin: -8px;
 }
+.nav--social-icons {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  
+}
 
 @media only screen and (max-width: 767px) {
   .footer--social-icons {
     padding-top: 16px;
   }
+  .nav--social-icons {
+    padding-top: 16px;
+  }
 }
 
-.footer--social-icons a {
+.footer--social-icons a, .nav--social-icons a {
   padding: 8px;
 }
 
-.footer--social-icons svg {
+
+.footer--social-icons svg, .nav--social-icons svg {
   height: 16px;
 }
 
